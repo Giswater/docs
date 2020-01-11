@@ -1,0 +1,1895 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=latex 2020.1.11)  11 JAN 2020 18:15
+entering extended mode
+**./Manuel_Giswater_FR_main.tex
+(Manuel_Giswater_FR_main.tex
+LaTeX2e <2019-10-01> patch level 3
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\size10.clo"
+File: size10.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
+Package: babel 2019/12/08 3.37 The Babel package
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
+File: switch.def 2019/12/08 3.37 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel-french\francais.ldf"
+Language: francais 2019/09/07 v3.5f French support from the babel system
+
+
+Package francais.ldf Warning: Option `francais' for Babel is *deprecated*,
+(francais.ldf)                it might be removed sooner or later. Please
+(francais.ldf)                use `french' instead; reported on input line 31.
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel-french\french.ldf"
+Language: french 2019/09/07 v3.5f French support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2019/12/08 3.37 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+ ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+\bbl@dirlevel=\count89
+)
+Package babel Info: \l@acadian = using hyphenrules for french
+(babel)             (\language22) on input line 91.
+Package babel Info: \l@canadien = using hyphenrules for french
+(babel)             (\language22) on input line 92.
+\FB@nonchar=\count90
+Package babel Info: Making : an active character on input line 419.
+Package babel Info: Making ; an active character on input line 420.
+Package babel Info: Making ! an active character on input line 421.
+Package babel Info: Making ? an active character on input line 422.
+\FBguill@level=\count91
+\FBold@everypar=\toks14
+\FB@Mht=\dimen104
+\mc@charclass=\count92
+\mc@charfam=\count93
+\mc@charslot=\count94
+\std@mcc=\count95
+\dec@mcc=\count96
+\c@FBcaption@count=\count97
+\listindentFB=\dimen105
+\descindentFB=\dimen106
+\labelindentFB=\dimen107
+\labelwidthFB=\dimen108
+\leftmarginFB=\dimen109
+\parindentFFN=\dimen110
+\FBfnindent=\dimen111
+))) ("C:\Program Files\MiKTeX 2.9\tex/latex/carlisle\scalefnt.sty")
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\latin1.def"
+File: latin1.def 2018/08/11 v1.3c Input encoding file
+))
+
+! LaTeX Error: Option clash for package inputenc.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \usepackage
+               [T1]{fontenc}
+The package inputenc has already been loaded with options:
+  [latin1]
+There has now been an attempt to load it with options
+  [utf8]
+Adding the global options:
+  latin1,utf8
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1enc.def"
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ ("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ ("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+\Gm@cnth=\count98
+\Gm@cntv=\count99
+\c@Gm@tempcnt=\count100
+\Gm@bindingoffset=\dimen112
+\Gm@wd@mp=\dimen113
+\Gm@odd@mp=\dimen114
+\Gm@even@mp=\dimen115
+\Gm@layoutwidth=\dimen116
+\Gm@layoutheight=\dimen117
+\Gm@layouthoffset=\dimen118
+\Gm@layoutvoffset=\dimen119
+\Gm@dimlist=\toks18
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \par 
+l.16 
+     
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: dvips.def on input line 225.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\dvips.def"
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+
+! LaTeX Error: Option clash for package xcolor.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 
+     
+The package xcolor has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [dvipsnames]
+Adding the global options:
+  ,dvipsnames
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+\f@nch@headwidth=\skip43
+\f@nch@O@elh=\skip44
+\f@nch@O@erh=\skip45
+\f@nch@O@olh=\skip46
+\f@nch@O@orh=\skip47
+\f@nch@O@elf=\skip48
+\f@nch@O@erf=\skip49
+\f@nch@O@olf=\skip50
+\f@nch@O@orf=\skip51
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 105.
+)
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count101
+\float@exts=\toks19
+\float@box=\box27
+\@float@everytoks=\toks20
+\@floatcapt=\box28
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption.sty"
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption3.sty"
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen122
+\captionmargin@=\dimen123
+\captionwidth=\dimen124
+\caption@tempdima=\dimen125
+\caption@indent=\dimen126
+\caption@parindent=\dimen127
+\caption@hangindent=\dimen128
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count102
+\c@continuedfloat=\count103
+Package caption Info: float package is loaded.
+) (Manuel_Giswater_FR_main.aux)
+\openout1 = `Manuel_Giswater_FR_main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Info: Redefining \degres on input line 33.
+LaTeX Info: Redefining \dots on input line 33.
+LaTeX Info: Redefining \up on input line 33.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvips
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=652.70622pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 47.
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1cmss.fd"
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 47.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 47.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 47.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 47.
+
+
+LaTeX Warning: No \author given.
+
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/giswater_logo.png' not found on i
+nput line 52.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/giswater_logo.png' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 ...uals/images/All figures/giswater_logo.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/gis
+water_logo.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 ...uals/images/All figures/giswater_logo.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/giswater_logo.png Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/giswater_logo.png>
+! Missing number, treated as zero.
+<to be read again> 
+                   \hfil 
+l.57 \newpage
+             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[1
+
+]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 Le manuel d’
+                 utilisation de Giswater 3 a pour objectif de répondre aux q...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...f de répondre aux questions relatives à l’
+                                                  installation et à l’utilis...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...estions relatives à l’installation et à l’
+                                                  utilisation du programme G...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 L’
+       index donne des informations sur la liste des éléments disponibles et...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 ...ar différentes compagnies du domaine de l’
+                                                  eau de Catalogne qui ont c...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 ...ls et futurs dans le monde des systèmes d’
+                                                  information géographique. ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...lièrement les entreprises du domaine de l’
+                                                  eau qui ont rendu ce proje...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 \item Consorci d’
+                      Aigües de Tarragona
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 \item Proveïments d’
+                         Aigua, SA
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/preambulo_1.png' not found on inp
+ut line 87.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/preambulo_1.png' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 ...anuals/images/All figures/preambulo_1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/pre
+ambulo_1.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 ...anuals/images/All figures/preambulo_1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/preambulo_1.png Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/preambulo_1.png>
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.91 \newpage
+             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[2] (Manuel_Giswater_FR_main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+)
+\tf@toc=\write3
+\openout3 = `Manuel_Giswater_FR_main.toc'.
+
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.94 \newpage
+             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[3] (Manuel_Giswater_FR_chap_1.tex
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...éaliser une gestion complète du cycle de l’
+                                                  eau (approvisionnement et ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...nt). Ce manuel aidera les utilisateurs à s’
+                                                  initier à l’utilisation de...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...el aidera les utilisateurs à s’initier à l’
+                                                  utilisation de Giswater.
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...lication libre pensée pour la gestion et l’
+                                                  exploitation des éléments ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 ...a base de données spéciale et les outils d’
+                                                  analyse hydraulique.
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 A l’
+         heure actuelle, Giswater est disponible dans sa version 3 du softwa...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 Comme représente sur l’
+                            image … , Giswater fait partie d’un groupe d’app...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 Comme représente sur l’image …
+                                    , Giswater fait partie d’un groupe d’app...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ...te sur l’image … , Giswater fait partie d’
+                                                  un groupe d’applications q...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ...ge … , Giswater fait partie d’un groupe d’
+                                                  applications qui utilisées...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ... et solide en relation avec les modèles d’
+                                                  approvisionnement d’eau et...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ...on avec les modèles d’approvisionnement d’
+                                                  eau et de drainage urbain.
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 L’
+       élément central est la base de données où se trouve toutes les inform...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ...ion PostGIS, permet un lien facile avec l’
+                                                  application QGIS.
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_1.jpg' not found on input l
+ine 18.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_1.jpg' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...3x/manuals/images/All figures/chap1_1.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p1_1.jpg (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...3x/manuals/images/All figures/chap1_1.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_1.jpg Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_1.jpg>
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 Ce software de système d’
+                              information géographique est celui sur lequel ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...ation géographique est celui sur lequel s’
+                                                  est basé le développement ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ... aisée et pour une plus grande facilité d’
+                                                  utilisation pour l’utilisa...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...plus grande facilité d’utilisation pour l’
+                                                  utilisateur. QGIS est lié ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...onnées grâce à PostGIS pour enregistrer l’
+                                                  organisation spéciale des ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...et aussi une connexion avec SCADA, afin d’
+                                                  utiliser en temps réel l’i...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...ec SCADA, afin d’utiliser en temps réel l’
+                                                  information qui provient d...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[1]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...r appareil mobile. Cette fonctionnalité s’
+                                                  ajoute l’utilisation habit...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...l mobile. Cette fonctionnalité s’ajoute l’
+                                                  utilisation habituelle sur...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_2_ES.png' not found on inpu
+t line 41.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_2_ES.png' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...manuals/images/All figures/chap1_2_ES.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p1_2_ES.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...manuals/images/All figures/chap1_2_ES.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_2_ES.png Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_2_ES.png>
+! Undefined control sequence.
+l.47 ...s ce cas-ci il s'agit de PostgreSQL (\href
+                                                  {https://www.postgres.org}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.47 ...et de l'extension spéciale, PostGIS (\href
+                                                  {https://www.postgis.net}).
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[2]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 Ce que vous devez garder à l’
+                                  esprit, c’est que, selon le nombre d’utili...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 Ce que vous devez garder à l’esprit, c’
+                                            est que, selon le nombre d’utili...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ... à l’esprit, c’est que, selon le nombre d’
+                                                  utilisateurs et les enregi...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 Pour se  faire, il est nécessaire d’
+                                         installer toutes les technologies n...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_3_EN.png' not found on inpu
+t line 67.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_3_EN.png' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 ...manuals/images/All figures/chap1_3_EN.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p1_3_EN.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 ...manuals/images/All figures/chap1_3_EN.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_3_EN.png Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_3_EN.png>
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 ...ns, documentation administrative, etc.) L’
+                                                  architecture et la technol...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[3]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 ...eront des décisions qui conditionneront l’
+                                                  architecture finale du sys...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 \item QGIS (https://www.qgis.org) –
+                                         dernière version avec un LTR stable
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 Si l’
+          un des modèles hydrauliques compatibles avec Giswater est nécessai...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 ...avec le logiciel SIG, il est recommandé d’
+                                                  avoir installé
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 une suite bureautique, ainsi qu’
+                                     un lecteur PDF.
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 Il est à noter que le développement n’
+                                            est certifié et validé que par l...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 ...ement n’est certifié et validé que par l’
+                                                  utilisation du navigateur ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 ... dysfonctionnements et son utilisation n’
+                                                  est donc pas recommandée d...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+) [4] (Manuel_Giswater_FR_chap_2.tex [5] [6]
+Overfull \hbox (5.29665pt too wide) in paragraph at lines 41--42
+[][]\T1/cmr/m/n/10 Le té-lé-char-ge-ment et l'ins-tal-la-tion est très simple et peut se faire de-puis https ://www.post
+gresql.org/download.
+ []
+
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1_EN.png' not found on inpu
+t line 47.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1_EN.png' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ...manuals/images/All figures/chap2_1_EN.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_1_EN.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ...manuals/images/All figures/chap2_1_EN.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1_EN.png Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1_EN.png>
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_2_EN.png' not found on inpu
+t line 63.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_2_EN.png' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 ...manuals/images/All figures/chap2_2_EN.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_2_EN.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 ...manuals/images/All figures/chap2_2_EN.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_2_EN.png Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_2_EN.png>
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_3.png' not found on input l
+ine 74.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_3.png' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ...3x/manuals/images/All figures/chap2_3.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_3.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ...3x/manuals/images/All figures/chap2_3.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_3.png Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_3.png> [7]
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_4_EN.png' not found on inpu
+t line 81.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_4_EN.png' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 ...manuals/images/All figures/chap2_4_EN.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_4_EN.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 ...manuals/images/All figures/chap2_4_EN.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_4_EN.png Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_4_EN.png>
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_5.png' not found on input l
+ine 93.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_5.png' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 ...3x/manuals/images/All figures/chap2_5.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_5.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 ...3x/manuals/images/All figures/chap2_5.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_5.png Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_5.png>
+! Missing $ inserted.
+<inserted text> 
+                $
+l.98         \item project\_type \Rightarrow
+                                            $ ud/ws (dépend du projet).
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.99         \item expl\_id \Rightarrow
+                                       $ valeur d'exploitation par défaut qu...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_6.png' not found on input l
+ine 107.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_6.png' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107 ...x/manuals/images/All figures/chap2_6.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_6.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107 ...x/manuals/images/All figures/chap2_6.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_6.png Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_6.png>
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_7_EN.jpg' not found on inpu
+t line 126.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_7_EN.jpg' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126 ...anuals/images/All figures/chap2_7_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_7_EN.jpg (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126 ...anuals/images/All figures/chap2_7_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_7_EN.jpg Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_7_EN.jpg> [8]
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_8_EN.png' not found on inpu
+t line 134.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_8_EN.png' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 ...anuals/images/All figures/chap2_8_EN.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_8_EN.png (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 ...anuals/images/All figures/chap2_8_EN.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_8_EN.png Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_8_EN.png> [9]
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_9_EN.jpg' not found on inpu
+t line 158.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_9_EN.jpg' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 ...anuals/images/All figures/chap2_9_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_9_EN.jpg (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 ...anuals/images/All figures/chap2_9_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_9_EN.jpg Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_9_EN.jpg>
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_10_EN.jpg' not found on inp
+ut line 166.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_10_EN.jpg' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.166 ...nuals/images/All figures/chap2_10_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_10_EN.jpg (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.166 ...nuals/images/All figures/chap2_10_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_10_EN.jpg Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_10_EN.jpg>
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 170.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 170.
+
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_11_EN.jpg' not found on inp
+ut line 173.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_11_EN.jpg' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 ...nuals/images/All figures/chap2_11_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_11_EN.jpg (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 ...nuals/images/All figures/chap2_11_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_11_EN.jpg Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_11_EN.jpg> [10]
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_12_EN.jpg' not found on inp
+ut line 191.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_12_EN.jpg' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.191 ...nuals/images/All figures/chap2_12_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_12_EN.jpg (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.191 ...nuals/images/All figures/chap2_12_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_12_EN.jpg Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_12_EN.jpg>
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_13_EN.jpg' not found on inp
+ut line 202.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_13_EN.jpg' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202 ...nuals/images/All figures/chap2_13_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_13_EN.jpg (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202 ...nuals/images/All figures/chap2_13_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_13_EN.jpg Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_13_EN.jpg>
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_14_EN.jpg' not found on inp
+ut line 215.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_14_EN.jpg' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 ...nuals/images/All figures/chap2_14_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_14_EN.jpg (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 ...nuals/images/All figures/chap2_14_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_14_EN.jpg Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_14_EN.jpg> [11]
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_15_EN.jpg' not found on inp
+ut line 222.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_15_EN.jpg' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 ...nuals/images/All figures/chap2_15_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_15_EN.jpg (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 ...nuals/images/All figures/chap2_15_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_15_EN.jpg Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_15_EN.jpg>
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_16_ES.jpg' not found on inp
+ut line 228.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_16_ES.jpg' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.228 ...nuals/images/All figures/chap2_16_ES.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_16_ES.jpg (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.228 ...nuals/images/All figures/chap2_16_ES.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_16_ES.jpg Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_16_ES.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+
+ []
+
+[12]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.260 être nœ
+             ud, arc, connec ou gully, et en plus d'un autre type dans chacu...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--273
+
+ []
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.279 ... d'éléments de base (arc, connexion de nœ
+                                                  ud, gully) sont définis. C...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_17_EN.jpg' not found on inp
+ut line 281.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_17_EN.jpg' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.281 ...nuals/images/All figures/chap2_17_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_17_EN.jpg (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.281 ...nuals/images/All figures/chap2_17_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_17_EN.jpg Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_17_EN.jpg>
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.285 ... plus de ce qui lui correspondrait par nœ
+                                                  ud.
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.286 ...ur donner un exemple pour la table des nœ
+                                                  uds, et en ce qui concerne...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--289
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 291--295
+
+ []
+
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_18_EN.jpg' not found on inp
+ut line 301.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_18_EN.jpg' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.301 ...nuals/images/All figures/chap2_18_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_18_EN.jpg (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.301 ...nuals/images/All figures/chap2_18_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_18_EN.jpg Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_18_EN.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 304--311
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 321--323
+
+ []
+
+[15]
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/Chap2_19_EN.jpg' not found on inp
+ut line 343.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/Chap2_19_EN.jpg' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.343 ...nuals/images/All figures/Chap2_19_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/Cha
+p2_19_EN.jpg (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.343 ...nuals/images/All figures/Chap2_19_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/Chap2_19_EN.jpg Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/Chap2_19_EN.jpg>
+
+LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_20_EN.jpg' not found on inp
+ut line 353.
+
+
+! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_20_EN.jpg' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.353 ...nuals/images/All figures/chap2_20_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_20_EN.jpg (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.353 ...nuals/images/All figures/chap2_20_EN.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_20_EN.jpg Graphic file (type eps)
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_20_EN.jpg> [16]) [17]
+(Manuel_Giswater_FR_main.aux) ) 
+Here is how much of TeX's memory you used:
+ 4870 strings out of 492484
+ 85427 string characters out of 3131068
+ 158624 words of memory out of 3000000
+ 9070 multiletter control sequences out of 15000+200000
+ 16350 words of font info for 38 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,12n,45p,728b,425s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on Manuel_Giswater_FR_main.dvi (20 pages, 95168 bytes).

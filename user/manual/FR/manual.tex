@@ -1,0 +1,115 @@
+\documentclass{article}
+\usepackage[francais]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%TAILLE INTERLIGNE
+\setlength{\parindent}{4em}
+\setlength{\parskip}{1em}
+\renewcommand{\baselinestretch}{1.5}
+
+%MISE EN PAGE
+\usepackage{geometry}
+\geometry{hmargin=2.5cm,vmargin=2.5cm}
+\parindent.%pas de retrait des paragraphes
+
+%STYLE ÉCRITURE 
+\usepackage{xcolor}
+\usepackage[dvipsnames]{xcolor}
+
+%ENTÊTE
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand\headrulewidth{1pt}
+\fancyhead[L]{\quad Manuel d'utilisation Giswater 3 LTR}
+\fancyhead[R]{}
+
+%INSERTION IMAGES
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+
+\begin{document}
+%PREAMBULE --------------------------------------------------------------------------------------------------------
+
+\pagenumbering{empty}
+ 
+\date{Septembre 2019}
+\title{%
+    \begin{minipage}\linewidth
+        \centering\bfseries\sffamily
+        Manuel d'utilisation de GISWATER 3
+        \vskip3pt
+        \large Version 3.3
+    \end{minipage}
+}
+\maketitle
+
+\vspace{50mm}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.2]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/giswater_logo.png}
+	\label{fig:giswater_logo}
+\end{center}
+\end{figure}
+
+\newpage
+{\Large \textbf{Préambule}} 
+\newline
+Le manuel d’utilisation de Giswater 3 a pour objectif de répondre aux questions relatives à l’installation et à l’utilisation du programme Giswater. Le présent document couvre toutes les informations nécessaires pour les utilisateurs ou intéressés pour savoir comment installer, configurer et utiliser Giswater 3. 
+Le software a été licencié sous une licence GNU-GLP 3 (https://www.gnu.org/licenses/gpl-3.0).
+L’index donne des informations sur la liste des éléments disponibles et est construit en trois bloques principaux qui sont : installation, utilisation et annexes variables. 
+
+\newline
+{\Large \textbf{Remerciements}} 
+\newline
+Ce manuel et le code de Giswater ont  été financés par différentes compagnies du domaine de l’eau de Catalogne qui ont choisi de partager le développement d'un logiciel capable de satisfaire les besoins actuels et futurs dans le monde des systèmes d’information géographique. Dans cet objectif, le logicie Giswater a été mis au point. Vous avez le manuel entre vos mains.\par
+Nous remercions particulièrement les entreprises du domaine de l’eau qui ont rendu ce projet possible :
+\begin{itemize}
+\item Aigües de Banyoles, SA 
+\item Aigües de Castellbisbal, SA
+\item Aigües de Figueres, SA
+\item Aigües de Vic, SA
+\item Consorci d’Aigües de Tarragona
+\item Proveïments d’Aigua, SA
+\item Aigües de Mataró, SA
+\item Sabemsa
+\item Aigües de Blanes, SA
+\item Aigües del Prat, SA
+\end{itemize} 
+\vspace{20mm}
+Granollers, 26 septembre 2019\\
+
+\begin{flushright}
+Document licencié sous une licence de Création commune
+
+\includegraphics{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/preambulo_1.png}
+	\label{fig:preambulo_1}
+\end{flushright}
+
+\newpage
+\tableofcontents
+
+\newpage
+\pagenumbering{arabic}
+
+%CHAPTER 1 -------------------------------------------------------------------------------------------------------
+\input{Manuel_Giswater_FR_chap_1}
+\newpage
+%CHAPTER 2 -------------------------------------------------------------------------------------------------------
+\input{Manuel_Giswater_FR_chap_2}
+\newpage
+%CHAPTER 3 -------------------------------------------------------------------------------------------------------
+%\input{}
+%\newpage
+%CHAPTER ... ------------------------------------------------------------------------------------------------------
+%\input{Manuel_Giswater_FR_chap_...}
+%\newpage
+
+
+
+
+
+
+\end{document}
