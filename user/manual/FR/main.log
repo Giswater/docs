@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=latex 2020.1.11)  11 JAN 2020 18:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.7)  17 JAN 2020 11:34
 entering extended mode
-**./Manuel_Giswater_FR_main.tex
-(Manuel_Giswater_FR_main.tex
+**./main.tex
+(main.tex
 LaTeX2e <2019-10-01> patch level 3
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/base\article.cls
 Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\size10.clo"
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/base\size10.clo
 File: size10.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -19,19 +19,22 @@ File: size10.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
-Package: babel 2019/12/08 3.37 The Babel package
+)
+(C:\Users\USUARI\Desktop\Latex\installation\tex/generic/babel\babel.sty
+Package: babel 2019/11/14 3.36 The Babel package
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
-File: switch.def 2019/12/08 3.37 Babel switching mechanism
+(C:\Users\USUARI\Desktop\Latex\installation\tex/generic/babel\switch.def
+File: switch.def 2019/11/14 3.36 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel-french\francais.ldf"
+(C:\Users\USUARI\Desktop\Latex\installation\tex/generic/babel-french\francais.l
+df
 Language: francais 2019/09/07 v3.5f French support from the babel system
 
 
@@ -39,14 +42,15 @@ Package francais.ldf Warning: Option `francais' for Babel is *deprecated*,
 (francais.ldf)                it might be removed sooner or later. Please
 (francais.ldf)                use `french' instead; reported on input line 31.
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel-french\french.ldf"
-Language: french 2019/09/07 v3.5f French support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
-File: babel.def 2019/12/08 3.37 Babel common definitions
+(C:\Users\USUARI\Desktop\Latex\installation\tex/generic/babel-french\french.ldf
+Language: french 2019/09/07 v3.5f French support from the babel system
+(C:\Users\USUARI\Desktop\Latex\installation\tex/generic/babel\babel.def
+File: babel.def 2019/11/14 3.36 Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
- ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+
+(C:\Users\USUARI\Desktop\Latex\installation\tex/generic/babel\txtbabel.def)
 \bbl@dirlevel=\count89
 )
 Package babel Info: \l@acadian = using hyphenrules for french
@@ -74,15 +78,18 @@ Package babel Info: Making ? an active character on input line 422.
 \leftmarginFB=\dimen109
 \parindentFFN=\dimen110
 \FBfnindent=\dimen111
-))) ("C:\Program Files\MiKTeX 2.9\tex/latex/carlisle\scalefnt.sty")
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+))) (C:\Users\USUARI\Desktop\Latex\installation\tex/latex/carlisle\scalefnt.sty
+)
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+)
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/base\inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\latin1.def"
+
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/base\latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
 ))
 
@@ -103,17 +110,20 @@ Adding the global options:
 to your \documentclass declaration may fix this.
 Try typing  <return>  to proceed.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/base\fontenc.sty
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
- ("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1enc.def"
+
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/base\t1enc.def
 File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- ("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty"
+
+(C:\Users\USUARI\Desktop\Latex\installation\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- ("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+
+(C:\Users\USUARI\Desktop\Latex\installation\tex/generic/iftex\iftex.sty
 Package: iftex 2019/11/07 v1.0c TeX engine tests
 ))
 \Gm@cnth=\count98
@@ -129,7 +139,7 @@ Package: iftex 2019/11/07 v1.0c TeX engine tests
 \Gm@layoutvoffset=\dimen119
 \Gm@dimlist=\toks18
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/geometry\geometry.cfg))
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \par 
@@ -142,16 +152,19 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
- ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: dvips.def on input line 225.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\dvips.def"
-File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -178,8 +191,9 @@ Adding the global options:
 to your \documentclass declaration may fix this.
 Try typing  <return>  to proceed.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
 \f@nch@headwidth=\skip43
 \f@nch@O@elh=\skip44
 \f@nch@O@erh=\skip45
@@ -190,32 +204,34 @@ Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 \f@nch@O@olf=\skip50
 \f@nch@O@orf=\skip51
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/graphics\graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/graphics\graphics.sty
 Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
- ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+)
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvips.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 )
 \Gin@req@height=\dimen120
 \Gin@req@width=\dimen121
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
+) (C:\Users\USUARI\Desktop\Latex\installation\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count101
 \float@exts=\toks19
 \float@box=\box27
 \@float@everytoks=\toks20
 \@floatcapt=\box28
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption.sty"
+)
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/caption\caption.sty
 Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption3.sty"
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/caption\caption3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
 \captionmargin=\dimen122
@@ -230,8 +246,9 @@ Package caption Info: Standard document class detected.
 \c@caption@flags=\count102
 \c@continuedfloat=\count103
 Package caption Info: float package is loaded.
-) (Manuel_Giswater_FR_main.aux)
-\openout1 = `Manuel_Giswater_FR_main.aux'.
+)
+(main.aux)
+\openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
@@ -250,9 +267,9 @@ LaTeX Info: Redefining \dots on input line 33.
 LaTeX Info: Redefining \up on input line 33.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: dvips
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: dvips
+* driver: pdftex
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -283,10 +300,67 @@ LaTeX Info: Redefining \up on input line 33.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+
+(C:\Users\USUARI\Desktop\Latex\installation\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count104
+\scratchdimen=\dimen129
+\scratchbox=\box29
+\nofMPsegments=\count105
+\nofMParguments=\count106
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count107
+\MPscratchDim=\dimen130
+\MPnumerator=\count108
+\makeMPintoPDFobject=\count109
+\everyMPtoPDFconversion=\toks22
+)
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/epstopdf-pkg\epstopdf-bas
+e.sty
+Package: epstopdf-base 2019/11/24 v2.7 Base part for package epstopdf
+
+(C:\Users\USUARI\Desktop\Latex\installation\tex/generic/oberdiek\infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (C:\Users\USUARI\Desktop\Latex\installation\tex/latex/oberdiek\grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(C:\Users\USUARI\Desktop\Latex\installation\tex/generic/oberdiek\kvdefinekeys.s
+ty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+ (C:\Users\USUARI\Desktop\Latex\installation\tex/generic/oberdiek\ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/oberdiek\kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(C:\Users\USUARI\Desktop\Latex\installation\tex/generic/oberdiek\kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(C:\Users\USUARI\Desktop\Latex\installation\tex/generic/oberdiek\etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(C:\Users\USUARI\Desktop\Latex\installation\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))))
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+42.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 460.
+)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 47.
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1cmss.fd"
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 4
+7.
+ (C:\Users\USUARI\Desktop\Latex\installation\tex/latex/base\t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -301,37 +375,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 LaTeX Warning: No \author given.
 
-
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/giswater_logo.png' not found on i
-nput line 52.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/giswater_logo.png' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...uals/images/All figures/giswater_logo.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/gis
-water_logo.png (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...uals/images/All figures/giswater_logo.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/giswater_logo.png Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/giswater_logo.png>
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/giswater_log
+o.png, id=1, 1691.31876pt x 329.23pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/giswate
+r_logo.png Graphic file (type png)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/giswater
+_logo.png>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/giswater_logo.png  used on input line 52.
+(pdftex.def)             Requested size: 338.25775pt x 65.84482pt.
 ! Missing number, treated as zero.
 <to be read again> 
                    \hfil 
@@ -343,7 +395,8 @@ look up `weird error' in the index to The TeXbook.)
 
 [1
 
-]
+{C:/Users/USUARI/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/ownclou
+d/Shared/Giswater/Giswater3x/manuals/images/All figures/giswater_logo.png>]
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -354,6 +407,7 @@ Type  H <return>  for immediate help.
                                                   
 l.60 Le manuel d’
                  utilisation de Giswater 3 a pour objectif de répondre aux q...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -367,6 +421,7 @@ Type  H <return>  for immediate help.
                                                   
 l.60 ...f de répondre aux questions relatives à l’
                                                   installation et à l’utilis...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -380,6 +435,7 @@ Type  H <return>  for immediate help.
                                                   
 l.60 ...estions relatives à l’installation et à l’
                                                   utilisation du programme G...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -393,6 +449,7 @@ Type  H <return>  for immediate help.
                                                   
 l.62 L’
        index donne des informations sur la liste des éléments disponibles et...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -419,6 +476,7 @@ Type  H <return>  for immediate help.
                                                   
 l.67 ...ar différentes compagnies du domaine de l’
                                                   eau de Catalogne qui ont c...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -432,6 +490,7 @@ Type  H <return>  for immediate help.
                                                   
 l.67 ...ls et futurs dans le monde des systèmes d’
                                                   information géographique. ...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -445,6 +504,7 @@ Type  H <return>  for immediate help.
                                                   
 l.68 ...lièrement les entreprises du domaine de l’
                                                   eau qui ont rendu ce proje...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -479,37 +539,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/preambulo_1.png' not found on inp
-ut line 87.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/preambulo_1.png' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.87 ...anuals/images/All figures/preambulo_1.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/pre
-ambulo_1.png (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.87 ...anuals/images/All figures/preambulo_1.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/preambulo_1.png Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/preambulo_1.png>
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/preambulo_1.
+png, id=11, 86.724pt x 35.53275pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/preambu
+lo_1.png Graphic file (type png)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/preambul
+o_1.png>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/preambulo_1.png  used on input line 87.
+(pdftex.def)             Requested size: 86.72377pt x 35.53264pt.
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
@@ -519,14 +557,25 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-[2] (Manuel_Giswater_FR_main.toc
+[2 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/preambulo
+_1.png>] (main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 3.
-)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.25 ...\numberline {3.1}Les types de projets}{26}
+                                                  %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[3])
 \tf@toc=\write3
-\openout3 = `Manuel_Giswater_FR_main.toc'.
+\openout3 = `main.toc'.
 
 
 ! Missing number, treated as zero.
@@ -538,7 +587,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-[3] (Manuel_Giswater_FR_chap_1.tex
+[4] (chpt01.tex
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -549,6 +598,7 @@ Type  H <return>  for immediate help.
                                                   
 l.3 ...éaliser une gestion complète du cycle de l’
                                                   eau (approvisionnement et ...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -562,6 +612,7 @@ Type  H <return>  for immediate help.
                                                   
 l.3 ...nt). Ce manuel aidera les utilisateurs à s’
                                                   initier à l’utilisation de...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -588,6 +639,7 @@ Type  H <return>  for immediate help.
                                                   
 l.6 ...lication libre pensée pour la gestion et l’
                                                   exploitation des éléments ...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -614,6 +666,7 @@ Type  H <return>  for immediate help.
                                                   
 l.10 A l’
          heure actuelle, Giswater est disponible dans sa version 3 du softwa...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -627,6 +680,7 @@ Type  H <return>  for immediate help.
                                                   
 l.12 Comme représente sur l’
                             image … , Giswater fait partie d’un groupe d’app...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -640,6 +694,7 @@ Type  H <return>  for immediate help.
                                                   
 l.12 Comme représente sur l’image …
                                     , Giswater fait partie d’un groupe d’app...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -653,6 +708,7 @@ Type  H <return>  for immediate help.
                                                   
 l.12 ...te sur l’image … , Giswater fait partie d’
                                                   un groupe d’applications q...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -666,6 +722,7 @@ Type  H <return>  for immediate help.
                                                   
 l.12 ...ge … , Giswater fait partie d’un groupe d’
                                                   applications qui utilisées...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -679,6 +736,7 @@ Type  H <return>  for immediate help.
                                                   
 l.12 ... et solide en relation avec les modèles d’
                                                   approvisionnement d’eau et...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -705,6 +763,7 @@ Type  H <return>  for immediate help.
                                                   
 l.14 L’
        élément central est la base de données où se trouve toutes les inform...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -721,37 +780,16 @@ l.14 ...ion PostGIS, permet un lien facile avec l’
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_1.jpg' not found on input l
-ine 18.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_1.jpg' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 ...3x/manuals/images/All figures/chap1_1.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p1_1.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 ...3x/manuals/images/All figures/chap1_1.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_1.jpg Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_1.jpg>
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_1.jpg,
+ id=24, 511.15968pt x 392.21532pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_1
+.jpg Graphic file (type jpg)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_1.
+jpg>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap1_1.jpg  used on input line 18.
+(pdftex.def)             Requested size: 357.80933pt x 274.54884pt.
+[1]
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -762,6 +800,7 @@ Type  H <return>  for immediate help.
                                                   
 l.23 Ce software de système d’
                               information géographique est celui sur lequel ...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -775,6 +814,7 @@ Type  H <return>  for immediate help.
                                                   
 l.23 ...ation géographique est celui sur lequel s’
                                                   est basé le développement ...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -788,6 +828,7 @@ Type  H <return>  for immediate help.
                                                   
 l.23 ... aisée et pour une plus grande facilité d’
                                                   utilisation pour l’utilisa...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -801,6 +842,7 @@ Type  H <return>  for immediate help.
                                                   
 l.23 ...plus grande facilité d’utilisation pour l’
                                                   utilisateur. QGIS est lié ...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -814,6 +856,7 @@ Type  H <return>  for immediate help.
                                                   
 l.23 ...onnées grâce à PostGIS pour enregistrer l’
                                                   organisation spéciale des ...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -827,6 +870,7 @@ Type  H <return>  for immediate help.
                                                   
 l.25 ...et aussi une connexion avec SCADA, afin d’
                                                   utiliser en temps réel l’i...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -840,10 +884,10 @@ Type  H <return>  for immediate help.
                                                   
 l.25 ...ec SCADA, afin d’utiliser en temps réel l’
                                                   information qui provient d...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[1]
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -854,6 +898,7 @@ Type  H <return>  for immediate help.
                                                   
 l.27 ...r appareil mobile. Cette fonctionnalité s’
                                                   ajoute l’utilisation habit...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -867,17 +912,21 @@ Type  H <return>  for immediate help.
                                                   
 l.27 ...l mobile. Cette fonctionnalité s’ajoute l’
                                                   utilisation habituelle sur...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
+[2 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_1.j
+pg>]
 
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_2_ES.png' not found on inpu
-t line 41.
+LaTeX Warning: File `D:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All 
+figures/chap1_2_ES.png' not found on input line 41.
 
 
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_2_ES.png' not found.
+! Package pdftex.def Error: File `D:/owncloud/Shared/Giswater/Giswater3x/manual
+s/images/All figures/chap1_2_ES.png' not found: using draft setting.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
@@ -886,21 +935,11 @@ l.41 ...manuals/images/All figures/chap1_2_ES.png}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p1_2_ES.png (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41 ...manuals/images/All figures/chap1_2_ES.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_2_ES.png Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_2_ES.png>
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
+1.
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
 ! Undefined control sequence.
 l.47 ...s ce cas-ci il s'agit de PostgreSQL (\href
                                                   {https://www.postgres.org}...
@@ -919,7 +958,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[2]
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -930,6 +968,7 @@ Type  H <return>  for immediate help.
                                                   
 l.51 Ce que vous devez garder à l’
                                   esprit, c’est que, selon le nombre d’utili...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -943,6 +982,7 @@ Type  H <return>  for immediate help.
                                                   
 l.51 Ce que vous devez garder à l’esprit, c’
                                             est que, selon le nombre d’utili...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -956,63 +996,7 @@ Type  H <return>  for immediate help.
                                                   
 l.51 ... à l’esprit, c’est que, selon le nombre d’
                                                   utilisateurs et les enregi...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
 
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.62 Pour se  faire, il est nécessaire d’
-                                         installer toutes les technologies n...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_3_EN.png' not found on inpu
-t line 67.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_3_EN.png' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67 ...manuals/images/All figures/chap1_3_EN.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p1_3_EN.png (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67 ...manuals/images/All figures/chap1_3_EN.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_3_EN.png Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_3_EN.png>
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.75 ...ns, documentation administrative, etc.) L’
-                                                  architecture et la technol...
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -1025,8 +1009,48 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+l.62 Pour se  faire, il est nécessaire d’
+                                         installer toutes les technologies n...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_3_EN.p
+ng, id=38, 907.13907pt x 682.04813pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_3
+_EN.png Graphic file (type png)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_3_
+EN.png>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap1_3_EN.png  used on input line 67.
+(pdftex.def)             Requested size: 453.56842pt x 341.02322pt.
+[4 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_3_E
+N.png>]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 ...ns, documentation administrative, etc.) L’
+                                                  architecture et la technol...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
 l.77 ...eront des décisions qui conditionneront l’
                                                   architecture finale du sys...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -1053,6 +1077,7 @@ Type  H <return>  for immediate help.
                                                   
 l.92 Si l’
           un des modèles hydrauliques compatibles avec Giswater est nécessai...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -1082,6 +1107,7 @@ l.98 une suite bureautique, ainsi qu’
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
+[5]
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -1092,6 +1118,7 @@ Type  H <return>  for immediate help.
                                                   
 l.104 Il est à noter que le développement n’
                                             est certifié et validé que par l...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -1105,6 +1132,7 @@ Type  H <return>  for immediate help.
                                                   
 l.104 ...ement n’est certifié et validé que par l’
                                                   utilisation du navigateur ...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -1118,170 +1146,68 @@ Type  H <return>  for immediate help.
                                                   
 l.104 ... dysfonctionnements et son utilisation n’
                                                   est donc pas recommandée d...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-) [4] (Manuel_Giswater_FR_chap_2.tex [5] [6]
+) [6] (chpt02.tex [7] [8]
 Overfull \hbox (5.29665pt too wide) in paragraph at lines 41--42
-[][]\T1/cmr/m/n/10 Le té-lé-char-ge-ment et l'ins-tal-la-tion est très simple et peut se faire de-puis https ://www.post
-gresql.org/download.
+[]\T1/cmr/m/n/10 Le té-lé-char-ge-ment et l'ins-tal-la-tion est très simple et 
+peut se faire de-puis https ://www.postgresql.org/download.
  []
 
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1_EN.p
+ng, id=56, 422.32782pt x 63.98906pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
+_EN.png Graphic file (type png)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1_
+EN.png>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap2_1_EN.png  used on input line 47.
+(pdftex.def)             Requested size: 422.32678pt x 63.98889pt.
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_2_EN.p
+ng, id=57, 338.01282pt x 374.14781pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_2
+_EN.png Graphic file (type png)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_2_
+EN.png>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap2_2_EN.png  used on input line 63.
+(pdftex.def)             Requested size: 338.01198pt x 374.14688pt.
+[9 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1_E
+N.png>]
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_3.png,
+ id=62, 33.12375pt x 27.85406pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_3
+.png Graphic file (type png)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_3.
+png>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap2_3.png  used on input line 74.
+(pdftex.def)             Requested size: 33.12366pt x 27.85397pt.
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_4_EN.p
+ng, id=63, 161.85469pt x 33.87656pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_4
+_EN.png Graphic file (type png)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_4_
+EN.png>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap2_4_EN.png  used on input line 81.
+(pdftex.def)             Requested size: 161.85428pt x 33.87646pt.
+ [10 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_2
+_EN.png> <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_3.png> <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/ch
+ap2_4_EN.png>]
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_5.png,
+ id=67, 27.10126pt x 23.33719pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_5
+.png Graphic file (type png)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_5.
+png>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap2_5.png  used on input line 93.
+(pdftex.def)             Requested size: 27.10118pt x 23.33711pt.
 
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1_EN.png' not found on inpu
-t line 47.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1_EN.png' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 ...manuals/images/All figures/chap2_1_EN.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_1_EN.png (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 ...manuals/images/All figures/chap2_1_EN.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1_EN.png Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1_EN.png>
-
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_2_EN.png' not found on inpu
-t line 63.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_2_EN.png' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 ...manuals/images/All figures/chap2_2_EN.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_2_EN.png (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 ...manuals/images/All figures/chap2_2_EN.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_2_EN.png Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_2_EN.png>
-
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_3.png' not found on input l
-ine 74.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_3.png' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.74 ...3x/manuals/images/All figures/chap2_3.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_3.png (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.74 ...3x/manuals/images/All figures/chap2_3.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_3.png Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_3.png> [7]
-
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_4_EN.png' not found on inpu
-t line 81.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_4_EN.png' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.81 ...manuals/images/All figures/chap2_4_EN.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_4_EN.png (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.81 ...manuals/images/All figures/chap2_4_EN.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_4_EN.png Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_4_EN.png>
-
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_5.png' not found on input l
-ine 93.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_5.png' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.93 ...3x/manuals/images/All figures/chap2_5.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_5.png (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.93 ...3x/manuals/images/All figures/chap2_5.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_5.png Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_5.png>
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1298,37 +1224,16 @@ l.99         \item expl\_id \Rightarrow
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_6.png,
+ id=68, 30.1125pt x 26.34843pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_6
+.png Graphic file (type png)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_6.
+png>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap2_6.png  used on input line 107.
+(pdftex.def)             Requested size: 30.11241pt x 26.34836pt.
 
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_6.png' not found on input l
-ine 107.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_6.png' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.107 ...x/manuals/images/All figures/chap2_6.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_6.png (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.107 ...x/manuals/images/All figures/chap2_6.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_6.png Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_6.png>
 Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
@@ -1358,329 +1263,131 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_7_EN.j
+pg, id=69, 451.6875pt x 643.40375pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_7
+_EN.jpg Graphic file (type jpg)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_7_
+EN.jpg>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap2_7_EN.jpg  used on input line 126.
+(pdftex.def)             Requested size: 225.84319pt x 321.70108pt.
 
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_7_EN.jpg' not found on inpu
-t line 126.
+Overfull \hbox (4.82452pt too wide) in paragraph at lines 126--128
+[][]
+ []
 
+[11 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_5.
+png> <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_6
+.png>]
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_8_EN.p
+ng, id=76, 251.43938pt x 107.65219pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_8
+_EN.png Graphic file (type png)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_8_
+EN.png>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap2_8_EN.png  used on input line 134.
+(pdftex.def)             Requested size: 251.43875pt x 107.65192pt.
+ [12 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_7
+_EN.jpg> <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_8_EN.png>]
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_9_EN.j
+pg, id=81, 944.52875pt x 740.7675pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_9
+_EN.jpg Graphic file (type jpg)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_9_
+EN.jpg>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap2_9_EN.jpg  used on input line 158.
+(pdftex.def)             Requested size: 377.80481pt x 296.30174pt.
+ [13]
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_10_EN.
+jpg, id=85, 490.83376pt x 324.21124pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
+0_EN.jpg Graphic file (type jpg)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_10
+_EN.jpg>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap2_10_EN.jpg  used on input line 166.
+(pdftex.def)             Requested size: 245.41628pt x 162.10522pt.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
+70.
 
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_7_EN.jpg' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.126 ...anuals/images/All figures/chap2_7_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_7_EN.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.126 ...anuals/images/All figures/chap2_7_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_7_EN.jpg Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_7_EN.jpg> [8]
-
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_8_EN.png' not found on inpu
-t line 134.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_8_EN.png' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.134 ...anuals/images/All figures/chap2_8_EN.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_8_EN.png (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.134 ...anuals/images/All figures/chap2_8_EN.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_8_EN.png Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_8_EN.png> [9]
-
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_9_EN.jpg' not found on inpu
-t line 158.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_9_EN.jpg' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.158 ...anuals/images/All figures/chap2_9_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_9_EN.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.158 ...anuals/images/All figures/chap2_9_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_9_EN.jpg Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_9_EN.jpg>
-
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_10_EN.jpg' not found on inp
-ut line 166.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_10_EN.jpg' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.166 ...nuals/images/All figures/chap2_10_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_10_EN.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.166 ...nuals/images/All figures/chap2_10_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_10_EN.jpg Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_10_EN.jpg>
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 170.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 170.
-
-
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_11_EN.jpg' not found on inp
-ut line 173.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_11_EN.jpg' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.173 ...nuals/images/All figures/chap2_11_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_11_EN.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.173 ...nuals/images/All figures/chap2_11_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_11_EN.jpg Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_11_EN.jpg> [10]
-
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_12_EN.jpg' not found on inp
-ut line 191.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_12_EN.jpg' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.191 ...nuals/images/All figures/chap2_12_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_12_EN.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.191 ...nuals/images/All figures/chap2_12_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_12_EN.jpg Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_12_EN.jpg>
-
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_13_EN.jpg' not found on inp
-ut line 202.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_13_EN.jpg' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.202 ...nuals/images/All figures/chap2_13_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_13_EN.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.202 ...nuals/images/All figures/chap2_13_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_13_EN.jpg Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_13_EN.jpg>
-
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_14_EN.jpg' not found on inp
-ut line 215.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_14_EN.jpg' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.215 ...nuals/images/All figures/chap2_14_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_14_EN.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.215 ...nuals/images/All figures/chap2_14_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_14_EN.jpg Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_14_EN.jpg> [11]
-
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_15_EN.jpg' not found on inp
-ut line 222.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_15_EN.jpg' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.222 ...nuals/images/All figures/chap2_15_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_15_EN.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.222 ...nuals/images/All figures/chap2_15_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_15_EN.jpg Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_15_EN.jpg>
-
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_16_ES.jpg' not found on inp
-ut line 228.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_16_ES.jpg' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.228 ...nuals/images/All figures/chap2_16_ES.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_16_ES.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.228 ...nuals/images/All figures/chap2_16_ES.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_16_ES.jpg Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_16_ES.jpg>
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_11_EN.
+jpg, id=86, 1249.66875pt x 674.52pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
+1_EN.jpg Graphic file (type jpg)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_11
+_EN.jpg>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap2_11_EN.jpg  used on input line 173.
+(pdftex.def)             Requested size: 374.90352pt x 202.35756pt.
+ [14 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_9
+_EN.jpg> <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
+p2_10_EN.jpg>]
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_12_EN.
+jpg, id=90, 637.63219pt x 81.30376pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
+2_EN.jpg Graphic file (type jpg)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_12
+_EN.jpg>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap2_12_EN.jpg  used on input line 191.
+(pdftex.def)             Requested size: 446.3395pt x 56.91223pt.
+ [15 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
+1_EN.jpg>]
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_13_EN.
+jpg, id=95, 749.80125pt x 539.01375pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
+3_EN.jpg Graphic file (type jpg)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_13
+_EN.jpg>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap2_13_EN.jpg  used on input line 202.
+(pdftex.def)             Requested size: 299.91519pt x 215.60167pt.
+ [16 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
+2_EN.jpg> <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/ch
+ap2_13_EN.jpg>]
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_14_EN.
+jpg, id=99, 755.82375pt x 497.60907pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
+4_EN.jpg Graphic file (type jpg)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_14
+_EN.jpg>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap2_14_EN.jpg  used on input line 215.
+(pdftex.def)             Requested size: 377.91095pt x 248.80392pt.
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_15_EN.
+jpg, id=100, 264.99pt x 128.48pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
+5_EN.jpg Graphic file (type jpg)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_15
+_EN.jpg>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap2_15_EN.jpg  used on input line 222.
+(pdftex.def)             Requested size: 185.49173pt x 89.93538pt.
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_16_ES.
+jpg, id=101, 262.9825pt x 143.53625pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
+6_ES.jpg Graphic file (type jpg)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_16
+_ES.jpg>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap2_16_ES.jpg  used on input line 228.
+(pdftex.def)             Requested size: 184.08649pt x 100.47467pt.
+ [17 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
+4_EN.jpg> <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/ch
+ap2_15_EN.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
 
-[12]
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -1691,10 +1398,12 @@ Type  H <return>  for immediate help.
                                                   
 l.260 être nœ
              ud, arc, connec ou gully, et en plus d'un autre type dans chacu...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-
+[18 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_16
+_ES.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 270--273
 
  []
@@ -1709,40 +1418,24 @@ Type  H <return>  for immediate help.
                                                   
 l.279 ... d'éléments de base (arc, connexion de nœ
                                                   ud, gully) sont définis. C...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_17_EN.
+jpg, id=108, 447.92343pt x 104.64093pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
+7_EN.jpg Graphic file (type jpg)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_17
+_EN.jpg>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap2_17_EN.jpg  used on input line 281.
+(pdftex.def)             Requested size: 447.92233pt x 104.64066pt.
 
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_17_EN.jpg' not found on inp
-ut line 281.
+Overfull \hbox (5.885pt too wide) in paragraph at lines 281--283
+ [] 
+ []
 
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_17_EN.jpg' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.281 ...nuals/images/All figures/chap2_17_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_17_EN.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.281 ...nuals/images/All figures/chap2_17_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_17_EN.jpg Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_17_EN.jpg>
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -1766,6 +1459,7 @@ Type  H <return>  for immediate help.
                                                   
 l.286 ...ur donner un exemple pour la table des nœ
                                                   uds, et en ce qui concerne...
+
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -1774,122 +1468,104 @@ Underfull \hbox (badness 10000) in paragraph at lines 285--289
 
  []
 
-[13]
+[19 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_17
+_EN.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 291--295
 
  []
 
-
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_18_EN.jpg' not found on inp
-ut line 301.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_18_EN.jpg' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.301 ...nuals/images/All figures/chap2_18_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_18_EN.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.301 ...nuals/images/All figures/chap2_18_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_18_EN.jpg Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_18_EN.jpg>
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_18_EN.
+jpg, id=112, 388.45125pt x 438.13687pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
+8_EN.jpg Graphic file (type jpg)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_18
+_EN.jpg>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap2_18_EN.jpg  used on input line 301.
+(pdftex.def)             Requested size: 388.45029pt x 438.13579pt.
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 304--311
 
  []
 
-[14]
+[21 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_18
+_EN.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 321--323
 
  []
 
-[15]
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/Chap2_19_EN.
+jpg, id=120, 234.1247pt x 269.50688pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/Chap2_1
+9_EN.jpg Graphic file (type jpg)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/Chap2_19
+_EN.jpg>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/Chap2_19_EN.jpg  used on input line 343.
+(pdftex.def)             Requested size: 234.12411pt x 269.50621pt.
+[22]
+<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_20_EN.
+jpg, id=124, 488.57532pt x 309.40594pt>
+File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_2
+0_EN.jpg Graphic file (type jpg)
+<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_20
+_EN.jpg>
+Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
+All figures/chap2_20_EN.jpg  used on input line 353.
+(pdftex.def)             Requested size: 488.57413pt x 309.40518pt.
 
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/Chap2_19_EN.jpg' not found on inp
-ut line 343.
+Overfull \hbox (16.5429pt too wide) in paragraph at lines 353--355
+ [] 
+ []
 
+[23 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/Chap2_19
+_EN.jpg>] [24 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figure
+s/chap2_20_EN.jpg>]) [25] (chpt03.tex [26]
+<C:/workspace/giswater_docs/utils/img/0301_EN.jpg, id=137, 393.72093pt x 459.21
+562pt>
+File: C:/workspace/giswater_docs/utils/img/0301_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0301_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0301_EN.jpg  used
+ on input line 30.
+(pdftex.def)             Requested size: 393.71997pt x 459.2145pt.
+ [27 <C:/workspace/giswater_docs/utils/img/0301_EN.jpg>]
+<C:/workspace/giswater_docs/utils/img/0302_EN.jpg, id=142, 368.87813pt x 238.64
+156pt>
+File: C:/workspace/giswater_docs/utils/img/0302_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0302_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0302_EN.jpg  used
+ on input line 39.
+(pdftex.def)             Requested size: 368.87721pt x 238.64096pt.
+ [28 <C:/workspace/giswater_docs/utils/img/0302_EN.jpg>]
+[29]) [30] (main.aux)
 
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/Chap2_19_EN.jpg' not found.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.343 ...nuals/images/All figures/Chap2_19_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/Cha
-p2_19_EN.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.343 ...nuals/images/All figures/Chap2_19_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/Chap2_19_EN.jpg Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/Chap2_19_EN.jpg>
-
-LaTeX Warning: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_20_EN.jpg' not found on inp
-ut line 353.
-
-
-! LaTeX Error: File `C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_20_EN.jpg' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.353 ...nuals/images/All figures/chap2_20_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_20_EN.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.353 ...nuals/images/All figures/chap2_20_EN.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_20_EN.jpg Graphic file (type eps)
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_20_EN.jpg> [16]) [17]
-(Manuel_Giswater_FR_main.aux) ) 
+ ) 
 Here is how much of TeX's memory you used:
- 4870 strings out of 492484
- 85427 string characters out of 3131068
- 158624 words of memory out of 3000000
- 9070 multiletter control sequences out of 15000+200000
- 16350 words of font info for 38 fonts, out of 3000000 for 9000
+ 5628 strings out of 492484
+ 94291 string characters out of 3124327
+ 167811 words of memory out of 3000000
+ 9841 multiletter control sequences out of 15000+200000
+ 16663 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,45p,728b,425s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 51i,12n,45p,694b,486s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\USUARI\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
+\ecti1000.pk> <C:\Users\USUARI\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappe
+n/ec/dpi600\ectt1000.pk> <C:\Users\USUARI\AppData\Local\MiKTeX\2.9\fonts/pk/ljf
+our/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\USUARI\AppData\Local\MiKTeX\2.9\f
+onts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\USUARI\AppData\Local\M
+iKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\USUARI\AppD
+ata\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\
+USUARI\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk>
+ <C:\Users\USUARI\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\e
+crm1200.pk> <C:\Users\USUARI\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecsx1200.pk> <C:\Users\USUARI\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
+r/jknappen/ec/dpi600\ecsx1728.pk><C:/Users/USUARI/Desktop/Latex/installation/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (34 pages, 1651526 bytes).
+PDF statistics:
+ 539 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on Manuel_Giswater_FR_main.dvi (20 pages, 95168 bytes).

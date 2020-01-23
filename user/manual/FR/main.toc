@@ -2,22 +2,25 @@
 \contentsline {section}{\numberline {1}Introduction}{1}%
 \contentsline {subsection}{\numberline {1.1}Qu'est-ce que Giswater ?}{1}%
 \contentsline {subsection}{\numberline {1.2}Quel est l'objectif de ce guide?}{2}%
-\contentsline {subsection}{\numberline {1.3}Architecture du syst\`eme sugg\'er\'e }{2}%
-\contentsline {subsubsection}{\numberline {1.3.1}Serveur de bases de donn\'ees}{2}%
-\contentsline {subsubsection}{\numberline {1.3.2}Serveur web}{3}%
-\contentsline {subsubsection}{\numberline {1.3.3}Serveur de distribution}{3}%
-\contentsline {subsubsection}{\numberline {1.3.4}Appareils des clients lourds de GIS (QGIS)}{4}%
-\contentsline {subsubsection}{\numberline {1.3.5}Appareils des clients l\'egers de GIS (Chrome)}{4}%
-\contentsline {section}{\numberline {2}Installation et mise en marche}{5}%
-\contentsline {subsection}{\numberline {2.1}Pr\'e-requis avant l'installation}{5}%
-\contentsline {subsection}{\numberline {2.2}T\'el\'echargement et configuration de PostgresSQL}{6}%
-\contentsline {subsection}{\numberline {2.3}Configuration de QGIS}{8}%
-\contentsline {subsection}{\numberline {2.4}T\'el\'echargement et premiers pas avec le plugin Giswater}{9}%
-\contentsline {subsubsection}{\numberline {2.4.1}Installer le plugin dans QGIS}{10}%
-\contentsline {subsubsection}{\numberline {2.4.2}Outil g\'en\'eraux de gestion de projet}{10}%
-\contentsline {subsection}{\numberline {2.5}Cr\'eation d'un sch\'ema et de projets QGIS}{11}%
-\contentsline {subsubsection}{\numberline {2.5.1}Cr\'eation d'un sch\'ema vide}{11}%
-\contentsline {paragraph}{Configuration basique d'un projet mod\`ele}{12}%
-\contentsline {subsubsection}{\numberline {2.5.2}Cr\'eation d'un nouveau projet d'exemple (\'echantillon)}{15}%
-\contentsline {subsubsection}{\numberline {2.5.3}Cr\'eation de projets QGIS}{16}%
-\contentsline {subsection}{\numberline {2.6}Cr\'eation de projet \`a partir de z\'ero}{17}%
+\contentsline {subsection}{\numberline {1.3}Architecture du syst\`eme sugg\'er\'e }{3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Serveur de bases de donn\'ees}{3}%
+\contentsline {subsubsection}{\numberline {1.3.2}Serveur web}{4}%
+\contentsline {subsubsection}{\numberline {1.3.3}Serveur de distribution}{5}%
+\contentsline {subsubsection}{\numberline {1.3.4}Appareils des clients lourds de GIS (QGIS)}{5}%
+\contentsline {subsubsection}{\numberline {1.3.5}Appareils des clients l\'egers de GIS (Chrome)}{6}%
+\contentsline {section}{\numberline {2}Installation et mise en marche}{7}%
+\contentsline {subsection}{\numberline {2.1}Pr\'e-requis avant l'installation}{7}%
+\contentsline {subsection}{\numberline {2.2}T\'el\'echargement et configuration de PostgresSQL}{8}%
+\contentsline {subsection}{\numberline {2.3}Configuration de QGIS}{11}%
+\contentsline {subsection}{\numberline {2.4}T\'el\'echargement et premiers pas avec le plugin Giswater}{13}%
+\contentsline {subsubsection}{\numberline {2.4.1}Installer le plugin dans QGIS}{13}%
+\contentsline {subsubsection}{\numberline {2.4.2}Outil g\'en\'eraux de gestion de projet}{15}%
+\contentsline {subsection}{\numberline {2.5}Cr\'eation d'un sch\'ema et de projets QGIS}{16}%
+\contentsline {subsubsection}{\numberline {2.5.1}Cr\'eation d'un sch\'ema vide}{16}%
+\contentsline {paragraph}{Configuration basique d'un projet mod\`ele}{18}%
+\contentsline {subsubsection}{\numberline {2.5.2}Cr\'eation d'un nouveau projet d'exemple (\'echantillon)}{22}%
+\contentsline {subsubsection}{\numberline {2.5.3}Cr\'eation de projets QGIS}{23}%
+\contentsline {subsection}{\numberline {2.6}Cr\'eation de projet \`a partir de z\'ero}{24}%
+\contentsline {section}{\numberline {3}R\`egles de travail basiques}{26}%
+\contentsline {subsection}{\numberline {3.1}Les types de projets}{26}%
+\contentsline {subsection}{\numberline {3.2}\'El\'ements disponibles}{28}%
