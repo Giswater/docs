@@ -167,19 +167,138 @@ Le plugin Giswater dispose d'un outil spécifique qui permet de détecter certaine
 \begin{itemize}
 \item \underline{Noeuds orphelins}: noeuds qui ne sont pqs connectés à un arc
 \item \underline{Noeuds dupliqué}: noeuds qui sont localisé exactement à la même place et c'est pour cela qu'il cause une incohérence dans le système
-\item \underline{Consistence topologique des noeuds}: il existe des règles topologiques spécifiques de Giswater, qui tiennent compte du type de nœud. Par exemple, il existe des types de nœuds qui doivent avoir une connexion avec
-trois arcs différents, sinon, ils seront marqués comme erronés.
+\item \underline{Consistence topologique des noeuds}: il existe des règles topologiques spécifiques de Giswater, qui tiennent compte du type de nœud. Par exemple, il existe des types de nœuds qui doivent avoir une connexion avec trois arcs différents, sinon, ils seront marqués comme erronés.
+\item \underline{Arc avec le même noeud initial et final}: les arcs doivent toujours être placés entre deux nœuds différents (avec un identifiant différent), par conséquent, un arc qui commence et se termine au même nœud est incorrect. Cela peut être configuré à partir de la table de configuration et du champ samenode\_init\_end\_control, où si nous avons le valeur TRUE, le programme n'autorisera pas les arcs avec le même nœud de début et de fin; si nous avons FAUX, ces arcs seront acceptés.
+\item \underline{Arc sans noeud initial ou final}: arcs déconnectés d'une de sens fins. 
 \end{itemize}
 
+\subsubsection{Comportement de lien vnode}
+Le lien est une connexion graphique entre les éléments de la carte. Les propriétés qu'il possède sont la direction de numérisation, le nœud auquel il appartient (fonctionnalité) et le nœud de sortie (sortie), ainsi que le chanps userdefined\_geom (valeur booléenne qui permet d'identifier si la géométrie est personnalisée par l'utilisateur ou non). Dans ce sens, ce qu'un lien fait est de connecter un élément d'entrée à un élément de sortie, qui peut être directement le réseau (arc par noeud ou par noeud virtuel) ou avec un élément intermédiaire (autre connec ou gully), qu’en une fois ils soient directement connectés au réseau ou à un autre connec ou gully.
+
+Dans le cas où l'élément de sortie est un arc ou un nœud, l'arc\_id sera automatiquement assigné comme section parente de l'élément de lien, sinon l'arc\_id ne sera pas attribué automatiquement par l'outil et l'utilisateur doit attribuer manuellement l'arc\_id du tronçon père. En revanche, si l'élément de sortie n'est ni nœud, ni connec, ni gully, un nœud appelé nœud virtuel (Vnode) est créé. Dans le cas où vnode est proche d'un arc, par adhérence il est inséré dessus.
+
+\underline{special features}
+\begin}{enumerate}
+\item Concernant son nœud d'entité (qui est en amont), le lien agit comme s'il appartenait à cette entité, ce qui signifie:
+\begin{itemize}
+\item La visibilité de la carte, c'est-à-dire le lien, prend la valeur de dma, du secteur et de l'exploitation de cet élément
+\item La valeur d'état par défaut, lors de l'insertion manuelle ou automatique d'un nouveau lien, est la même que celle de l'état de l'élément
+\item Si l'élément de fonctionnalité (connec ou gully) est supprimé, le lien est également supprimé (la fonctionnalité est considérée comme
+fonctionnant comme une unité intégrée et non dissociée de son lien).
+\item Les attributs du lien, tels que la longueur, le diamètre ou le matériau, sont représentés et affichés dans le modèle de données de l'entité à laquelle il appartient.
+\item Il est possible d'avoir plus d'un lien pour un nœud d'entité (car ils peuvent avoir différents états 0, 1 ou 2, et l'utilisateur peut le modifier comme il le souhaite).
+\end{itemize}
+\item En ce qui concerne la sortie du point de sortie (celle qui est en aval), il n'y a plus de pertinence mais simplement une topologie, ce qui signifie que:
+\begin{itemize}
+\item Aucun statut, ni visibilité avec les éléments en aval n'est géré.
+\item La topologie est gérée (si le point de sortie se déplace, le lien se déplace également).
+\item Si un élément de sortie d'un lien est supprimé, le lien ne sera pas supprimé tant qu'il ne sera pas déconnecté précédemment.
+\ite, Si l'élément de sortie est un connec ou un ravin, la valeur arc\_id de l'arc parent est copiée depuis la sortie élément.
+\item Si le vnode est mis à jour vers un arc ou un autre, le champ arc\_id du nœud d'entité est toujours mis à jour.
+Attention: si la mise à jour vnode déconnecte le lien de l'arc, l'arc\_id du nœud d'entité sera automatiquement NULL.
+\end{itemize}
+\item En cas d'utilisation de l'outil de connexion automatique de connec ou gully au réseau (connect_to_network):
+\begin{itemize}
+\item L'outil créera, si nécessaire, un vnode. Dans le cas où ce vnode existe déjà, le même sera utilisé pour connectez le lien. Les vnodes créés par l'outil ont la valeur du champ vnode\_type AUTO. Ceux créé par l'utilisateur ont le vnode\_type de CUSTOM.
+\item Le lien créé par l'outil est toujours la distance la plus courte entre le connec ou le gully et le réseau (en utilisant les couches v\_edit\_node, v\_edit\_arc, avec lesquelles l'état, l'exploitation et la planification secteurs décident de ce qui est montré dans ces deux couches).
+\item Le lien créé a comme valeur par défaut le champ userdefined\_geom défini sur FALSE. En cas de lien dessiné ou mis à jour par l'utilisateur, le champ userdefined\_geom change sa valeur en TRUE.
+\item Si les valeurs de userdefined\_geom sont TRUE, l'outil automatique ne remodèlera pas le lien, empêchant la «destruction» des géométries personnalisées.
+\end{itemize}
+\item Comme le lien est un élément qui relie deux autres éléments, si vous souhaitez en mettre à jour la géométrie, par exemple, les sommets intermédiaires, il est possible de faire tant que les sommets extrêmes ne sont pas mis à jour, dans lesquels cas ce ne sera pas possible. Si vous souhaitez reconnecter différents éléments, vous devez procéder à la suppression de ce lien puis la création d'un nouveau.
+\end{enumerate}
+
+\subsubsection{Eléments à deux géométrie}
+Giswater utilise des éléments à double géométrie. Cela signifie qu'un seul élément est formé de deux différentes géométries, dans ce cas ce sont toujours des points qui appartiennent à un polygone. Seuls certains éléments du réseau ont cette particularité. Ce sont des types d'éléments qui peuvent avoir des mesures beaucoup plus grandes que celles qui sont représentées par un simple point et donc c'est intéressant pour les visualiser comme un polygone autour du point.
+
+\begin{figure}[h]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0306_EN.jpg}
+\end{figure}
+
+Lors de l'ajout d'un nouveau nœud de l'un des types répertoriés, un polygone carré sera immédiatement créé autour du
+élément ponctuel. Les principales règles topologiques de cette relation sont:
+
+\begin{itemize}
+\item Si un noeud est bougé, le polygone associé va bouger vers la nouvelle position du noeud.
+\item Si un nouveau polygone est dessiné, avec le périmètre souhaité par l'utilisateur et autour d'un nœud du même type, le nouveau périmètre remplace directement l'ancien.
+\item Il est impossible de dessiner un nouveau polygone sans qu'un nœud du même type ne s'y trouve
+\item Si un nœud à double géométrie est supprimé, le polygone associé sera également éliminé.D'autre part, le polygone peut être supprimé sans modifier le nœud.
+
+Pour travailler avec ce type d'éléments à double géométrie, il est important de définir une configuration qui le gère. Vous pouvez activer ou désactiver cette fonction dans la table de configuration, champ insert\_double\_geometry. S'il est activé (recommandé), le champ buffer\_value affecte une valeur par défaut de la longueur du côté du carré du polygone. Comme déjà dit, ce carré peut être édité pour avoir la forme souhaitée.
+
+\subsubsection{Etat de la typologie}
+Pour terminer la section des règles topologiques, nous devons également prendre en compte certaines des conditions liées les états des éléments. Dans le tableau suivant tous les types de modifications (insertion ou mise à jour) entre arc et les éléments du nœud sont présentés. Il convient de rappeler que les états disponibles sont:
+
+\begin{figure}[h]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0307_EN.jpg}
+\end{figure}
+
+Le type d'État qui présente les conditions les plus restrictives est celui qui est prévu. Fonctionnant avec des éléments en état
+= 2 n'est possible que pour les utilisateurs ayant le rôle de plan directeur ou supérieur et il faut garder à l'esprit que le
+la gestion de ces éléments peut casser la topologie.
+Tout d'abord, il est nécessaire d'avoir au moins un enregistrement dans la table plan_psector, qui est utilisé pour gérer le
+Planification. Il est également essentiel de définir une valeur par défaut pour psector. Des arcs et des nœuds seront insérés avec ce
+valeur par défaut dans les tables spécifiques: plan_arc_x_psector et plan_node_x_psector. Il est important de vérifier
+champs d'état et faisables.
+Tous les éléments, qu'il s'agisse de nœuds ou d'arcs, qui ont un état de service (1) et l'utilisateur les modifie manuellement en
+Planifié, sera automatiquement introduit dans le psector par défaut actuellement disponible. Bien que cela
+le changement est autorisé par les règles topologiques, il ne devrait pas être habituel de passer un élément On Service dans Planified.
+
+\begin{figure}[h]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0308_EN.jpg}
+\end{figure}
+
+\subsection{Résumé des règles de travail appliquées à l'insertion des NODES}
+Pour terminer cette section des règles de travail de base, un exemple de schéma est présenté pour résumer toutes les règles de travail qui doivent être suivies dans le processus d'insertion d'un nouvel élément de nœud. Dans le diagramme, le champ d'insertion obligatoire sont définis et des flèches visualisent les étapes à suivre afin de conduire correctement le processus. Le cas où l'insertion n'est pas possible est également présenté.
+
+Le champ the\_geom est l'un des champs les plus importants et dans ce cas, les règles qui s'y rapportent sont faciles à comprendre. Lors de l'insertion d'un nouvel élément, sa géométrie doit être placée à l'intérieur de la géométrie d'un secteur, dma et exploitation, sinon l'insertion sera erronée. Si l'état est 2, comme mentionné récemment, il doit y avoir au moins un psecteur défini dans un projet, sinon l'insertion sera incorrecte. Pour les éléments ayant le statut "en service" (1), les règles topologiques expliquées dans la section 3.7.1 doivent être respectés. Les autres champs obligatoires peuvent avoir des valeurs par défaut définies ou être entrés directement par l'utilisateur. Les hiérarchies et les clés des catalogues d'éléments doivent être respectées, ce qui signifie que tenter d'insérer un
+nœud qui n'appartient pas aux catalogues, nous ne réussirons pas.
+
+\begin{figure}[h]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0309_EN.jpg}
+		\caption{Schéma récapitulatif des étapes à suivre dans le processus d'insertion d'un élément de type nœud. Le vert les lignes représentent des étapes réussies; les lignes rouges montrent les différents scénarios dans lesquels l'insertion ne sera pas correcte.}
+\end{figure}
 
 
+\section{Environnement de travail dans QGIS}
+Bien que tous les systèmes SIG soient compatibles avec l'outil Giswater, la même chose ne s'applique pas au plugin, car il a été programmé en complément de QGIS. Ainsi, toutes les fonctionnalités disponibles seront exécutées à partir de l'environnement QGIS.
 
+\subsection{Interface graphique}
+Tout utilisateur qui nécessite l'utilisation du plugin Giswater doit être familier avec les systèmes d'information géographique
+(SIG).
+Une fois que l'utilisateur a créé un nouveau projet de données, avec l'outil Giswater, comme expliqué dans les sections 2.3.4, 2.4 et
+2.5, il est déjà en mesure d'ouvrir le projet QGIS et de commencer à travailler avec lui. Dans ce manuel, l'exemple
+projet d'approvisionnement en eau (ws_sample) sera utilisé.
+Les principales parties de l'environnement QGIS en relation avec Giswater et son plugin sont présentées ci-dessous.
 
+\begin{figure}[h]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0401_EN.jpg}
+	\caption{
+Visualisation générale de l'écran avec projet de Giswater ouvert dans QGIS. Notez la barre d'outils complémentaire et le personnalisation de la table des matières.}
+\end{figure}
 
+\subsection{Table des matières}
+ToC (Table of Contents) est l'endroit où toutes les tables et vues nécessaires de la base de données sont chargées. Pour avoir le
+informations bien structurées, ce sujet a été divisé en sept grands groupes qui faciliteront également la
+la gestion des rôles (en fonction des autorisations, l'utilisateur peut gérer certaines tables qui, en
+appartiennent par défaut à un groupe). Ces groupes sont: l'inventaire des actifs, l'exploitation et la maintenance, l'analyse
+EPANET, Masterplan, Tables système, Tables supplémentaires et Cartes de base.
 
+Dans cette section, toutes les tables et vues chargées dans QGIS sont décrites, afin de faciliter la tâche de l'utilisateur
+compréhension du réseau complexe de tables dont Giswater est composé. Chaque table a une variable
+nombre de champs avec des informations relatives à ce que le tableau représente. Comme la quantité d'informations dans ce
+serait très large, la plupart des définitions des tableaux et des champs sont présentées dans l'annexe du
+Manuel. Cependant, l'utilisateur trouvera ci-dessous suffisamment d'informations pour comprendre le but de chaque groupe de
+les tables.
 
-
-
+\begin{figure}[h]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0402_EN.jpg}
+\end{figure}
 
 
 
