@@ -3,13 +3,13 @@
 Bienvenue dans le monde de Giswater, le premier software libre avec pour objectif de réaliser une gestion complète du cycle de l’eau (approvisionnement et assainissement). Ce manuel aidera les utilisateurs à s’initier à l’utilisation de Giswater. 
 
 \subsection{Qu'est-ce que Giswater ?}
-Giswater est une application libre pensée pour la gestion et l’exploitation des éléments de l'infrastructure hydraulique (approvisionnement et assainissement), tant sur base de donné que sur support graphique à travers de tout système d'informations géographiques. 
+Giswater est une application libre pensée pour la gestion et l’exploitation des éléments de l'infrastructure hydraulique (approvisionnement et assainissement), tant sur base de données que sur support graphique à travers de tout système d'informations géographiques. 
 
 A son tour, Giswater joue aussi un rôle de driver de connexion entre la base de données spéciale et les outils d’analyse hydraulique. 
 
 A l’heure actuelle, Giswater est disponible dans sa version 3 du software qui présente de nettes améliorations comparé à ses versions antérieures, tant sur le plan graphique que dans son utilisation et ses prestations. 
 
-Comme représente sur l’image … , Giswater fait partie d’un groupe d’applications qui utilisées conjointement permettent la gestion globale et solide en relation avec les modèles d’approvisionnement d’eau et de drainage urbain. 
+Comme représenté sur l’image suivante , Giswater fait partie d’un groupe d’applications qui, utilisées conjointement, permettent la gestion globale et solide en relation avec les modèles d’approvisionnement d’eau et de drainage urbain. 
 
 L’élément central est la base de données où se trouve toutes les informations et une grande partie de la fonctionnalité de chaque projet Giswater. La base de données pour utiliser Giswater est PostgreSQL qui, avec son extension PostGIS, permet un lien facile avec l’application QGIS.
 
@@ -20,21 +20,21 @@ L’élément central est la base de données où se trouve toutes les informations et
     \caption{Schéma des applications utilisées par Giswater avec la base de donnée comme élément central.}
 \end{figure}
 
-Ce software de système d’information géographique est celui sur lequel s’est basé le développement du projet Giswater à cause de sa visualisation aisée et pour une plus grande facilité d’utilisation pour l’utilisateur. QGIS est lié à la base de données grâce à PostGIS pour enregistrer l’organisation spéciale des données et toujours tenir compte des règles, relations et processus qui sont établis dans la base de données. 
+Ce software de système d’information géographique est celui sur lequel s’est basé le développement du projet Giswater à cause de sa visualisation aisée et pour une plus grande facilité d’utilisation. QGIS est lié à la base de données grâce à PostGIS pour enregistrer l’organisation spéciale des données et toujours tenir compte des règles, relations et processus qui sont établis dans la base de données. 
 
 Le noyau central du projet (la base de données et QGIS) permet aussi une connexion avec SCADA, afin d’utiliser en temps réel l’information qui provient directement des éléments physiques du réseau. De cette manière Giswater se présente comme un système de gestion globale et donne la possibilité à ses utilisateurs de toujours travailler avec des données actualisées automatiquement. 
 
-A côté de la gestion des données à travers un software SIG, il existe aussi la possibilité de travailler avec les données de Giswater sur le web ou sur appareil mobile. Cette fonctionnalité s’ajoute l’utilisation habituelle sur un deskstop, seulement pour les clients qui le souhaite, et se gère depuis la plate-forme BMAPS.
+A côté de la gestion des données à travers un software SIG, il existe aussi la possibilité de travailler avec les données de Giswater sur le web ou sur appareil mobile. À cette fonctionnalité s’ajoute l’utilisation habituelle sur un deskstop, seulement pour les clients qui le souhaitent, et se gère depuis la plate-forme BMAPS.
 
 \subsection{Quel est l'objectif de ce guide?}
-L'objectif fondamental de ce guide est de proposer à l'utilisateur un document aidant à la réalisation de  toute tâche avec Giswater, de l'installation initiale des programmes nécessaires jusqu'aux opérations de gestions plus complètes. 
+L'objectif fondamental de ce guide est de proposer à l'utilisateur un document aidant à la réalisation de  toutes tâches avec Giswater, de l'installation initiale des programmes nécessaires jusqu'aux opérations de gestions plus complètes. 
 
 Les améliorations faites dans la version 3 seront détaillées tout au long du manuel et leurs finalités et utilisations seront expliquées le plus simplement possible. 
 
 \subsection{Architecture du système suggéré }
 Le système suggéré est composé de trois machines faisant office de serveurs et pour deux clients. Les clients lourds qui utilisent QGIS comme moteur GIS, et les clients légers, qui utilisent Google Chrome comme moteur GIS. 
 
-Comme dans l'architecture du système est présenté sur l'image 2, il est nécessaire d'installer différentes technologies sur des machines distinctes qui sont détaillées ci-dessous. 
+Comme dans l'architecture du système qui est présentée sur l'image 2, il est nécessaire d'installer différentes technologies sur des machines distinctes qui sont détaillées ci-dessous. 
 
 \begin{figure}[H]
     \centering
@@ -46,27 +46,22 @@ Comme dans l'architecture du système est présenté sur l'image 2, il est nécessai
 \subsubsection{Serveur de bases de données}
 Premièrement il faut installer la base de donnée du nouveau GIS, dans ce cas-ci il s'agit de PostgreSQL (\href{https://www.postgres.org}) et de l'extension spéciale, PostGIS (\href{https://www.postgis.net}).
 
-Le système opérateur peut être LINUX ou WINDOWS. Pour des raisons de vitesse de traitement, de personnalisation des performances et fiabilité nous recommandons d'utiliser un appareil (virtuel ou non) avec un système opérateur DEBIAN 9 ou supérieur. Cependant, il n'y a aucun inconvénient à utiliser un appareil Windows avec tout autre système d'opération actuel. Cette décision dépend des préférences du personnel du système d'organisation. 
+Le système opérateur peut être LINUX ou WINDOWS. Pour des raisons de vitesse de traitement, de personnalisation, des performances et de fiabilité nous recommandons d'utiliser un appareil (virtuel ou non) avec un système opérateur DEBIAN 9 ou supérieur. Cependant, il n'y a aucun inconvénient à utiliser un appareil Windows avec tout autre système d'opération actuel. Cette décision dépend des préférences du personnel du système d'organisation. 
 
-Ce que vous devez garder à l’esprit, c’est que, selon le nombre d’utilisateurs et les enregistrements de l'organisation
-il est vivement recommandé d'installer la base de données dans un environnement à haute disponibilité.
-L'objectif est de permettre des consultations simultanées, en particulier celles qui consomment un grand nombre de
-ressources,puissent être pris en charge sans pénalités. 
+Ce que vous devez garder à l’esprit, c’est que, selon le nombre d’utilisateurs et les enregistrements de l'organisation, il est vivement recommandé d'installer la base de données dans un environnement à haute disponibilité. L'objectif est de permettre des consultations simultanées, en particulier celles qui consomment un grand nombre de ressources, et qu'elles puissent être prises en charge sans pénalités. 
 
 Étant donné que la base de données fonctionne généralement avec le disque dur pour récupérer ou afficher des informations, il est essentiel que l'appareil dispose d'un disque dur solide (SSD) et d'un contrôleur avec suffisamment de bande passante pour accéder massivement et rapide à l'information. De là, l'architecture de visualisation et la couche de programmation de la gestion dépendra en grande partie du nombre d'utilisateurs et du volume de données à gérer.
 
 \subsubsection{Serveur web}
-Le serveur Web est un autre élément constitutif de l'architecture du système du projet. Ce serveur est probablement celui qui nécessite le moins de ressources puisqu'il sert uniquement à publiez les informations fournies par la base de données. Dans cette partie du système le facteur déterminant n'est plus particulièrement la vitesse ou la capacité du
-système, mais sa sécurité.
+Le serveur Web est un autre élément constitutif de l'architecture du système du projet. Ce serveur est probablement celui qui nécessite le moins de ressources puisqu'il sert uniquement à publiez les informations fournies par la base de données. Dans cette partie du système le facteur déterminant n'est plus particulièrement la vitesse ou la capacité du système, mais sa sécurité.
 
-Pour se  faire, il est nécessaire d’installer toutes les technologies nécessaires pour assurer la sécurité, la fiabilité et la performance de l'environnement Web. Une proposition d'un ensemble de technologies pourrait ressembler à ce qui est montré
-dans l'image suivante.
+Pour se  faire, il est nécessaire d’installer toutes les technologies nécessaires pour assurer la sécurité, la fiabilité et la performance de l'environnement Web. Une proposition d'un ensemble de technologies pourrait ressembler à ce qui est montré dans l'image suivante:
 
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_3_EN.png}
 		\label{fig:chap1_3_EN}
-    \caption{Toutes les technologies qui doivent être installées afin d'utiliser Giswater de la manière la plus fiable.}
+    \caption{Toutes les technologies qui doivent être installées afin d'utiliser Giswater de la manière la plus fiable possible.}
 \end{figure}
 
 A l'inverse du serveur précédent, celui-ci doit être obligatoirement en LINUX et distribué en DEBIAN version 9. 
@@ -76,14 +71,16 @@ Le serveur de fichiers doit être un référentiel centralisé de tous les documents
 
 Les thèmes tels que la publication sur le réseau ou non, le traitement d'un URL ou des chemins de dossiers seront des décisions qui conditionneront l’architecture finale du système et la réutilisation ou non des serveurs de fichiers disponibles pour l'organisation.
 
-Dans tous les cas, pour que le projet Giswater puisse traiter les fichiers qui doivent être utilisés, qui font partie de l'architecture du projet et auxquels tous les utilisateurs doit avoir accès uniquement en mode lecture, sont un dossier de plugins d'entreprise:
-Giswater plugin
-Time manager
-Table manager
-Un fichier pour partager les projets QGIS de l'entreprise
+Dans tous les cas, pour que le projet Giswater puisse fonctionner, les seules fichiers qui doivent être utilisés et qui font partie de l'architecture du projet et auxquels tous les utilisateurs doit avoir accès uniquement en mode lecture, sont dans un dossier de plugins d'entreprise:
+\begin{itemize}
+\item Giswater plugin 
+\item Time manager
+\item Table manager
+\item Un fichier pour partager les projets QGIS de l'entreprise
+\end{itemize}
 
 \subsubsection{Appareils des clients lourds de GIS (QGIS)}
-Comme le montre l'image 3, il existe deux types de machines clientes. Celui avec la plus ancienne configuration requise est celle de QGIS en tant que client de SIG. Dans ce cas, il faudra utiliser au  minimum le programme suivants: 
+Il existe deux types de machines clientes. Celui avec la plus ancienne configuration requise est celle de QGIS en tant que client de SIG. Dans ce cas, il faudra utiliser au  minimum le programme suivants: 
 \begin{itemize}
 \item QGIS (https://www.qgis.org) – dernière version avec un LTR stable
 \item Notepad++ ( https://notepad-plus-plus.org) 
@@ -98,8 +95,7 @@ Pour avoir une meilleure expérience utilisateur avec le logiciel SIG, il est rec
 une suite bureautique, ainsi qu’un lecteur PDF.
 
 \subsubsection{Appareils des clients légers de GIS (Chrome)}
-Il existe  également un deuxième type d'apareil client qui sera utilisé en tant que client léger de GIS dans le navigateur Internet, qui remplira les fonctions de WebAPP. Dans ce cas c'est seulement
-Google Chrome lui-même qui doit être installé.
+Il existe  également un deuxième type d'apareil client qui sera utilisé en tant que client léger de GIS dans le navigateur Internet remplira les fonctions de WebAPP. Dans ce cas c'est seulement Google Chrome lui-même qui doit être installé.
 
-Il est à noter que le développement n’est certifié et validé que par l’utilisation du navigateur Google Chrome et que tout autre navigateur, que ce soit Mozilla Firefox, Opera ou Internet Explorer, peut présentent des dysfonctionnements et son utilisation n’est donc pas recommandée du tout.
+Il est à noter que le développement n’est certifié et validé que par l’utilisation du navigateur Google Chrome et que tout autre navigateur, que ce soit Mozilla Firefox, Opera ou Internet Explorer, peut présentent des dysfonctionnements et leur utilisation n’est donc pas recommandée.
 
