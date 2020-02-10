@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.7)  17 JAN 2020 11:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.7)  10 FEB 2020 13:29
 entering extended mode
 **./main.tex
 (main.tex
@@ -567,7 +567,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.25 ...\numberline {3.1}Les types de projets}{26}
+l.25 ...\numberline {3.1}Les types de projets}{24}
                                                   %
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -678,8 +678,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 Comme représente sur l’
-                            image … , Giswater fait partie d’un groupe d’app...
+l.12 Comme représenté sur l’
+                            image suivante , Giswater fait partie d’un group...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -692,21 +692,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 Comme représente sur l’image …
-                                    , Giswater fait partie d’un groupe d’app...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 ...te sur l’image … , Giswater fait partie d’
+l.12 ...l’image suivante , Giswater fait partie d’
                                                   un groupe d’applications q...
 
 You need to provide a definition with \DeclareInputText 
@@ -720,8 +706,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...ge … , Giswater fait partie d’un groupe d’
-                                                  applications qui utilisées...
+l.12 ...ante , Giswater fait partie d’un groupe d’
+                                                  applications qui, utilisée...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -780,14 +766,12 @@ l.14 ...ion PostGIS, permet un lien facile avec l’
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_1.jpg,
- id=24, 511.15968pt x 392.21532pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_1
-.jpg Graphic file (type jpg)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_1.
-jpg>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap1_1.jpg  used on input line 18.
+<C:/workspace/giswater_docs/utils/img/0101.jpg, id=24, 511.15968pt x 392.21532p
+t>
+File: C:/workspace/giswater_docs/utils/img/0101.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0101.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0101.jpg  used on
+ input line 18.
 (pdftex.def)             Requested size: 357.80933pt x 274.54884pt.
 [1]
 
@@ -827,21 +811,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.23 ... aisée et pour une plus grande facilité d’
-                                                  utilisation pour l’utilisa...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 ...plus grande facilité d’utilisation pour l’
-                                                  utilisateur. QGIS est lié ...
+                                                  utilisation. QGIS est lié ...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -896,7 +866,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 ...r appareil mobile. Cette fonctionnalité s’
+l.27 ...appareil mobile. À cette fonctionnalité s’
                                                   ajoute l’utilisation habit...
 
 You need to provide a definition with \DeclareInputText 
@@ -910,36 +880,21 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 ...l mobile. Cette fonctionnalité s’ajoute l’
+l.27 ...mobile. À cette fonctionnalité s’ajoute l’
                                                   utilisation habituelle sur...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[2 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_1.j
-pg>]
+[2 <C:/workspace/giswater_docs/utils/img/0101.jpg>]
+<C:/workspace/giswater_docs/utils/img/0102_ES.png, id=33, 780.516pt x 528.7755p
+t>
+File: C:/workspace/giswater_docs/utils/img/0102_ES.png Graphic file (type png)
+<use C:/workspace/giswater_docs/utils/img/0102_ES.png>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0102_ES.png  used
+ on input line 41.
+(pdftex.def)             Requested size: 390.25705pt x 264.3871pt.
 
-LaTeX Warning: File `D:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All 
-figures/chap1_2_ES.png' not found on input line 41.
-
-
-! Package pdftex.def Error: File `D:/owncloud/Shared/Giswater/Giswater3x/manual
-s/images/All figures/chap1_2_ES.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41 ...manuals/images/All figures/chap1_2_ES.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
-1.
-(C:\Users\USUARI\Desktop\Latex\installation\tex/latex/base\t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
 ! Undefined control sequence.
 l.47 ...s ce cas-ci il s'agit de PostgreSQL (\href
                                                   {https://www.postgres.org}...
@@ -958,6 +913,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[3 <C:/workspace/giswater_docs/utils/img/0102_ES.png>]
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -1000,7 +956,6 @@ l.51 ... à l’esprit, c’est que, selon le nombre d’
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[3]
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -1009,23 +964,20 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62 Pour se  faire, il est nécessaire d’
+l.58 Pour se  faire, il est nécessaire d’
                                          installer toutes les technologies n...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_3_EN.p
-ng, id=38, 907.13907pt x 682.04813pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_3
-_EN.png Graphic file (type png)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_3_
-EN.png>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap1_3_EN.png  used on input line 67.
+<C:/workspace/giswater_docs/utils/img/0103_EN.png, id=38, 907.13907pt x 682.048
+13pt>
+File: C:/workspace/giswater_docs/utils/img/0103_EN.png Graphic file (type png)
+<use C:/workspace/giswater_docs/utils/img/0103_EN.png>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0103_EN.png  used
+ on input line 62.
 (pdftex.def)             Requested size: 453.56842pt x 341.02322pt.
-[4 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap1_3_E
-N.png>]
+[4]
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -1034,7 +986,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.75 ...ns, documentation administrative, etc.) L’
+l.70 ...ns, documentation administrative, etc.) L’
                                                   architecture et la technol...
 
 You need to provide a definition with \DeclareInputText 
@@ -1048,12 +1000,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.77 ...eront des décisions qui conditionneront l’
+l.72 ...eront des décisions qui conditionneront l’
                                                   architecture finale du sys...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
+[5 <C:/workspace/giswater_docs/utils/img/0103_EN.png>]
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -1062,7 +1015,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 \item QGIS (https://www.qgis.org) –
+l.85 \item QGIS (https://www.qgis.org) –
                                          dernière version avec un LTR stable
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1075,7 +1028,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.92 Si l’
+l.89 Si l’
           un des modèles hydrauliques compatibles avec Giswater est nécessai...
 
 You need to provide a definition with \DeclareInputText 
@@ -1089,7 +1042,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 ...avec le logiciel SIG, il est recommandé d’
+l.94 ...avec le logiciel SIG, il est recommandé d’
                                                   avoir installé
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1102,12 +1055,11 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 une suite bureautique, ainsi qu’
+l.95 une suite bureautique, ainsi qu’
                                      un lecteur PDF.
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[5]
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -1116,7 +1068,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 Il est à noter que le développement n’
+l.100 Il est à noter que le développement n’
                                             est certifié et validé que par l...
 
 You need to provide a definition with \DeclareInputText 
@@ -1130,7 +1082,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 ...ement n’est certifié et validé que par l’
+l.100 ...ement n’est certifié et validé que par l’
                                                   utilisation du navigateur ...
 
 You need to provide a definition with \DeclareInputText 
@@ -1144,9 +1096,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 ... dysfonctionnements et son utilisation n’
-                                                  est donc pas recommandée d...
-
+l.100 ...dysfonctionnements et leur utilisation n’
+                                                  est donc pas recommandée.
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -1156,62 +1107,49 @@ Overfull \hbox (5.29665pt too wide) in paragraph at lines 41--42
 peut se faire de-puis https ://www.postgresql.org/download.
  []
 
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1_EN.p
-ng, id=56, 422.32782pt x 63.98906pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
-_EN.png Graphic file (type png)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1_
-EN.png>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap2_1_EN.png  used on input line 47.
+<C:/workspace/giswater_docs/utils/img/0201_EN.png, id=56, 422.32782pt x 63.9890
+6pt>
+File: C:/workspace/giswater_docs/utils/img/0201_EN.png Graphic file (type png)
+<use C:/workspace/giswater_docs/utils/img/0201_EN.png>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0201_EN.png  used
+ on input line 47.
 (pdftex.def)             Requested size: 422.32678pt x 63.98889pt.
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_2_EN.p
-ng, id=57, 338.01282pt x 374.14781pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_2
-_EN.png Graphic file (type png)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_2_
-EN.png>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap2_2_EN.png  used on input line 63.
+<C:/workspace/giswater_docs/utils/img/0202_EN.png, id=57, 338.01282pt x 374.147
+81pt>
+File: C:/workspace/giswater_docs/utils/img/0202_EN.png Graphic file (type png)
+<use C:/workspace/giswater_docs/utils/img/0202_EN.png>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0202_EN.png  used
+ on input line 63.
 (pdftex.def)             Requested size: 338.01198pt x 374.14688pt.
-[9 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1_E
-N.png>]
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_3.png,
- id=62, 33.12375pt x 27.85406pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_3
-.png Graphic file (type png)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_3.
-png>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap2_3.png  used on input line 74.
+[9 <C:/workspace/giswater_docs/utils/img/0201_EN.png>]
+<C:/workspace/giswater_docs/utils/img/0203.png, id=62, 33.12375pt x 27.85406pt>
+
+File: C:/workspace/giswater_docs/utils/img/0203.png Graphic file (type png)
+<use C:/workspace/giswater_docs/utils/img/0203.png>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0203.png  used on
+ input line 74.
 (pdftex.def)             Requested size: 33.12366pt x 27.85397pt.
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_4_EN.p
-ng, id=63, 161.85469pt x 33.87656pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_4
-_EN.png Graphic file (type png)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_4_
-EN.png>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap2_4_EN.png  used on input line 81.
+<C:/workspace/giswater_docs/utils/img/0204_EN.png, id=63, 161.85469pt x 33.8765
+6pt>
+File: C:/workspace/giswater_docs/utils/img/0204_EN.png Graphic file (type png)
+<use C:/workspace/giswater_docs/utils/img/0204_EN.png>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0204_EN.png  used
+ on input line 80.
 (pdftex.def)             Requested size: 161.85428pt x 33.87646pt.
- [10 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_2
-_EN.png> <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_3.png> <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/ch
-ap2_4_EN.png>]
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_5.png,
- id=67, 27.10126pt x 23.33719pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_5
-.png Graphic file (type png)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_5.
-png>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap2_5.png  used on input line 93.
+ [10 <C:/workspace/giswater_docs/utils/img/0202_EN.png> <C:/workspace/giswater_
+docs/utils/img/0203.png> <C:/workspace/giswater_docs/utils/img/0204_EN.png>]
+<C:/workspace/giswater_docs/utils/img/0205.png, id=67, 27.10126pt x 23.33719pt>
+
+File: C:/workspace/giswater_docs/utils/img/0205.png Graphic file (type png)
+<use C:/workspace/giswater_docs/utils/img/0205.png>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0205.png  used on
+ input line 91.
 (pdftex.def)             Requested size: 27.10118pt x 23.33711pt.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.98         \item project\_type \Rightarrow
+l.95         \item project\_type \Rightarrow
                                             $ ud/ws (dépend du projet).
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1219,20 +1157,27 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.99         \item expl\_id \Rightarrow
+l.96         \item expl\_id \Rightarrow
                                        $ valeur d'exploitation par défaut qu...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_6.png,
- id=68, 30.1125pt x 26.34843pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_6
-.png Graphic file (type png)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_6.
-png>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap2_6.png  used on input line 107.
+<C:/workspace/giswater_docs/utils/img/0206.png, id=68, 30.1125pt x 26.34843pt>
+File: C:/workspace/giswater_docs/utils/img/0206.png Graphic file (type png)
+<use C:/workspace/giswater_docs/utils/img/0206.png>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0206.png  used on
+ input line 104.
 (pdftex.def)             Requested size: 30.11241pt x 26.34836pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
@@ -1253,138 +1198,100 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
-
- []
-
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_7_EN.j
-pg, id=69, 451.6875pt x 643.40375pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_7
-_EN.jpg Graphic file (type jpg)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_7_
-EN.jpg>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap2_7_EN.jpg  used on input line 126.
+<C:/workspace/giswater_docs/utils/img/0207_EN.jpg, id=69, 451.6875pt x 643.4037
+5pt>
+File: C:/workspace/giswater_docs/utils/img/0207_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0207_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0207_EN.jpg  used
+ on input line 122.
 (pdftex.def)             Requested size: 225.84319pt x 321.70108pt.
 
-Overfull \hbox (4.82452pt too wide) in paragraph at lines 126--128
-[][]
+Overfull \hbox (4.82452pt too wide) in paragraph at lines 122--123
+[][] 
  []
 
-[11 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_5.
-png> <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_6
-.png>]
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_8_EN.p
-ng, id=76, 251.43938pt x 107.65219pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_8
-_EN.png Graphic file (type png)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_8_
-EN.png>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap2_8_EN.png  used on input line 134.
+[11 <C:/workspace/giswater_docs/utils/img/0205.png> <C:/workspace/giswater_docs
+/utils/img/0206.png>]
+<C:/workspace/giswater_docs/utils/img/0208_EN.png, id=76, 251.43938pt x 107.652
+19pt>
+File: C:/workspace/giswater_docs/utils/img/0208_EN.png Graphic file (type png)
+<use C:/workspace/giswater_docs/utils/img/0208_EN.png>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0208_EN.png  used
+ on input line 129.
 (pdftex.def)             Requested size: 251.43875pt x 107.65192pt.
- [12 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_7
-_EN.jpg> <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_8_EN.png>]
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_9_EN.j
-pg, id=81, 944.52875pt x 740.7675pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_9
-_EN.jpg Graphic file (type jpg)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_9_
-EN.jpg>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap2_9_EN.jpg  used on input line 158.
+ [12 <C:/workspace/giswater_docs/utils/img/0207_EN.jpg> <C:/workspace/giswater_
+docs/utils/img/0208_EN.png>]
+<C:/workspace/giswater_docs/utils/img/0209_EN.jpg, id=81, 944.52875pt x 740.767
+5pt>
+File: C:/workspace/giswater_docs/utils/img/0209_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0209_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0209_EN.jpg  used
+ on input line 153.
 (pdftex.def)             Requested size: 377.80481pt x 296.30174pt.
- [13]
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_10_EN.
-jpg, id=85, 490.83376pt x 324.21124pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
-0_EN.jpg Graphic file (type jpg)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_10
-_EN.jpg>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap2_10_EN.jpg  used on input line 166.
-(pdftex.def)             Requested size: 245.41628pt x 162.10522pt.
+ [13 <C:/workspace/giswater_docs/utils/img/0209_EN.jpg>]
+<C:/workspace/giswater_docs/utils/img/0210.jpg, id=85, 284.56313pt x 186.6975pt
+>
+File: C:/workspace/giswater_docs/utils/img/0210.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0210.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0210.jpg  used on
+ input line 160.
+(pdftex.def)             Requested size: 142.2812pt x 93.34851pt.
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
-70.
+64.
 
 (C:\Users\USUARI\Desktop\Latex\installation\tex/latex/base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 170.
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_11_EN.
-jpg, id=86, 1249.66875pt x 674.52pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
-1_EN.jpg Graphic file (type jpg)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_11
-_EN.jpg>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap2_11_EN.jpg  used on input line 173.
-(pdftex.def)             Requested size: 374.90352pt x 202.35756pt.
- [14 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_9
-_EN.jpg> <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/cha
-p2_10_EN.jpg>]
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_12_EN.
-jpg, id=90, 637.63219pt x 81.30376pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
-2_EN.jpg Graphic file (type jpg)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_12
-_EN.jpg>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap2_12_EN.jpg  used on input line 191.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 164.
+<C:/workspace/giswater_docs/utils/img/0211.jpg, id=86, 432.11438pt x 234.1247pt
+>
+File: C:/workspace/giswater_docs/utils/img/0211.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0211.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0211.jpg  used on
+ input line 167.
+(pdftex.def)             Requested size: 129.6353pt x 70.23795pt.
+<C:/workspace/giswater_docs/utils/img/0212_EN.jpg, id=87, 637.63219pt x 81.3037
+6pt>
+File: C:/workspace/giswater_docs/utils/img/0212_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0212_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0212_EN.jpg  used
+ on input line 185.
 (pdftex.def)             Requested size: 446.3395pt x 56.91223pt.
- [15 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
-1_EN.jpg>]
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_13_EN.
-jpg, id=95, 749.80125pt x 539.01375pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
-3_EN.jpg Graphic file (type jpg)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_13
-_EN.jpg>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap2_13_EN.jpg  used on input line 202.
+ [14 <C:/workspace/giswater_docs/utils/img/0210.jpg> <C:/workspace/giswater_doc
+s/utils/img/0211.jpg>]
+<C:/workspace/giswater_docs/utils/img/0213_EN.jpg, id=91, 749.80125pt x 539.013
+75pt>
+File: C:/workspace/giswater_docs/utils/img/0213_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0213_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0213_EN.jpg  used
+ on input line 196.
 (pdftex.def)             Requested size: 299.91519pt x 215.60167pt.
- [16 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
-2_EN.jpg> <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/ch
-ap2_13_EN.jpg>]
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_14_EN.
-jpg, id=99, 755.82375pt x 497.60907pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
-4_EN.jpg Graphic file (type jpg)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_14
-_EN.jpg>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap2_14_EN.jpg  used on input line 215.
+ [15 <C:/workspace/giswater_docs/utils/img/0212_EN.jpg> <C:/workspace/giswater_
+docs/utils/img/0213_EN.jpg>]
+<C:/workspace/giswater_docs/utils/img/0214_EN.jpg, id=96, 755.82375pt x 497.609
+07pt>
+File: C:/workspace/giswater_docs/utils/img/0214_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0214_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0214_EN.jpg  used
+ on input line 209.
 (pdftex.def)             Requested size: 377.91095pt x 248.80392pt.
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_15_EN.
-jpg, id=100, 264.99pt x 128.48pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
-5_EN.jpg Graphic file (type jpg)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_15
-_EN.jpg>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap2_15_EN.jpg  used on input line 222.
+<C:/workspace/giswater_docs/utils/img/0215_EN.jpg, id=97, 264.99pt x 128.48pt>
+File: C:/workspace/giswater_docs/utils/img/0215_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0215_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0215_EN.jpg  used
+ on input line 216.
 (pdftex.def)             Requested size: 185.49173pt x 89.93538pt.
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_16_ES.
-jpg, id=101, 262.9825pt x 143.53625pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
-6_ES.jpg Graphic file (type jpg)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_16
-_ES.jpg>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap2_16_ES.jpg  used on input line 228.
+<C:/workspace/giswater_docs/utils/img/0216_EN.jpg, id=98, 262.9825pt x 143.5362
+5pt>
+File: C:/workspace/giswater_docs/utils/img/0216_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0216_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0216_EN.jpg  used
+ on input line 222.
 (pdftex.def)             Requested size: 184.08649pt x 100.47467pt.
- [17 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
-4_EN.jpg> <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/ch
-ap2_15_EN.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 256--257
+ [16 <C:/workspace/giswater_docs/utils/img/0214_EN.jpg> <C:/workspace/giswater_
+docs/utils/img/0215_EN.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
@@ -1396,15 +1303,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.260 être nœ
+l.254 être nœ
              ud, arc, connec ou gully, et en plus d'un autre type dans chacu...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[18 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_16
-_ES.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 270--273
+[17 <C:/workspace/giswater_docs/utils/img/0216_EN.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 264--267
 
  []
 
@@ -1416,23 +1322,21 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.279 ... d'éléments de base (arc, connexion de nœ
+l.273 ... d'éléments de base (arc, connexion de nœ
                                                   ud, gully) sont définis. C...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_17_EN.
-jpg, id=108, 447.92343pt x 104.64093pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
-7_EN.jpg Graphic file (type jpg)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_17
-_EN.jpg>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap2_17_EN.jpg  used on input line 281.
+<C:/workspace/giswater_docs/utils/img/0217_EN.jpg, id=105, 447.92343pt x 104.64
+093pt>
+File: C:/workspace/giswater_docs/utils/img/0217_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0217_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0217_EN.jpg  used
+ on input line 275.
 (pdftex.def)             Requested size: 447.92233pt x 104.64066pt.
 
-Overfull \hbox (5.885pt too wide) in paragraph at lines 281--283
+Overfull \hbox (5.885pt too wide) in paragraph at lines 275--277
  [] 
  []
 
@@ -1444,7 +1348,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.285 ... plus de ce qui lui correspondrait par nœ
+l.279 ... plus de ce qui lui correspondrait par nœ
                                                   ud.
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1457,115 +1361,1639 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.286 ...ur donner un exemple pour la table des nœ
+l.280 ...ur donner un exemple pour la table des nœ
                                                   uds, et en ce qui concerne...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 279--283
+
+ []
+
+[18 <C:/workspace/giswater_docs/utils/img/0217_EN.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 285--289
 
  []
 
-[19 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_17
-_EN.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 291--295
-
- []
-
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_18_EN.
-jpg, id=112, 388.45125pt x 438.13687pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1
-8_EN.jpg Graphic file (type jpg)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_18
-_EN.jpg>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap2_18_EN.jpg  used on input line 301.
+<C:/workspace/giswater_docs/utils/img/0218_EN.jpg, id=109, 388.45125pt x 438.13
+687pt>
+File: C:/workspace/giswater_docs/utils/img/0218_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0218_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0218_EN.jpg  used
+ on input line 295.
 (pdftex.def)             Requested size: 388.45029pt x 438.13579pt.
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 304--311
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 297--304
 
  []
 
-[21 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_18
-_EN.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 321--323
+[20 <C:/workspace/giswater_docs/utils/img/0218_EN.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 314--316
 
  []
 
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/Chap2_19_EN.
-jpg, id=120, 234.1247pt x 269.50688pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/Chap2_1
-9_EN.jpg Graphic file (type jpg)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/Chap2_19
-_EN.jpg>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/Chap2_19_EN.jpg  used on input line 343.
+<C:/workspace/giswater_docs/utils/img/0219_EN.jpg, id=116, 234.1247pt x 269.506
+88pt>
+File: C:/workspace/giswater_docs/utils/img/0219_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0219_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0219_EN.jpg  used
+ on input line 336.
 (pdftex.def)             Requested size: 234.12411pt x 269.50621pt.
-[22]
-<C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_20_EN.
-jpg, id=124, 488.57532pt x 309.40594pt>
-File: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_2
-0_EN.jpg Graphic file (type jpg)
-<use C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_20
-_EN.jpg>
-Package pdftex.def Info: C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/
-All figures/chap2_20_EN.jpg  used on input line 353.
+[21]
+<C:/workspace/giswater_docs/utils/img/0220_EN.jpg, id=121, 488.57532pt x 309.40
+594pt>
+File: C:/workspace/giswater_docs/utils/img/0220_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0220_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0220_EN.jpg  used
+ on input line 347.
 (pdftex.def)             Requested size: 488.57413pt x 309.40518pt.
 
-Overfull \hbox (16.5429pt too wide) in paragraph at lines 353--355
+Overfull \hbox (16.5429pt too wide) in paragraph at lines 347--349
  [] 
  []
 
-[23 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/Chap2_19
-_EN.jpg>] [24 <C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figure
-s/chap2_20_EN.jpg>]) [25] (chpt03.tex [26]
-<C:/workspace/giswater_docs/utils/img/0301_EN.jpg, id=137, 393.72093pt x 459.21
+[22 <C:/workspace/giswater_docs/utils/img/0219_EN.jpg>] [23 <C:/workspace/giswa
+ter_docs/utils/img/0220_EN.jpg>]) [24] (chpt03.tex [25]
+<C:/workspace/giswater_docs/utils/img/0301_EN.jpg, id=134, 393.72093pt x 459.21
 562pt>
 File: C:/workspace/giswater_docs/utils/img/0301_EN.jpg Graphic file (type jpg)
 <use C:/workspace/giswater_docs/utils/img/0301_EN.jpg>
 Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0301_EN.jpg  used
  on input line 30.
 (pdftex.def)             Requested size: 393.71997pt x 459.2145pt.
- [27 <C:/workspace/giswater_docs/utils/img/0301_EN.jpg>]
-<C:/workspace/giswater_docs/utils/img/0302_EN.jpg, id=142, 368.87813pt x 238.64
+ [26 <C:/workspace/giswater_docs/utils/img/0301_EN.jpg>]
+<C:/workspace/giswater_docs/utils/img/0302_EN.jpg, id=138, 368.87813pt x 238.64
 156pt>
 File: C:/workspace/giswater_docs/utils/img/0302_EN.jpg Graphic file (type jpg)
 <use C:/workspace/giswater_docs/utils/img/0302_EN.jpg>
 Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0302_EN.jpg  used
  on input line 39.
 (pdftex.def)             Requested size: 368.87721pt x 238.64096pt.
- [28 <C:/workspace/giswater_docs/utils/img/0302_EN.jpg>]
-[29]) [30] (main.aux)
+ [27 <C:/workspace/giswater_docs/utils/img/0302_EN.jpg>] [28]
+<C:/workspace/giswater_docs/utils/img/0303_EN.jpg, id=146, 249.93375pt x 100.12
+407pt>
+File: C:/workspace/giswater_docs/utils/img/0303_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0303_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0303_EN.jpg  used
+ on input line 99.
+(pdftex.def)             Requested size: 249.93314pt x 100.12381pt.
+ [29 <C:/workspace/giswater_docs/utils/img/0303_EN.jpg>]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 Pour savoir jusqu’
+                        où va les réseaux d'approvisionnement en eau et de d...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 L’
+        image suivante nous permet de comprendre quel est le rôle de chaque ...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+<C:/workspace/giswater_docs/utils/img/0304_EN.jpg, id=150, 386.94562pt x 253.69
+781pt>
+File: C:/workspace/giswater_docs/utils/img/0304_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0304_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0304_EN.jpg  used
+ on input line 119.
+(pdftex.def)             Requested size: 386.94467pt x 253.69719pt.
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 ...reste des zones de la carte, chacune à l’
+                                                  intérieur de leur activité...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 ...ire. Le seul élément indispensable est d’
+                                                  avoir un ou plus d'entrées...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.125 ...tion. Comme il est représenté dans sur l’
+                                                  image, certains éléments s...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.125 ...rtains éléments sont liés uniquement à l’
+                                                  exploitation et seul le so...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[30 <C:/workspace/giswater_docs/utils/img/0304_EN.jpg>]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 ...s rôles professionnels, pour faciliter l’
+                                                  utilisation des outils dan...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+<C:/workspace/giswater_docs/utils/img/0305_EN.jpg, id=154, 409.53pt x 217.5628p
+t>
+File: C:/workspace/giswater_docs/utils/img/0305_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0305_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0305_EN.jpg  used
+ on input line 135.
+(pdftex.def)             Requested size: 409.52899pt x 217.56227pt.
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.141 Giswater a l’
+                   option d'ajouter des valeurs par défaut aux paramètres ob...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[31 <C:/workspace/giswater_docs/utils/img/0305_EN.jpg>]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.145 ...lles qui sont gérées via la table config_
+                                                  param_user. Habituellement...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 145.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 145.
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 146.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 ...serait celui de la municipalité, si il n’
+                                                  y en a qu’un seul, la vale...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 ...ui de la municipalité, si il n’y en a qu’
+                                                  un seul, la valeur du cham...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 146.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 147.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 147.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.148 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no è in font cmr10!
+Missing character: There is no ê in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ê in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ê in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+
+Overfull \hbox (1284.48683pt too wide) in paragraph at lines 145--148
+[]\T1/cmr/m/n/10 Les va-leurs par dé-faut de l'uti-li-sa-teur sont celles qui s
+ont gé-rées via la table config$[]\OML/cmm/m/it/10 aram[]ser:Habituellement; ce
+svaleurssontutilisespendantleprocessusd[]insertiondesdonnes:Lesparatrescorrespo
+ndantspeuventtreajoutsdansconfig[]aram[]ser:Unexempleclairdelavaleurpardfautqui
+peuttreutilisseraitceluidelamunicipalit; siilnyenaquunseul; lavaleurduchampmuni
+[]dpourraittreinsrautomatiquement:$ 
+ []
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.150 ... valeur par défaut du secteur est = 2, l’
+                                                  élément sera inséré avec s...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152 ...e de gérer les valeurs par défaut dans l’
+                                                  outil de configuration du ...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.162 La relation entre les arcs et les nœ
+                                          uds est probablement la plus impor...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[32]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 ...erreurs topologiques liées aux arcs et nœ
+                                                  uds. Plus tard, nous verro...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 ...swater, qui tiennent compte du type de nœ
+                                                  ud. Par exemple, il existe...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 ...d. Par exemple, il existe des types de nœ
+                                                  uds qui doivent avoir une ...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 ...oivent toujours être placés entre deux nœ
+                                                  uds différents (avec un id...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 ...arc qui commence et se termine au même nœ
+                                                  ud est incorrect. Cela peu...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 ...n'autorisera pas les arcs avec le même nœ
+                                                  ud de début et de fin; si ...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 ... sont la direction de numérisation, le nœ
+                                                  ud auquel il appartient (f...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 ...l il appartient (fonctionnalité) et le nœ
+                                                  ud de sortie (sortie), ain...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 ...ntermédiaire (autre connec ou gully), qu’
+                                                  en une fois ils soient dir...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 ...ù l'élément de sortie est un arc ou un nœ
+                                                  ud, l'arc\_id sera automat...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 ...anche, si l'élément de sortie n'est ni nœ
+                                                  ud, ni connec, ni gully, u...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 ...n'est ni nœud, ni connec, ni gully, un nœ
+                                                  ud appelé nœud virtuel (Vn...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 ...d, ni connec, ni gully, un nœud appelé nœ
+                                                  ud virtuel (Vnode) est cré...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+! Argument of \begin  has an extra }.
+<inserted text> 
+                \par 
+l.179 \begin}
+             {enumerate}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \begin  was complete.
+<to be read again> 
+                   \par 
+l.179 \begin}
+             {enumerate}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Too many }'s.
+<recently read> }
+                 
+l.179 \begin}
+             {enumerate}
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+[33]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.180 \item C
+             oncernant son nœud d'entité (qui est en amont), le lien agit co...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 180
+[][]
+ []
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.180 \item Concernant son nœ
+                             ud d'entité (qui est en amont), le lien agit co...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.187 ...ossible d'avoir plus d'un lien pour un nœ
+                                                  ud d'entité (car ils peuve...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 \item E
+             n ce qui concerne la sortie du point de sortie (celle qui est e...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 189
+[][]
+ []
+
+! Undefined control sequence.
+l.194 \ite
+          , Si l'élément de sortie est un connec ou un ravin, la valeur arc\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.195 ...n arc ou un autre, le champ arc\_id du nœ
+                                                  ud d'entité est toujours m...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.196 ...onnecte le lien de l'arc, l'arc\_id du nœ
+                                                  ud d'entité sera automatiq...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.198 \item E
+             n cas d'utilisation de l'outil de connexion automatique de conn...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 198
+[][]
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.198 ...ue de connec ou gully au réseau (connect_
+                                                  to_network):
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.199 \begin{itemize}
+                     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.199 \begin{itemize}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 \item L
+             'outil créera, si nécessaire, un vnode. Dans le cas où ce vnode...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 200
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.201 \item L
+             e lien créé par l'outil est toujours la distance la plus courte...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 201
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202 \item L
+             e lien créé a comme valeur par défaut le champ userdefined\_geo...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 202
+[][]
+ []
+
+[34]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.203 \item S
+             i les valeurs de userdefined\_geom sont TRUE, l'outil automatiq...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 203
+[][]
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.204 \end{itemize}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.204 \end{itemize}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 \item C
+             omme le lien est un élément qui relie deux autres éléments, si ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 205
+[][]
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{enumerate}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 \end{enumerate}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.206 \end{enumerate}
+                     
+Things are pretty mixed up, but I think the worst is over.
+
+<C:/workspace/giswater_docs/utils/img/0306_EN.jpg, id=172, 409.53pt x 57.21375p
+t>
+File: C:/workspace/giswater_docs/utils/img/0306_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0306_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0306_EN.jpg  used
+ on input line 213.
+(pdftex.def)             Requested size: 409.52899pt x 57.2136pt.
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.216 Lors de l'ajout d'un nouveau nœ
+                                     ud de l'un des types répertoriés, un po...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.221 ...haité par l'utilisateur et autour d'un nœ
+                                                  ud du même type, le nouvea...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 ...essiner un nouveau polygone sans qu'un nœ
+                                                  ud du même type ne s'y trouve
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.223 \item Si un nœ
+                    ud à double géométrie est supprimé, le polygone associé ...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.223 ...ne peut être supprimé sans modifier le nœ
+                                                  ud.
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.228 ...e à jour) entre arc et les éléments du nœ
+                                                  ud sont présentés. Il conv...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[35 <C:/workspace/giswater_docs/utils/img/0306_EN.jpg>]
+<C:/workspace/giswater_docs/utils/img/0307_EN.jpg, id=176, 400.49625pt x 256.70
+906pt>
+File: C:/workspace/giswater_docs/utils/img/0307_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0307_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0307_EN.jpg  used
+ on input line 232.
+(pdftex.def)             Requested size: 400.49527pt x 256.70842pt.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.238 ...ins un enregistrement dans la table plan_
+                                                  psector, qui est utilisé p...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 238.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 238.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 239.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 239.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 239.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.239 ...r défaut pour psector. Des arcs et des nœ
+                                                  uds seront insérés avec ce
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 239.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 239.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 240.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 240.
+
+! Double subscript.
+l.240 ... dans les tables spécifiques: plan_arc_x_
+                                                  psector et plan_node_x_pse...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.240 ...iques: plan_arc_x_psector et plan_node_x_
+                                                  psector. Il est important ...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 240.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 241.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 242.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 242.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.242 Tous les éléments, qu'il s'agisse de nœ
+                                             uds ou d'arcs, qui ont un état ...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 242.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 243.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 243.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 244.
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 244.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 244.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 244.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 244.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.245 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.245 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no è in font cmr10!
+Missing character: There is no ê in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+
+Overfull \hbox (411.58177pt too wide) in paragraph at lines 235--245
+\T1/cmr/m/n/10 plan$[]\OML/cmm/m/it/10 sector; quiestutilispourgrerlePlanificat
+ion:Ilestgalementessentieldedfinirunevaleurpardfautpourpsector:Desarcsetdesnuds
+serontinsrsaveccevaleurpardfautdanslestablesspcifiques \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (1397.77307pt too wide) in paragraph at lines 235--245
+\OML/cmm/m/it/10 plan[]rc[][]sectoretplan[]ode[][]sector:Ilestimportantdevrifie
+rchampsd[]tatetfaisables:Tousleslments; qu[]ils[]agissedenudsoud[]arcs; quiontu
+ntatdeservice\OT1/cmr/m/n/10 (1)\OML/cmm/m/it/10 etl[]utilisateurlesmodifiemanu
+ellementenPlanifi; seraautomatiquementintroduitdanslepsectorpardfautactuellemen
+tdisponible:Bienquecelalechangementestautorisparlesrglestopologiques; ilnedevra
+itpastrehabitueldepasserunlmentOnServicedansPlanified:[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.245 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+<C:/workspace/giswater_docs/utils/img/0308_EN.jpg, id=177, 356.83313pt x 65.494
+69pt>
+File: C:/workspace/giswater_docs/utils/img/0308_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0308_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0308_EN.jpg  used
+ on input line 248.
+(pdftex.def)             Requested size: 356.83224pt x 65.4945pt.
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 ...sus d'insertion d'un nouvel élément de nœ
+                                                  ud. Dans le diagramme, le ...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.255 nœ
+        ud qui n'appartient pas aux catalogues, nous ne réussirons pas.
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[36 <C:/workspace/giswater_docs/utils/img/0307_EN.jpg> <C:/workspace/giswater_d
+ocs/utils/img/0308_EN.jpg>]
+<C:/workspace/giswater_docs/utils/img/0309_EN.jpg, id=181, 356.0803pt x 245.416
+87pt>
+File: C:/workspace/giswater_docs/utils/img/0309_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0309_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0309_EN.jpg  used
+ on input line 259.
+(pdftex.def)             Requested size: 356.07944pt x 245.41626pt.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.260 ...squels l'insertion ne sera pas correcte.}
+                                                  
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.260 ...squels l'insertion ne sera pas correcte.}
+                                                  
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+) [37 <C:/workspace/giswater_docs/utils/img/0309_EN.jpg>] (chpt04.tex
+<C:/workspace/giswater_docs/utils/img/0401_EN.jpg, id=185, 405.76593pt x 316.93
+407pt>
+File: C:/workspace/giswater_docs/utils/img/0401_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0401_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0401_EN.jpg  used
+ on input line 11.
+(pdftex.def)             Requested size: 405.76494pt x 316.93329pt.
+ [38 <C:/workspace/giswater_docs/utils/img/0401_EN.jpg>]
+<C:/workspace/giswater_docs/utils/img/0402_EN.jpg, id=189, 359.09157pt x 130.23
+656pt>
+File: C:/workspace/giswater_docs/utils/img/0402_EN.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0402_EN.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0402_EN.jpg  used
+ on input line 23.
+(pdftex.def)             Requested size: 359.09068pt x 130.23624pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 T
+      ravailler avec des catalogues est l'une des principales caractéristiqu...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...plir au moins un catalogue d'arcs et de nœ
+                                                  uds pour pouvoir introduir...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...ent simple dans les couches d'arc et de nœ
+                                                  ud. La fonction des catalo...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 Il est intéressant de savoir qu’
+                                     il existe quatre types de catalogues:
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 ...le réseau est basé sur la topologie arc-nœ
+                                                  ud, les catalogues des élé...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 ... sont les plus importants (catalogue de nœ
+                                                  uds et catalogue d'arc).
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[39 <C:/workspace/giswater_docs/utils/img/0402_EN.jpg>]
+<C:/workspace/giswater_docs/utils/img/0403.jpg, id=194, 575.14874pt x 457.71pt>
+
+File: C:/workspace/giswater_docs/utils/img/0403.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0403.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0403.jpg  used on
+ input line 45.
+(pdftex.def)             Requested size: 402.60138pt x 320.39482pt.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 node\_type (dans le cas d'un catalogue de nœ
+                                                 uds) \\
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--58
+
+ []
+
+[40 <C:/workspace/giswater_docs/utils/img/0403.jpg>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 L
+      e deuxième groupe de couches de l'inventaire des actifs est celui lié ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...un format de table pour les projets WS. C’
+                                                  est un groupe de couches t...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...n groupe de couches très important, car l’
+                                                  une des règles de base du ...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+<C:/workspace/giswater_docs/utils/img/0404.jpg, id=198, 355.3275pt x 352.31625p
+t>
+File: C:/workspace/giswater_docs/utils/img/0404.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0404.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0404.jpg  used on
+ input line 84.
+(pdftex.def)             Requested size: 355.32661pt x 352.31538pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[41]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 C
+      e groupe contient toutes les couches liées à des éléments de réseau qu...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...modifiable de l'élément correspondant (nœ
+                                                  ud, arc, connec, ravin).
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+<C:/workspace/giswater_docs/utils/img/0405.jpg, id=202, 548.0475pt x 89.58469pt
+>
+File: C:/workspace/giswater_docs/utils/img/0405.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0405.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0405.jpg  used on
+ input line 105.
+(pdftex.def)             Requested size: 548.04616pt x 89.58446pt.
+
+Overfull \hbox (76.01492pt too wide) in paragraph at lines 105--106
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[42 <C:/workspace/giswater_docs/utils/img/0404.jpg>] [43 <C:/workspace/giswater
+_docs/utils/img/0405.jpg>]
+<C:/workspace/giswater_docs/utils/img/0406.jpg, id=209, 432.11438pt x 554.82281
+pt>
+File: C:/workspace/giswater_docs/utils/img/0406.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0406.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0406.jpg  used on
+ input line 115.
+(pdftex.def)             Requested size: 432.11331pt x 554.82146pt.
+<C:/workspace/giswater_docs/utils/img/0407.jpg, id=210, 271.76532pt x 96.36pt>
+File: C:/workspace/giswater_docs/utils/img/0407.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0407.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0407.jpg  used on
+ input line 120.
+(pdftex.def)             Requested size: 407.64697pt x 144.53961pt.
+ [44 <C:/workspace/giswater_docs/utils/img/0406.jpg>]
+<C:/workspace/giswater_docs/utils/img/0408.jpg, id=214, 289.83281pt x 298.11375
+pt>
+File: C:/workspace/giswater_docs/utils/img/0408.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0408.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0408.jpg  used on
+ input line 125.
+(pdftex.def)             Requested size: 434.74814pt x 447.16953pt.
+<C:/workspace/giswater_docs/utils/img/0409.jpg, id=215, 271.0125pt x 277.035pt>
+
+File: C:/workspace/giswater_docs/utils/img/0409.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0409.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0409.jpg  used on
+ input line 130.
+(pdftex.def)             Requested size: 406.51773pt x 415.55147pt.
+[45 <C:/workspace/giswater_docs/utils/img/0407.jpg> <C:/workspace/giswater_docs
+/utils/img/0408.jpg>]
+Overfull \hbox (0.5576pt too wide) in paragraph at lines 142--143
+[]$[]$ \T1/cmr/m/n/10 :Contient les in-for-ma-tions sur l'adresse et éven-tuel-
+le-ment d'autres
+ []
+
+[46 <C:/workspace/giswater_docs/utils/img/0409.jpg>]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 ...leau de tous les éléments connectés au nœ
+                                                  ud, en distinguant ceux qu...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+<C:/workspace/giswater_docs/utils/img/0410.jpg, id=223, 519.44063pt x 73.77562p
+t>
+File: C:/workspace/giswater_docs/utils/img/0410.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0410.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0410.jpg  used on
+ input line 151.
+(pdftex.def)             Requested size: 415.55307pt x 59.02055pt.
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 ...:(uniquement pour les éléments de type nœ
+                                                  ud), l'onglet affiche les ...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ... (uniquement pour les éléments de type nœ
+                                                  ud et arc) permet de calcu...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ... coût de l'élément visualisé. Pour les nœ
+                                                  uds, seuls deux paramètres...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[47 <C:/workspace/giswater_docs/utils/img/0410.jpg>]
+<C:/workspace/giswater_docs/utils/img/0411.jpg, id=227, 791.20593pt x 607.51968
+pt>
+File: C:/workspace/giswater_docs/utils/img/0411.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0411.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0411.jpg  used on
+ input line 169.
+(pdftex.def)             Requested size: 474.72722pt x 364.51462pt.
+
+Overfull \hbox (2.69598pt too wide) in paragraph at lines 169--170
+ [][] 
+ []
+
+<C:/workspace/giswater_docs/utils/img/0412.jpg, id=228, 733.23938pt x 511.9125p
+t>
+File: C:/workspace/giswater_docs/utils/img/0412.jpg Graphic file (type jpg)
+<use C:/workspace/giswater_docs/utils/img/0412.jpg>
+Package pdftex.def Info: C:/workspace/giswater_docs/utils/img/0412.jpg  used on
+ input line 177.
+(pdftex.def)             Requested size: 513.26407pt x 358.3363pt.
+
+Overfull \hbox (41.23283pt too wide) in paragraph at lines 177--178
+ [][] 
+ []
+
+[48 <C:/workspace/giswater_docs/utils/img/0411.jpg>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.182 S
+       ont dans ce groupe les éléments qui ne font pas strictement partie du...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.182 ... ce sont des informations susceptibles d’
+                                                  être utiles pour d’autres ...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.182 ...ations susceptibles d’être utiles pour d’
+                                                  autres aspects. Il est don...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[49 <C:/workspace/giswater_docs/utils/img/0412.jpg>]) [50]
+
+! LaTeX Error: \begin{itemize} on input line 219 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(main.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 219 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 5628 strings out of 492484
- 94291 string characters out of 3124327
- 167811 words of memory out of 3000000
- 9841 multiletter control sequences out of 15000+200000
- 16663 words of font info for 39 fonts, out of 3000000 for 9000
+ 5698 strings out of 492484
+ 93772 string characters out of 3124327
+ 167679 words of memory out of 3000000
+ 9906 multiletter control sequences out of 15000+200000
+ 16350 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,12n,45p,694b,486s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\USUARI\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecti1000.pk> <C:\Users\USUARI\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappe
-n/ec/dpi600\ectt1000.pk> <C:\Users\USUARI\AppData\Local\MiKTeX\2.9\fonts/pk/ljf
-our/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\USUARI\AppData\Local\MiKTeX\2.9\f
-onts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\USUARI\AppData\Local\M
-iKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\USUARI\AppD
-ata\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\
-USUARI\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk>
- <C:\Users\USUARI\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\e
-crm1200.pk> <C:\Users\USUARI\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecsx1200.pk> <C:\Users\USUARI\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
-r/jknappen/ec/dpi600\ecsx1728.pk><C:/Users/USUARI/Desktop/Latex/installation/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (34 pages, 1651526 bytes).
+ 51i,12n,45p,853b,437s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\USUARI\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkna
+ppen/ec/dpi600\ecti1000.pk> <C:\Users\USUARI\AppData\Local\MiKTeX\2.9\fonts/pk/
+ljfour/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\USUARI\AppData\Local\MiKTeX\2.
+9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\USUARI\AppData\Loca
+l\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\USUARI\A
+ppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Use
+rs\USUARI\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.
+pk> <C:\Users\USUARI\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecrm1200.pk> <C:\Users\USUARI\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknapp
+en/ec/dpi600\ecsx1200.pk> <C:\Users\USUARI\AppData\Local\MiKTeX\2.9\fonts/pk/lj
+four/jknappen/ec/dpi600\ecsx1728.pk><C:/Users/USUARI/Desktop/Latex/installation
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/USUARI/Desktop/Latex/insta
+llation/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/USUARI/Desktop/Latex
+/installation/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/USUARI/Desktop
+/Latex/installation/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USUARI/
+Desktop/Latex/installation/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (54 pages, 2714836 bytes).
 PDF statistics:
- 539 PDF objects out of 1000 (max. 8388607)
+ 631 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 231 words of extra memory for PDF output out of 10000 (max. 10000000)
 

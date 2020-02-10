@@ -1,0 +1,196 @@
+%CHAPTER 4 ----------------------------------------------------------------------------------------------------------
+\section{Environnement de travail dans QGIS}
+Bien que tous les systèmes SIG soient compatibles avec l'outil Giswater, la même chose ne s'applique pas au plugin, car il a été programmé en complément de QGIS. Ainsi, toutes les fonctionnalités disponibles seront exécutées à partir de l'environnement QGIS.
+
+\subsection{Interface graphique}
+Tout utilisateur qui souhaite utiliser le plugin Giswater doit être familié avec les systèmes d'information géographique (SIG). Une fois que l'utilisateur a créé un nouveau jeu de données, avec l'outil Giswater, comme expliqué dans les sections 2.3.4, 2.4 et 2.5, il est déjà en mesure d'ouvrir un projet QGIS et de commencer à travailler. Dans ce manuel, l'exemple de projet d'approvisionnement en eau (ws\_sample) sera utilisé.
+Les principales parties de l'environnement QGIS en relation avec Giswater et son plugin sont présentées ci-dessous.
+
+\begin{figure}[h]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0401_EN.jpg}
+	\caption{Visualisation générale de l'écran avec un projet Giswater ouvert dans QGIS. Notez la barre d'outils complémentaire et le personnalisation de la table des matières.}
+\end{figure}
+
+\subsection{Table des matières}
+La ToC (Table of Contents) est l'endroit où toutes les tables et vues nécessaires de la base de données sont chargées. Pour un soucis de clareté, ce sujet a été divisé en sept grands groupes qui faciliteront également la gestion des rôles (en fonction des autorisations, l'utilisateur peut gérer certaines tables qui appartiennent par défaut à un groupe). Ces groupes sont: l'inventaire des actifs, l'exploitation et la maintenance, l'analyse
+EPANET, le Masterplan, le système de tables, les tables supplémentaires et les cartes de base.
+
+Dans cette section, toutes les tables et vues chargées dans QGIS sont décrites, afin de faciliter la tâche de l'utilisateur et sa compréhension du réseau complexe de tables dont Giswater est composé. Chaque table a un nombre variable de champs avec des informations relatives à ce que le tableau représente. Comme la quantité d'informations dans ceux-ci est très large, la plupart des définitions des tableaux et des champs sont présentées dans l'annexe du Manuel. Cependant, l'utilisateur trouvera ci-dessous suffisamment d'informations pour comprendre le but de chaque groupe de tables.
+
+\begin{figure}[h]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0402_EN.jpg}
+\end{figure}
+
+\subsubsection{Inventaire des atouts}
+Ce groupe contient les informations sur l'inventaire des actifs réseau et il est divisé en cinq sous-groupes:
+Catalogues, zones de carte, éléments de réseau, autres et analyse de topologie.
+
+\paragraph{Catalogues} \\
+Travailler avec des catalogues est l'une des principales caractéristiques de Giswater, et c'est possible grâce à l'environnement de la base de données.
+
+En fait, avant de commencer à travailler avec le projet, il est nécessaire de remplir au moins un catalogue d'arcs et de nœuds pour pouvoir introduire un enregistrement simple dans les couches d'arc et de nœud. La fonction des catalogues est multiple. Entre autres caractéristiques, elles permettent de standardiser les valeurs insérées, d'ajouter de la valeur économique pour chaque élément du réseau ou de caractériser les propriétés des éléments pour une utilisation ultérieure dans le modèle hydraulique.
+
+Il est intéressant de savoir qu’il existe quatre types de catalogues:
+\begin{itemize}
+\item Éléments topologiques: étant donné que le réseau est basé sur la topologie arc-nœud, les catalogues des éléments sont les plus importants (catalogue de nœuds et catalogue d'arc).
+\item Autres éléments du réseau: les éléments qui complètent le réseau tels que les connecs ou les éléments qui ont leurs propres catalogues.
+\item Gestion: En complément des catalogues réseau, il existe d'autres tables dans la base de données qui agissent également comme des catalogues, tels que les catalogues de: sols, constructeurs, registres de travaux, propriétaires, chaussée.
+\item Modèle hydraulique: catalogues nécessaires à la construction d'un modèle hydraulique de haute qualité. En ce sens, il existe un catalogue de rugosités, qui permet de différencier la rugosité selon l'âge du matériau.
+\end{itemize}
+
+\begin{figure}[h]
+	\centering
+		\includegraphics[scale=0.7]{C:/workspace/giswater_docs/utils/img/0403.jpg}
+\end{figure}
+
+\textbf{Pré-dépendances}:
+Avant de commencer à travailler avec des catalogues, le système de tables qui caractérisent les différents éléments du réseau doit être remplis (voir section 2.3.5):
+\newline
+node\_type (dans le cas d'un catalogue de nœuds) \\
+arc\_type (dans le cas d'un catalogue d'arc) \\
+connec\_type (en cas de catalogue connec) \\
+gully\_type (dans le cas d'un catalogue de gully pour UD)\\
+\newline
+Ces tableaux ne sont pas présents dans le projet QGIS, c'est pourquoi ils doivent être remplis directement dans une base de données. 
+\newline
+
+\textbf{Post-dépendances}:
+Les catalogues génèrent de nombreuses dépendances, en fait, ils doivent être remplis avant de commencer à travailler puisque leur enregistrements seront demandés dans de nombreux système de tables.
+En outre, il convient de noter que les catalogues ont également des dépendances entre eux. Dans ce sens,
+avant de remplir les catalogues de noeuds et d'arcs, les catalogues précédants qui sont les matériaux des noeuds et des arcs doivent être remplis. 
+
+\paragraph{Zones de la carte} \\
+Le deuxième groupe de couches de l'inventaire des actifs est celui lié aux zones de la carte. Comme son nom
+l'indique très bien, ce groupe de couches représente et délimite les différentes zones territoriales de la carte,
+déjà défini dans la section 3.4 de ce manuel.
+Toutes les couches de ce groupe ont une géométrie polygonale - à l'exception de la macroexploitation, qui n'apparaît que dans un format de table pour les projets WS. C’est un groupe de couches très important, car l’une des règles de base du projet est la nécessité pour chaque élément du réseau d'être dans l'une des différentes zones.
+L'exploitation est essentielle pour démarrer tout projet. Comme mentionné précédemment, il est fortement recommandé d'ajouter une valeur d'exploitation dans les propriétés du projet, à l'aide d'une variable. Ainsi, le projet sera directement lié à une exploitation, la zone de la carte qui, en général, couvrira une plus grande surface.
+
+Les zones de la carte de Giswater son: 
+
+\begin{itemize}
+\item \underline{Exploitation}: zone d'exploitation, généralement liés à une zone de gestion d'un ou plusieurs d'utilisateurs.
+\item \underline{Macroexploitation}: groupe d'exploitations.
+\item \underline{Dma}: en cas de WS c'est {\color{blue}l'air du district}, zone utilisée pour enregistrer l'usage de l'eau. Pour UD, c'est l'air de {\color{yellow} la gestion de district}, zones de gestion du réseau d'assainissement. Dans les deux cas, ils peuvent être délimités en fonction des besoins des utilisateurs et toujours avec une cohérence d'utilisation.
+\item \underline{Macrodma}: groupe de dmas.
+\item \underline{Secteur}: les secteurs sont liés au bon fonctionnement du modèle hydraulique et ils doivent donc être conformes aux entrées et sorties d'eau. Elles sont délimitées selon cette cohérence comme l'utilisateur considère être approprié.
+\item \underline{Macrosecteur}: groupe de secteurs.
+\end{itemize} 
+
+\begin{figure}[h]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0404.jpg}
+	\caption{Représentation de une des zones de la carte, spéciallement d'un \textit{secteur} qui existe dans le projet ws\_sample.}
+\end{figure}
+
+\newpage
+\paragraph{Eléments du réseau} \\
+Ce groupe contient toutes les couches liées à des éléments de réseau qui ont une géométrie, c'est-à-dire qu'ils sont représentés graphiquement sur la carte. Une fois les catalogues correspondants terminés, la construction du réseau peut être lancée par l'édition de ces couches. Toujours en suivant l'ordre marqué par les règles topologiques, comme expliqué dans la section 3.7.
+Les éléments du réseau sont répartis en quatre groupes selon leur catégorie et leur type de géométrie:
+\begin{itemize}
+\item Groupe d'éléments noeud
+\item Groupe d'éléments arc
+\item Groupe d'éléments connec y gully (pour ws uniquement connec)
+\item Groupe d'éléments polygone
+\end{itemize}
+
+Chaque élément de réseau a sa propre vue modifiable, ce qui est visualisé dans QGIS. Cette vue modifiable a
+des attributs provenant de la vue modifiable de l'élément correspondant (nœud, arc, connec, ravin).
+La séquence de base des étapes qui composent les données de chaque élément est la suivante (exemple pour une  jonction):
+
+\begin{figure}[h]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0405.jpg}
+\end{figure}
+
+Pour tirer parti de l'utilisation du SIG, chaque élément a son propre style associé qui est affiché dans l'interface graphique de QGIS. Les styles sont représentés selon le type d'élément spécifique (pour savoir quels sont-ils consulter la table sys\_feature\_cat).
+Dans le cas des éléments de réseau, les différences entre les types de projets sont assez importantes. Il y a très peu d'éléments qui coïncident à la fois dans l'approvisionnement en eau et le drainage urbain; c'est pourquoi aucune table de ce groupe ne sera décrit comme commune.
+
+\newpage 
+
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0406.jpg}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+		\includegraphics[scale=1.5]{C:/workspace/giswater_docs/utils/img/0407.jpg}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+		\includegraphics[scale=1.5]{C:/workspace/giswater_docs/utils/img/0408.jpg}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+		\includegraphics[scale=1.5]{C:/workspace/giswater_docs/utils/img/0409.jpg}
+\end{figure}
+
+\textbf{Formes des éléments}:
+En plus du style visuel de chacun des éléments, ils ont également une forme associée, conçue un par un en fonction de leurs domaines spécifiques. Les formulaires sont ouverts lorsque l'utilisateur clique sur un élément à l'aide du bouton d'information dans QGIS et utilise différents onglets pour afficher les informations selon leur catégorie:
+
+\begin{itemize} 
+\item \textbf{nom des éléments}: informations relatives aux attributs de l'élément. Dans les tableaux situés dans l'annexe du manuel vous pouvez vérifier les champs de chaque élément, qui sont affichés dans cet onglet du formuaire. Il est également distribué dans différentes sections:
+\begin{itemize} 
+\item \underline{information numérique}: (seulement pour les éléments arc) paramètre lié aux géométries, aux dimensions, aux longueurs, ... 
+\item \underline{information basique}: informations de base communes à la plupart des éléments, par exemple date de construction, code, sol, élévation et profondeur, etc.
+\item \underline{information spécifique}:informations spécifiques à chaque type d'élément
+\item \underline{information additionelle}:Contient les informations sur l'adresse et éventuellement d'autres informations.
+\item \underline{conception graphique de l'élément}: Relatif à la visualisation de l'élément. Position de l'étiquette, icône, ...
+\end{itemize}
+
+{\color{yellow}\item \textbf{Connections}: (seulement pour les éléments de type noeud) montre un tableau de tous les éléments connectés au nœud, en distinguant ceux qui sont en amont et en aval.}
+\item \textbf{Relations}:affiche un tableau des éléments liés uniquement à cet élément. Ils ne sont généralement pas connecté au réseau, et l'élément principal doit être suffisamment grand pour contenir ses éléments liés. La relation possible, selon le type de projet et le type d'élément, est:
+
+\begin{figure}[h]
+	\centering
+		\includegraphics[scale=0.8]{C:/workspace/giswater_docs/utils/img/0410.jpg}
+\end{figure}
+
+\item \textbf{Élément}: dans cet onglet sont affichés d'autres éléments, non connectés au réseau, qui sont liés aux éléments que nous visualisons. À partir du formulaire lui-même, vous pouvez lier, dissocier et ajouter des éléments de ce type.
+\item \textbf{Hydromètre}: (uniquement pour les éléments de type connec) relie les connexions aux hydromètres et peut montrer leurs valeurs, les connecter ou les déconnecter.
+\item \textbf{Document}:cet onglet affiche les documents liés à l'élément visualisé. Il est possible de lier, dissocier ou créer un nouveau document ainsi que les filtrer par date ou type de document.
+\item \textbf{Opération et gestion}: cet onglet affiche les événements liés à l'élément visualisé. Chaque événement fait partie d'une visite, consultable à l'aide du bouton situé dans un formulaire. Il est également possible d'ajouter des visites, des photos et les documents liés aux événements.
+\item \textbf{Scada}:(uniquement pour les éléments de type nœud), l'onglet affiche les valeurs provenant du système SCADA.
+\item \textbf{Coût}: (uniquement pour les éléments de type nœud et arc) permet de calculer le coût de l'élément visualisé. Pour les nœuds, seuls deux paramètres entrent en jeu (prix par unité ou prix par mètre de profondeur). Pour les arcs il y a beaucoup plus de variables qui sont nécessaires au moment du calcul du prix et toutes sont spécifiées dans cette dernière section du formulaire.
+\end{itemize}
+
+\newpage
+
+\textbf{Sections du formulaire}:
+Sur l'image suivante, les différentes parties d'un formulaire sont présentées. La référence est faite aux différentes parties pour chaque type de projet, bien que l'exemple de formulaire soit un élément \textit{manhole} d'un projet UD. La partie centrale du formulaire, où les informations qui varient en fonction de l'onglet activé, n'est pas décrit dans l'image, car la section précédente l'explique en détail.
+
+\begin{figure}[H]
+	\centering
+		\includegraphics[scale=0.6]{C:/workspace/giswater_docs/utils/img/0411.jpg}
+	\caption{Formulaire d'un élément noeud, de type \textit{manhole}. La plupart des formulaire d'éléments sont similaires de celui-ci qui montre la distribution des attributs et des onglets.}
+\end{figure}
+
+Afin d'aider les utilisateurs à comprendre certains des champs, l'image suivante présente graphiquement les paramètres les plus importants tels que la profondeur, les dimensions et la pente du projet de drainage urbain (UD).
+
+\begin{figure}[H]
+	\centering
+		\includegraphics[scale=0.7]{C:/workspace/giswater_docs/utils/img/0412.jpg}
+	\caption{Ce schéma peut vous aider à comprendre les informations qui doivent êtres complètées dans les champs relatifs à l'élévation, les dimensions, la profondeur des éléments noeuds et arcs d'un projet de drainage urbain (UD9.}
+\end{figure}
+
+\paragraph{Autre} \\
+Sont dans ce groupe les éléments qui ne font pas strictement partie du réseau d'approvisionnement en eau ou d'assainissement, mais qui ont une représentation sur la carte QGIS, ce qui signifie qu'ils ont une géométrie. Les données de ces éléments ne sont pas indispensables pour l'utilisation des modèles hydrauliques incorporés dans Giswater, mais ce sont des informations susceptibles d’être utiles pour d’autres aspects. Il est donc également nécessaire de connaître ces caractéristiques.
+
+\textbf{Éléments communs}:
+\begin{itemize}
+\item \textbf{Dimensionnement} (v\_edit\_dimensions): ce tableau est rempli lorsque l'utilisateur utilise l'outil plugin qui permet de calculer les distances et les dimensions entre différents points de la carte QGIS. La distance est représentée par une ligne et une étiquette avec les informations numériques en mètres. Il montre également la profondeur si il y a une valeur associée.
+\item \textbf{Point d'échantillonage} (v\_edit\_samplepoint): couche contenant des informations sur les points d'échantillonnage. Ce sont les points où la qualité de l'eau est analysée. Il y a un champ qui relie le point d'échantillonnage avec un laboratoire.
+\item \textbf{Élément} (v\_edit\_element): peut être tout autre type d'élément qui doit être défini en premier dans le catalogue d'éléments. Ceux-ci peuvent être liés ou non à d'autres éléments de réseau. Ils permettent d'ajouter des informations supplémentaires par rapport à une caractéristique.
+\end{itemize}
+
+{\color{blue} \textbf{Éléments spécifiques aux projets WS}}
+\begin{itemize}
+\item \textbf{Étang} (v\_edit\_pond): représente les étangs situés dans l'exploitation
+\item \textbf{Piscine} (v\_edit\_pool): représente les piscines situés dans l'exploitation
+\end{itemize}
+

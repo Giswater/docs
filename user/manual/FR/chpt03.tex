@@ -110,7 +110,6 @@ Comme déja mentionné dans la section \textbf{2.3.5}, l'utilisation de cathégorie
 
 
 \subsection{Zone de la carte}
-
 Pour savoir jusqu’où va les réseaux d'approvisionnement en eau et de drainage, Giswater établit différents type de zones qui limitent le territoire. Chacune de ces zones a des caractéristiques spécifiques et il existe certaines relations entre elles, gérées, comme expliqué dans la section précédente, avec des clés étrangères.
 
 L’image suivante nous permet de comprendre quel est le rôle de chaque zone et avec quels autres éléments du réseau elle est liée. 
@@ -158,7 +157,6 @@ qui sont décrites dans la section suivante. La section 5.2.6 indique des informa
 
 \subsection{Règles topologiques}
 La définition de la topologie géospatiale dit: "La topologie exprime les relations spatiales entre caractéristiques des vecteurs (points, polylignes et polygones) connectés ou adjacents dans le SIG. "Une fois que le sens est connue, nous verrons certaines des principales caractéristiques topologiques qui sont importantes pour l'utilisation de Giswater dans ce domaine. 
-
 
 \subsubsection{Comportement arc et noeds}
 La relation entre les arcs et les nœuds est probablement la plus importante au niveau topologique dans Giswater, en partie à cause du grand nombre d'éléments qui entrent en jeu. Pour que le programme fonctionne correctement, il est nécessaire de respecter ces règles topologiques. Le programme lui-même affiche des messages à l'utilisateur lorsqu'une règle importante est sur le point d'être enfreinte.
@@ -261,46 +259,6 @@ nœud qui n'appartient pas aux catalogues, nous ne réussirons pas.
 		\includegraphics{C:/workspace/giswater_docs/utils/img/0309_EN.jpg}
 		\caption{Schéma récapitulatif des étapes à suivre dans le processus d'insertion d'un élément de type nœud. Le vert les lignes représentent des étapes réussies; les lignes rouges montrent les différents scénarios dans lesquels l'insertion ne sera pas correcte.}
 \end{figure}
-
-
-\section{Environnement de travail dans QGIS}
-Bien que tous les systèmes SIG soient compatibles avec l'outil Giswater, la même chose ne s'applique pas au plugin, car il a été programmé en complément de QGIS. Ainsi, toutes les fonctionnalités disponibles seront exécutées à partir de l'environnement QGIS.
-
-\subsection{Interface graphique}
-Tout utilisateur qui nécessite l'utilisation du plugin Giswater doit être familier avec les systèmes d'information géographique
-(SIG).
-Une fois que l'utilisateur a créé un nouveau projet de données, avec l'outil Giswater, comme expliqué dans les sections 2.3.4, 2.4 et
-2.5, il est déjà en mesure d'ouvrir le projet QGIS et de commencer à travailler avec lui. Dans ce manuel, l'exemple
-projet d'approvisionnement en eau (ws_sample) sera utilisé.
-Les principales parties de l'environnement QGIS en relation avec Giswater et son plugin sont présentées ci-dessous.
-
-\begin{figure}[h]
-	\centering
-		\includegraphics{C:/workspace/giswater_docs/utils/img/0401_EN.jpg}
-	\caption{
-Visualisation générale de l'écran avec projet de Giswater ouvert dans QGIS. Notez la barre d'outils complémentaire et le personnalisation de la table des matières.}
-\end{figure}
-
-\subsection{Table des matières}
-ToC (Table of Contents) est l'endroit où toutes les tables et vues nécessaires de la base de données sont chargées. Pour avoir le
-informations bien structurées, ce sujet a été divisé en sept grands groupes qui faciliteront également la
-la gestion des rôles (en fonction des autorisations, l'utilisateur peut gérer certaines tables qui, en
-appartiennent par défaut à un groupe). Ces groupes sont: l'inventaire des actifs, l'exploitation et la maintenance, l'analyse
-EPANET, Masterplan, Tables système, Tables supplémentaires et Cartes de base.
-
-Dans cette section, toutes les tables et vues chargées dans QGIS sont décrites, afin de faciliter la tâche de l'utilisateur
-compréhension du réseau complexe de tables dont Giswater est composé. Chaque table a une variable
-nombre de champs avec des informations relatives à ce que le tableau représente. Comme la quantité d'informations dans ce
-serait très large, la plupart des définitions des tableaux et des champs sont présentées dans l'annexe du
-Manuel. Cependant, l'utilisateur trouvera ci-dessous suffisamment d'informations pour comprendre le but de chaque groupe de
-les tables.
-
-\begin{figure}[h]
-	\centering
-		\includegraphics{C:/workspace/giswater_docs/utils/img/0402_EN.jpg}
-\end{figure}
-
-
 
 
 

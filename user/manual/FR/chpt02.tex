@@ -1,17 +1,17 @@
 %CHAPTER 2 -------------------------------------------------------------------------------------------------------
 \section{Installation et mise en marche}
-Cette seconde section du manuel d'utilisation détaille toutes les étapes nécessaires pour commencer à travailler avec Giswater, depuis les étapes antérieures à son installation jusqu'à la configuration du programme, en passant par la création de nouveaux projets réel ou servant d'exemple, afin d'essayer le fonctionnement de Giswater. 
+Cette seconde section du manuel d'utilisation détaille toutes les étapes nécessaires pour commencer à travailler avec Giswater, depuis les étapes antérieures à son installation jusqu'à la configuration du programme, en passant par la création de nouveaux projets réels ou servant d'exemple, afin d'essayer le fonctionnement de Giswater. 
 
 \subsection{Pré-requis avant l'installation}
-En relation avec la section 1.3, où`il est suggéré l'architecture idéale du système, ici sont détaillés quelques spécificités des trois serveurs qui composent le système. 
+En relation avec la section 1.3, où il est suggéré l'architecture idéale du système, ici sont détaillés quelques spécificités des trois serveurs qui composent le système. 
 
-À côté de serveur de données, la performance dépend beaucoup du nombre d'utilisateurs et du volume de données. 
+À côté du serveur de données, la performance dépend beaucoup du nombre d'utilisateurs et du volume de données. 
 
 Comme ordre de grandeur et pour commencer avec une des personnes qui éditent les données et entre cinq et huit personnes qui les consultent, avec un volume de données relativement petit respectant le volume de personnel dédié, un appareil de quatre noyaux et un minimum de 32 GB de RAM doit être suffisant.Avec le respect du disque dur, les deux éléments à garder à l'esprit sont la capacité et la vitesse.
 
 Dans le cas d'une organisation plus grande il serait nécessaire d'analyser la technologie des serveurs disponibles et du type de visualisation avec lesquelles ils travaillent pour ajuster aux besoins de la réalité du service et vérifier si le système est suffisant ou si il faut le re-dimentionner.
 
-Si l'appareil est utilisé comme un serveur de PostgresSQL (et la fonction basique de S/O), l'espace du disque occupé par la base de données n'est pas trop élevé. En outre, il est possible de savoir que le disque dur s'utilise pour d'autres fonctions en plus que du stockage des données PostgreSQL. Concrètement cette usage inclus aussi: 
+Si l'appareil est utilisé comme un serveur de PostgreSQL (et la fonction basique de S/O), l'espace du disque occupé par la base de données n'est pas trop élevé. En outre, il est possible de savoir que le disque dur s'utilise pour d'autres fonctions en plus que du stockage des données PostgreSQL. Concrètement cette usage inclus aussi: 
 \begin{itemize}
 \item Des fonctions basiques de suport de S/O
 \item Aide via des fichiers temporels aux processus PostgreSQL
@@ -20,31 +20,31 @@ Si l'appareil est utilisé comme un serveur de PostgresSQL (et la fonction basiqu
 
 Nous recommandons d'assigner initialement environ 100 GB de stockage. Étant donné la vitesse d'accès du disque, ce qui est un sujet particulièrement pertinent, le fait de disposer d'un disque dur solide (SSD) peut favoriser considérablement les prestations vers les utilisateurs finaux avec un contrôle qui garantit l'accès le plus rapide possible aux données. 
 
-Du côté du serveur web, moins de prestations sont requises, et pour cela, toujours en considérant la taille de l'entreprise comme mentionné ci-dessus, avec un appareil de deux noyaux (recommandé d'en avoir quatre) et un minimum de 16 GB de RAM ça devrait être suffisant. Dans tous les cas, cela dépend de la concurrence et de l'utilisation faite du côté du web. 
+Du côté du serveur web, moins de prestations sont requises, et pour cela, toujours en considérant la taille de l'entreprise comme mentionné ci-dessus, avec un appareil de deux noyaux (il est recommandé d'en avoir quatre) et un minimum de 16 GB de RAM ça devrait être suffisant. Dans tous les cas, cela dépend de la concurrence et de l'utilisation faite du côté du web. 
 
-Ce qu'il faut souligner dans ce cas est l'importance du disque pour aller stocker les photos de terrain qui seront réalisées et qui sont gérées par une base de donnée MongoDB. Pour cet effet la dimension du disque, qui ne doit pas être solide, doit être ajusté à l'utilisation pour la capture journalière de photo sur le web. 
+Ce qu'il faut souligner dans ce cas est l'importance du disque pour aller stocker les photos de terrain qui seront réalisées et qui sont gérées par une base de donnée MongoDB. Pour cela, la dimension du disque, qui ne doit pas être solide, doit être ajusté à l'utilisation pour la capture journalière de photo sur le web. 
 
-En ce qui concerne le serveurs de fichiers et respectant le stockage des fichiers spécifiques à Giswater, il est recommandé d'utiliser le même appareil que celui de PostgreSQL pour héberger dans un fichier, seulement en mode lecture, avec un accès partagé du réseau pour les utilisateurs normaux dans lequel ils peuvent trouver un référentiel du \textit{plugin}, les projets de QGIS originaux ainsi que les originaux des instalables. 
+En ce qui concerne le serveurs de fichiers et en respectant le stockage des fichiers spécifiques à Giswater, il est recommandé d'utiliser le même appareil que celui de PostgreSQL pour héberger dans un fichier, seulement en mode lecture, avec un accès partagé du réseau pour les utilisateurs normaux dans lequel ils peuvent trouver un référentiel du \textit{plugin}, les projets de QGIS originaux ainsi que les originaux des instalables. 
 
 Dans ce répertoire SIG nous stockerons les modèles des projets QGIS (sous-fichier modèle) et aussi nous configurerons pour que ce soit la route des \textit{plugins} des clients QGIS (sous-fichier plugin) que nous installerons dans tous les appareils du client. Dans le sous-fichier \textit{plugins} nous installerons tous ces compléments qui ont de l'intérêt pour l'organisation.
 
 En respectant les autres type de données (projets QGIS, couche de base cartographique, document adjoints, ect.) nous recommandons de ne pas utiliser le même appareil. La meilleur option est d'utiliser l'unité du réseau partagé avec laquelle on travaille sur les données ( pour profiter du système de backups organisé). 
 En configurant tous les utilisateurs client de ce fichier avec les \textit{plugins} avec seulement la permission de lecture, cela garantit que tous les utilisateurs de QGIS disposent des mêmes \textit{plugins} installés et c'est beaucoup plus facile des les actualiser. 
 
-Du côté du client les appareils doivent avoir une certaine capacité de traitement (il est recommandé des processeurs i7) avec un minimum de 18 GB de mémoire. Le système opérationnel doit être obligatoirement Windows 7 ou supérieur. Si vous souhaitez effectuer une consommation intensive des ressources avec la génération de geoprocessus de grande intensité, il est recommandé d'utiliser un appareil client avec des prestations plus hautes comme pourrait l'être une multicuore de 16-32 GB de RAM tr un disque dur solide. 
+Du côté du client les appareils doivent avoir une certaine capacité de traitement (il est recommandé des processeurs i7) avec un minimum de 18 GB de mémoire. Le système opérationnel doit être obligatoirement Windows 7 ou supérieur. Si vous souhaitez effectuer une consommation intensive des ressources avec la génération de geoprocessus de grande intensité, il est recommandé d'utiliser un appareil client avec des prestations plus hautes comme pourrait l'être une multicuore de 16-32 GB de RAM et un disque dur solide. 
 
 \subsection{Téléchargement et configuration de PostgresSQL}
 PostgreSQL est une base de donnée open source avec un énorme potentiel, qui servira pour stocker toutes les données avec lesquelles travailler dans Giswater. Grâce à son extension géospatiale PostGIS, il permet une très bonne relation avec les GIS, particulièrement avec QGIS. Cette extension contient plus de 1000 fonctions geospatiales, ce qui en fait l'un des logiciels GIS les plus puissants existants, bien que PostgreSQL ne soit pas un programme spécifique de GIS. 
 
 Il y a différentes versions qui peuvent être téléchargées. Pour travailler avec Giswater il est recommandé de télécharger toute version postérieur à la 9.5, à partir de laquelle les programmes sont 100\% compatibles. 
 
-Le téléchargement et l'installation est très simple et peut se faire depuis https://www.postgresql.org/download. Joint à la base de données s'installe le programme d'administration de la base de données pg Admin (https://www.pgadmin.org/download/ pour le télécharger), qui servira à gérer la base de données du manière facile et visuelle pour l'utilisateur. Grâce à pgAdmin il sera possible de modifier les tables, les visites et les règles de la base de données, ainsi que consulter toutes l'information et la gérer.
+Le téléchargement et l'installation est très simple et peut se faire depuis https://www.postgresql.org/download. Conjointement à la base de données, il faut installer le programme d'administration de la base de données pg Admin (https://www.pgadmin.org/download/ pour le télécharger), qui servira à gérer la base de données de manière facile et visuelle pour l'utilisateur. Grâce à pgAdmin il sera possible de modifier les tables, les visites et les règles de la base de données, ainsi que consulter toutes l'information et la gérer.
 
 Une fois les deux programmes installés, en ouvrant pgAdmin la première chose à faire est d'ajouter une connexion.  
 
 \begin{figure}[H]
     \centering
-    \includegraphics{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_1_EN.png}
+    \includegraphics{C:/workspace/giswater_docs/utils/img/0201_EN.png}
 		\label{fig:chap2_1_EN}
 \end{figure}
 
@@ -55,31 +55,29 @@ Il faut compléter les champs suivants pour ajouter une nouvelle connexion:
 \item Port: port 
 \item Service: lié à un service configuré dans le fichier pg\_service.conf (optionel)
 \item Username: non de l'utilisateur. Le première utilisateur doit être "postgres"
-\item Password: le mot de passe qui pour l'utilisateur postgres doit également être "postgres". 
+\item Password: le mot de passe pour l'utilisateur postgres doit également être "postgres". 
 \end{itemize}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_2_EN.png}
+    \includegraphics[]{C:/workspace/giswater_docs/utils/img/0202_EN.png}
 		\label{fig:chap2_2_EN}
     \caption{Ajouter une nouvelle connexion à Postgres grâce à pgAdmin.}
 \end{figure}
 
-Une fois que la nouvelle connexion est créé, nous verrons qu'il nous l'a créé automatiquement  un premier schéma \textit{public}. Ensuite, il faut ajouter l'extension PostGIS, pour que toutes les fonctionnalités GIS du programme soient disponibles ainsi que l'extension pgRoutine, qui ajoute des fonctionnalités de routage et d'analyse de réseaux à la base de données. pgRouting sera essentiel  pour quelques outils de Giswater comme le polygone de coupe et les profils longitudinaux. 
+Une fois que la nouvelle connexion est créé, nous verrons qu'il nous a créé automatiquement  un premier schéma \textit{public}. Ensuite, il faut ajouter l'extension PostGIS, pour que toutes les fonctionnalités GIS du programme soient disponibles ainsi que l'extension pgRoutine, qui ajoute des fonctionnalités de routage et d'analyse de réseaux à la base de données. pgRouting sera essentiel  pour quelques outils de Giswater comme le polygone de coupe et les profils longitudinaux. 
 
 En cliquant sur le bouton de commandes SQL nous pourrons écrire notre première \textit{query}.
 \begin{flushright}
 \begin{figure}[H]
     \begin{flushright}
-				\includegraphics[]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_3.png}
-				\label{fig:chap2_3}
+				\includegraphics[]{C:/workspace/giswater_docs/utils/img/0203.png}
     \end{flushright}
 \end{figure}
     \end{flushright}
 
 \begin{figure}[H]
-    \includegraphics[]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_4_EN.png}
-		\label{fig:chap2_4_EN}
+    \includegraphics[]{C:/workspace/giswater_docs/utils/img/0204_EN.png}
 \end{figure}
 
 \subsection{Configuration de QGIS}
@@ -90,8 +88,7 @@ Quqnd vous ouvrez QGIS pour la première fois, une série de paramètres doivent êt
     \item Choisir d'ouvrir le formulaire si une entité seule est sélectionné. 
     \item Configurez deux variables dans les propriétés du projet ( Projet/ Propriétés du projet/ Variables). Pour ajouter une nouvelle variable à celles qui apparaissent par défaut, il y a un bouton: 
 \begin{flushright}
-\includegraphics[]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_5.png}
-	\label{fig:chap2_5}
+\includegraphics[]{C:/workspace/giswater_docs/utils/img/0205.png}
 
 \end{flushright}    
     \begin{enumerate}
@@ -104,8 +101,7 @@ Quqnd vous ouvrez QGIS pour la première fois, une série de paramètres doivent êt
 \begin{enumerate}
     \item Cliquez sur l'icône \textbf{Ajouter une couche Postgis}
 \begin{flushright}
-\includegraphics[]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_6.png}
-	\label{fig:chap2_6}
+\includegraphics[]{C:/workspace/giswater_docs/utils/img/0206.png}
 \end{flushright}    
     \item Cliquez sur \textbf{Nouveau} et le formulaire intruduit les paramètre de connection. 
 
@@ -123,15 +119,14 @@ Nom de l'utilisateur Postgres \\
 Mot de passe de l'utilisateur Postgres\\
 \end{minipage}\hfill
 \begin{minipage}{0.5\linewidth}
-\includegraphics[scale=0.5]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_7_EN.jpg}
-	\label{fig:chap2_7_EN}
+\includegraphics[scale=0.5]{C:/workspace/giswater_docs/utils/img/0207_EN.jpg}
 \captionof{figure}{Formulaire QGIS de connection avec PostGis}  
 \end{minipage}
 
 \item Une fois que les pqrqmètres sont complètés, cliauez sur\textbf{Tester la connection}: Si tout est correct, le message suivant va apparaître: 
 
 \begin{center}
-\includegraphics[]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_8_EN.png}
+\includegraphics[]{C:/workspace/giswater_docs/utils/img/0208_EN.png}
 	\label{fig:chap2_8_EN}
 \end{center}
 \item Cliquez \textbf{OK}: À ce moment là les informations de la connection seront sauvées avec le nom dans la liste de connection. 
@@ -155,22 +150,21 @@ Afin d'installer et de connecter le plugin Giswater dans QGIS, il est nécessaire
     \item Accéder à l'onglet de configuration et ajouter un nouveau référentiel.
     
 \begin{center}
-\includegraphics[scale=0.4]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_9_EN.jpg}
-\label{fig:chap2_9_EN}
+\includegraphics[scale=0.4]{C:/workspace/giswater_docs/utils/img/0209_EN.jpg}
 \captionof{figure}{Afin d'installer le plugin, il est nécessaire de trouver l'onglet Configuration}
 \end{center}
 
     \item Introduire le nom et identifier le référentiel et l'URL.
     
 \begin{center}
-\includegraphics[scale=0.5]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_10_EN.jpg}
+\includegraphics[scale=0.5]{C:/workspace/giswater_docs/utils/img/0210.jpg}
 \label{fig:chap2_10_EN}
 \end{center}    
 
     \item Trouver et installer le plugin Giswater depuis le formulaire de l'onglet "tous"·
     
  \begin{center}
-\includegraphics[scale=0.3]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_11_EN.jpg}
+\includegraphics[scale=0.3]{C:/workspace/giswater_docs/utils/img/0211.jpg}
 \label{fig:chap2_11_EN}
 \captionof{figure}{Il est toujours possible de cocher la version actuelle du plugin et la nouvelle verison disponible}
 \end{center}   
@@ -188,7 +182,7 @@ Une fois dans un projet Giswater, l'outil sert seulement à montrer la version du
 
 Dans le cas de l'initialisation et des premières étapes avec le plugin, nous devons savoir comment utiliser cet outil pour réaliser toutes ces fonctions: 
  \begin{center}
-\includegraphics[scale=0.7]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_12_EN.jpg}
+\includegraphics[scale=0.7]{C:/workspace/giswater_docs/utils/img/0212_EN.jpg}
 \label{fig:chap2_12_EN}
 \end{center}  
 
@@ -199,7 +193,7 @@ Dans le cas de l'initialisation et des premières étapes avec le plugin, nous dev
     \item Montrer les informations sur le schéma sélectionné
 \end{itemize}
 \begin{center}
-\includegraphics[scale=0.4]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_13_EN.jpg}
+\includegraphics[scale=0.4]{C:/workspace/giswater_docs/utils/img/0213_EN.jpg}
 \label{fig:chap2_13_EN}
 \captionof{figure}{Menu principal de l'outil Giswater}
 \end{center}  
@@ -212,20 +206,20 @@ La première chose qu'il faut garder à l'esprit es que cette outil, dans la premi
 
 Connaissant quelle base de donnée appelle la connection, cliquer \textbf{Créer} afin d'ouvrir le formulaire de configuration du nouveau schéma.
 \begin{center}
-\includegraphics[scale=0.5]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_14_EN.jpg}
+\includegraphics[scale=0.5]{C:/workspace/giswater_docs/utils/img/0214_EN.jpg}
 \label{fig:chap2_14_EN}
 \captionof{figure}{Formulaire de création de nouveau schéma. En sélectionnant \textbf{données vides} nous allons créer un schéma vide}
 \end{center}  
 
 Après avoir cliquer sur Acepter, le schéma va être créer et le programme va idiquer ce statut: 
 \begin{center}
-\includegraphics[scale=0.7]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_15_EN.jpg}
+\includegraphics[scale=0.7]{C:/workspace/giswater_docs/utils/img/0215_EN.jpg}
 \label{fig:chap2_15_EN}
 \end{center}  
 
 Il est aussi possible de voir le résultat dans la base de donnée, en utilisant pgAdmin. Le schéma \textit{manual\_ws} devrait apparaître dans la base de donnée. Il devrait y avoir des tables, des séquences, des fonctions, des déclencheurs et des vues aui sont des modèles du projet d'approvisionnement en eau de Giswater. 
 \begin{center}
-\includegraphics[scale=0.7]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_16_ES.jpg}
+\includegraphics[scale=0.7]{C:/workspace/giswater_docs/utils/img/0216_EN.jpg}
 \label{fig:chap2_16_ES}
 \end{center}  
 
@@ -278,7 +272,7 @@ man\_type\_function\\
 man\_type\_location\\} 
 Dans ces tableaux, les informations spécifiques sur le type de catégorie, de fluide, de fonction ou d'emplacement liés aux les différents types d'éléments de base (arc, connexion de nœud, gully) sont définis. Chacune des tables ont les champs suivants:
 \begin{center}
-\includegraphics[scale=1]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_17_EN.jpg}
+\includegraphics[scale=1]{C:/workspace/giswater_docs/utils/img/0217_EN.jpg}
 	\label{fig:chap2_17_EN}
 \end{center}  
 
@@ -298,8 +292,7 @@ Ce tableau est utilisé pour personnaliser la visibilité de tous les tableaux int
 
 La relation doit être configurée et son apparence est détaillée dans le tableau ci-joint:
 \begin{center}
-\includegraphics[scale=1]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_18_EN.jpg}
-\label{fig:chap2_18_EN}
+\includegraphics[scale=1]{C:/workspace/giswater_docs/utils/img/0218_EN.jpg}
 \end{center}  
 D'un autre côté, la table de configuration a les colonnes listées:
 id serial, location\_type, project\_type, table\_id, column\_id, column\_index, status, width, alias, dev1\_status, dev2\_status, dev3\_status, dev\_alias, où pour la configuration du client QGIS il suffit d'agir sur les champs:\\
@@ -340,17 +333,18 @@ Afin de créer l'échantillon, répétez les étapes précédentes de création d'un sch
 L'exemple de projet de Giswater sera créé automatiquement avec toutes les informations et données échantillon qui
 permettent de voir toutes les fonctionnalités du plugin. En utilisant la version 3.2 du plugin, il est possible de donner un nom à l'exemple de schéma, pas comme dans les anciennes versions, où le nom était déterminé par défaut.
 \begin{center}
-\includegraphics[scale=1]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/Chap2_19_EN.jpg}
+\includegraphics[scale=1]{C:/workspace/giswater_docs/utils/img/0219_EN.jpg}
 \label{fig:Chap2_19_EN}
 \captionof{figure}{Formulaire de création d'un nouveau schéma. En sélectionnant \textbf{Données exemples} nous allons créer un schéma échantillon.}
 \end{center}
+
 \subsubsection{Création de projets QGIS}
 L'outil général de gestion de projet, en plus de créer des schémas avec ou sans données, donne la possibilité
 pour générer automatiquement des projets QGIS. Ils sont conçus pour fonctionner avec les tables de la base de données et visualiser les données avec une symbologie qui permet d'utiliser les données du projet aussi facilement que possible.
 Pour créer un nouveau projet QGIS, cliquez sur
 le bouton \textbf{Créer un projet SIG} situé dans la partie inférieur du formulaire.
 \begin{center}
-\includegraphics[scale=1]{C:/owncloud/Shared/Giswater/Giswater3x/manuals/images/All figures/chap2_20_EN.jpg}
+\includegraphics[scale=1]{C:/workspace/giswater_docs/utils/img/0220_EN.jpg}
 	\label{fig:chap2_20_EN}
 \captionof{figure}{Créer un nouveau formulaire de schéma. Avec le bouton \textbf{Créer un projet GIS} il est possible de créer un projet QGIS de Giswater}
 \end{center} 
