@@ -42,7 +42,7 @@ Il est intéressant de savoir qu’il existe quatre types de catalogues:
 
 \begin{figure}[h]
 	\centering
-		\includegraphics[scale=0.7]{C:/workspace/giswater_docs/utils/img/0403.jpg}
+		\includegraphics[scale=0.7]{C:/workspace/giswater_docs/utils/img/0403_EN.jpg}
 \end{figure}
 
 \textbf{Pré-dépendances}:
@@ -81,7 +81,7 @@ Les zones de la carte de Giswater son:
 
 \begin{figure}[h]
 	\centering
-		\includegraphics{C:/workspace/giswater_docs/utils/img/0404.jpg}
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0404_EN.jpg}
 	\caption{Représentation de une des zones de la carte, spéciallement d'un \textit{secteur} qui existe dans le projet ws\_sample.}
 \end{figure}
 
@@ -102,7 +102,7 @@ La séquence de base des étapes qui composent les données de chaque élément est l
 
 \begin{figure}[h]
 	\centering
-		\includegraphics{C:/workspace/giswater_docs/utils/img/0405.jpg}
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0405_EN.jpg}
 \end{figure}
 
 Pour tirer parti de l'utilisation du SIG, chaque élément a son propre style associé qui est affiché dans l'interface graphique de QGIS. Les styles sont représentés selon le type d'élément spécifique (pour savoir quels sont-ils consulter la table sys\_feature\_cat).
@@ -112,22 +112,22 @@ Dans le cas des éléments de réseau, les différences entre les types de projets s
 
 \begin{figure}[H]
 	\centering
-		\includegraphics{C:/workspace/giswater_docs/utils/img/0406.jpg}
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0406_EN.jpg}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-		\includegraphics[scale=1.5]{C:/workspace/giswater_docs/utils/img/0407.jpg}
+		\includegraphics[scale=1.5]{C:/workspace/giswater_docs/utils/img/0407_EN.jpg}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-		\includegraphics[scale=1.5]{C:/workspace/giswater_docs/utils/img/0408.jpg}
+		\includegraphics[scale=1.5]{C:/workspace/giswater_docs/utils/img/0408_EN.jpg}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-		\includegraphics[scale=1.5]{C:/workspace/giswater_docs/utils/img/0409.jpg}
+		\includegraphics[scale=1.5]{C:/workspace/giswater_docs/utils/img/0409_EN.jpg}
 \end{figure}
 
 \textbf{Formes des éléments}:
@@ -148,7 +148,7 @@ En plus du style visuel de chacun des éléments, ils ont également une forme asso
 
 \begin{figure}[h]
 	\centering
-		\includegraphics[scale=0.8]{C:/workspace/giswater_docs/utils/img/0410.jpg}
+		\includegraphics[scale=0.8]{C:/workspace/giswater_docs/utils/img/0410_EN.jpg}
 \end{figure}
 
 \item \textbf{Élément}: dans cet onglet sont affichés d'autres éléments, non connectés au réseau, qui sont liés aux éléments que nous visualisons. À partir du formulaire lui-même, vous pouvez lier, dissocier et ajouter des éléments de ce type.
@@ -166,7 +166,7 @@ Sur l'image suivante, les différentes parties d'un formulaire sont présentées. L
 
 \begin{figure}[H]
 	\centering
-		\includegraphics[scale=0.6]{C:/workspace/giswater_docs/utils/img/0411.jpg}
+		\includegraphics[scale=0.6]{C:/workspace/giswater_docs/utils/img/0411_EN.jpg}
 	\caption{Formulaire d'un élément noeud, de type \textit{manhole}. La plupart des formulaire d'éléments sont similaires de celui-ci qui montre la distribution des attributs et des onglets.}
 \end{figure}
 
@@ -174,7 +174,7 @@ Afin d'aider les utilisateurs à comprendre certains des champs, l'image suivante
 
 \begin{figure}[H]
 	\centering
-		\includegraphics[scale=0.7]{C:/workspace/giswater_docs/utils/img/0412.jpg}
+		\includegraphics[scale=0.7]{C:/workspace/giswater_docs/utils/img/0412_EN.jpg}
 	\caption{Ce schéma peut vous aider à comprendre les informations qui doivent êtres complètées dans les champs relatifs à l'élévation, les dimensions, la profondeur des éléments noeuds et arcs d'un projet de drainage urbain (UD9.}
 \end{figure}
 
@@ -193,4 +193,403 @@ Sont dans ce groupe les éléments qui ne font pas strictement partie du réseau d'
 \item \textbf{Étang} (v\_edit\_pond): représente les étangs situés dans l'exploitation
 \item \textbf{Piscine} (v\_edit\_pool): représente les piscines situés dans l'exploitation
 \end{itemize}
+
+\paragraph{Analyse de la topologie} \\
+Ce dernier groupe de couches dans l'inventaire des actifs représente les tables qui sont remplies lorsque l'utilisateur utilise des outils de topologie, qui se trouvent dans la boîte à outils.
+
+\begin{figure}[h]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0413.jpg}
+\end{figure}
+
+La plupart des types d'analyses topologiques ont une couche spécifique pour représenter leurs résultats sur la carte, car ce n'est pas possible d'avoir des éléments avec des géométries différentes dans la même couche.
+Pour cette raison, les couches suivantes sont présentes dans le projet QGIS, chacune avec une symbologie différente et selon le type de projet
+
+\textbf{Couches communes de l'analyse topologique:}
+\begin{itemize}
+\iten \textbf{Arc avec le même nœud début-fin} (v\_anl\_arc\_point): couche de points qui représente les nœuds qui sont
+le résultat de l'arc avec la même analyse de noeud de début et de fin
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0414.jpg}
+\end{figure}
+
+\item \yexybf{Arc sans nœud de début-fin} (v\_anl\_arc\_x\_node\_point): couche de points qui représente des nœuds qui
+sont le résultat d'un arc sans analyse de nœud de début ou de fin
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0415.jpg}
+\end{figure}
+
+\item \textbf{Arc sans nœud de début / fin} (v\_anl\_arc\_x\_node): couche de ligne qui représente des arcs qui sont les
+résultat d'arc sans analyse de nœud de début ou de fin
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0416.jpg}
+\end{figure}
+
+\item \textbf{Analyse Connec} (v\_anl\_connec): vue qui représente les résultats de différentes topologies
+analyse liée à connec.
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0417.jpg}
+\end{figure}
+
+\end{itemize}
+
+{\color{yellow} \textbf{Couches d'analyse topologique liées aux projets UD:}}
+\begin{itemize}
+\item \texbf{Analyse d'Arc} (v\_anl\_arc): Vue qui représente les résultats de différentes analyses topologiques liées aux arcs. Il y a le champs \textit{contect} qui permet de symboliser en fonction du precessus conduits: 
+\begin{itemize}
+\item Intersectin d'arc
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0418.jpg}
+\end{figure}
+
+\item Arc inversé
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0419.jpg}
+\end{figure}
+
+\item Arc avec le même noeud initial et final
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0420.jpg}
+\end{figure}
+\end{itemize}
+
+\item \textbf{Analyse de noeud} (v\_anl\_node): vue qui représente les résulstats de différentes analyses topologiques liées aux noeuds. Il y a le champs \textit{contect} qui permet de symboliser en fonction du precessus conduits: 
+\begin{itemize}
+\item Noeud dupliqué
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0421.jpg}
+\end{figure}
+\item Noeud orphelin
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0422.jpg}
+\end{figure}
+\item Noeud de toplogie consistente
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0423.jpg}
+\end{figure}
+\item Noeud de sortie suppérieur à l'intro
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0424.jpg}
+\end{figure}
+\item Noeud régulateur de flux
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0425.jpg}
+\end{figure}
+\item Noeud source
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0426.jpg}
+\end{figure}
+\end{itemize}
+\end{itemize}
+
+{\color{blue} \textbf{Couches d'analyse topologique liées aux projets WS:}}
+
+\begin{itemize}
+\item \textbf{Arc avec les mêmes nœuds de début et de fin} (v\_anl\_arc): couche de ligne qui représente les résultats de l'analyse des arcs avec le même nœud de initial et final
+\item \textbf{Analyse des nœuds} (v\_anl\_node): vue qui représente les résultats de différentes analyses topologiques liées aux nœuds. Il y a le champs \textit{contect} qui permet de symboliser en fonction du precessus conduits: 
+
+\begin{itemize}
+\item Noeud dupliqué
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0427.jpg}
+\end{figure}
+\item Noeud orphelin
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0428.jpg}
+\end{figure}
+\item Noeud à topologie consistante
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0429.jpg}
+\end{figure}
+\end{itemize}
+\end{itemize}
+
+\subsubsection{Opération et gestion (O&M)}
+Le deuxième groupe de couches dans la ToC du projet QGIS Giswater est les opérations et la gestion (O&M). Contrairement au groupe précédent (inventaire des actifs), qui comporte un grand nombre de couches, celui-ci est réduit à un simple groupe de 2 ou 3 couches selon le type de projet et l'inventaire des visites, commun pour les deux types de projets.
+Les couches d'opérations et de gestion sont:\\
+\texbf{Visites} (v\_edit\_om\_visit)
+Dans cette couche, se trouvent toutes les visites effectuées sur le réseau et sont visualisées au moyen d'éléments sur la carte. Chaque visite a une date de début et de fin, ainsi qu'un identifiant de l'utilisateur qui a effectué la visite. Chaque visite peut contenir différents événements et de la même manière chaque événement peut avoir plusieurs photographies pour l'illustrer. Les événements ne se trouvent pas dans cette même couche, mais ils sont liés aux visites avec des clés étrangères.
+
+{\color{blue} \textbf{Processus de coupe minimum}(mincut)}
+Les couches mincut proposent aux utilisateurs les valves qui doivent être fermées si il faut faire un certain type d'exploitation sur n'importe quel élément du réseau. Sur la base des différents états et attributs des éléments, le polygone de coupe sera différent. Plusieurs paramètres entrent en jeu lors de l'utilisation de cet outil. Nous devons principalement prendre en compte l'état (state) et l'exploitation (exploitation) des éléments affiché à l'écran, car l'outil n'utilisera que les éléments visibles.
+
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0430.jpg}
+\end{figure}
+
+Étant donné que les éléments obsolètes n'ont pas de topologie (ils ne sont pas connectés au réseau), il est recommandé qu'ils ne soient pas visibles lorsque l'outil est utilisé. Les éléments «en service» peuvent être utilisés sans problèmes pour faire le polygone de coupe. De plus, les éléments planifiés peuvent faire partie d'un polygone de raccourci mais il est nécessaire d'être prudent avec ces éléments car ils peuvent être placés au-dessus d'autres éléments en service et provoquer des erreurs dans le processus.
+
+Les couches chargées dans la carte QGIS sont celles liées aux résultats du polygone mincut selon la géométrie et le type d'élément, avec sa propre symbologie:
+
+\begin{itemize}
+\item \textbf{Résultat de valve Mincut} \textit{(v\_anl\_mincut\_result\_valve)}: Résultats du polygone de coupe minimum représentant des valves. Le champ proposé établit si une vanne doit être fermée ou non.
+\item \textbf{Résultat d'arc Mincut} \textit{(v\_anl\_mincut\_result\_arc)}: Résultats du polygone de coupe minimum représentant les arcs.
+\item \textbf{Résultat de noeud Mincut} \textit{(v\_anl\_mincut\_result\_node)}: Résultats du polygone de coupe minimum représentant les nœuds.
+\item \textbf{Résultat de connec Mincut} \textit{(v\_anl\_mincut\_result\_connec)}: Résultats du polygone de coupe minimum représentant des connecs.
+\end{itemize}
+
+{\color{yellow} \textbf{Trace de flux (flowtrace)}
+Les couches de trace de flux montrent des éléments du réseau qui sont en amont ou en aval des éléments sélectionnés. La couche met à jour ses champs chaque fois que l'utilisateur effectue une nouvelle opération pour connaître les éléments affectés et ceux-ci sont représentés sur la carte, en utilisant une symbologie spécifique, afin qu'ils puissent être facilement consultés. Comme dans l'outil mincut, dans ce cas-ci aussi tous les éléments visibles sur la carte entrent en jeu (ils sont dans les vues modifiables de node, arc, connec).
+
+L'utilisation de cet outils est pertinent dans deux cas différents: 
+
+\begin{itemize} 
+\item \underline{Structuration des données}: s'il y a des arcs qui vont dans la mauvaise direction, il est facile de les détecter à l'aide du processus de traçage, car ils coupent le réseau à un point inhabituel afin que sa direction puisse être modifié et ainsi corriger l'erreur.
+\item \underline{Consultation}: il permet de visualiser tous les éléments qui se trouvent en amont ou en aval d'un élément.
+\end{itemize}
+
+Il y a 2 couches et 4 symbologies différentes: 
+\begin{itemize} 
+\item \textbf{trace de flux arc} (v\_anl\_flow\_arc): eprésente les éléments de type arc pour l'outil de suivi de flux. Elle montre les arcs en amont (trace de flux) ou en aval (sortie de flux) de l'élément sélectionné.
+
+\begin{itemize}
+
+\item{sortie de flux}
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0431.jpg}
+\end{figure}
+
+\item{trace de flux}
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0432.jpg}
+\end{figure}
+
+\end{itemize}
+
+\item \textbf{trace ed flux noeud} (v\_anl\_flow\_node): représente les éléments de type de noeud pour l'outil de suivi de flux. Elle affiche les nœuds en amont (trace de flux) ou en aval (sortie de flux) de l'élément sélectionné.
+
+\begin{itemize}
+
+\item{sortie de flux}
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0433.jpg}
+\end{figure}
+
+\item{trace de flux}
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0434.jpg}
+\end{figure}
+
+\end{itemize}
+
+\end{itemize}
+
+Dans la section 5.2.2, les détails de l'utilisation de cet outil avec le plugin sont expliqués.
+
+La base de données Giswater contient de nombreux autres tableaux liés à la section O&M, mais ceux-ci ne se trouvent pas dans le groupe homonyme de QGIS, car ils sont utilisés dans d'autres groupes de ToC ou pour divers processus du programme. Le but des tableaux d'opérations et de gestion est de faire un inventaire et de planifier les visites effectuées par les techniciens du réseau réel d'approvisionnement ou d'assainissement afin de contrôler, calculer ou faire tout type de réhabilitation ou de réparation dans le réseau.
+
+{\color{blue}\subsubsection{EPANET}}
+Le troisième groupe de couches trouvé dans la ToC est celui lié au modèle hydraulique (EPANET). Le comportement de ce groupe est basé sur le programme avec le même nom, domaine public et développé par l'Agence de protection de l'environnement des États-Unis (EPA).
+Il s'agit d'un groupe exclusif pour les projets d'approvisionnement en eau (WS), cependant, les projets d'assainissement ont leur groupe exclusif aux caractéristiques similaires (SWMM), qui sera décrit dans la section 4.2.4.
+
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0435.jpg}
+\end{figure}
+
+Les couches du groupe EPANET sont divisées en deux groupes: 
+
+\begin{itemize}
+\item \textbf{Données d'entrée}: toutes les couches avec les données nécessaires au bon fonctionnement du modèle hydraulique. Il y a différents
+groupes dans les données d'entrée selon la nature des données et le type de géométrie:
+
+\begin{itemize}
+\item \unterline{Nœud}: formé de couches géométriques de type nœud et de tables associées.
+\item \unterline{Arc}: formé de couches géométriques de type arc et de tables associées.
+\item \unterline{Contrôles et règles}: tableaux de différentes règles et contols liés aux données.
+\item \unterline{Options}: tableaux d'options liées au modèle hydraulique.
+\item \unterline{Tags et étiquettes}
+\end{itemize}
+
+\item \textbf{Résultats de sortie}: ce sont toutes les couches qui stockent les résultats, une fois que le modèle hydraulique a été terminé. Ils permettent de visualiser rapidement les résultats dans la carte QGIS et de les comparer aux anciens résultats. Les résultats (tableaux avec le préfixe rpt) sont divisés en:
+
+\begin{itemize}
+\item \unterline{Valeurs minimales des nœuds}
+\item \unterline{Valeurs maximales des nœuds}
+\item \unterline{Valeurs maximales de l'arc}
+\item \unterline{Consommation d'énergie et état hydraulique}
+\end{itemize}
+\end{itemize}
+Au chapitre 7 de ce manuel, il est montré comment mettre en œuvre le modèle hydraulique du réseau à travers les couches et tableaux qui font partie de ce groupe.
+
+{\color{yellow}\subsubsection{SWMM}}
+Le modèle de gestion des eaux pluviales (SWMM) est le troisième groupe de couches que l'on retrouve dans la ToC des projets de drainage urbain (UD). C'est le "frère"d'EPANET, également développé par l'EPA, mais dont l'utilisation et les applications sont évidemment différentes.
+
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0436.jpg}
+\end{figure}
+
+Les couches de SWMM sont structurées, comme EPANET, en couches et tables d'entrée et de sortie, ajoutant un
+groupe intermédiaire qui permettra à l'utilisateur d'établir quels secteurs et bassins hydrologiques entrent en jeu
+lors de la réalisation du modèle hydraulique:
+
+\begin{itemize}
+\item \textbf{Données d'entrée}: données d'entrée pour le modèle SWMM. Comme il y a beaucoup de paramètres, ils sont regroupés selon leur nature:
+
+\begin{itemize}
+\item \underline{Climatologie}: dans ce groupe les données liées à la météo, qui peuvent influencer le débit d'eau
+avant qu'il n'atteigne le réseau, peut être introduit.
+\item \underline{Hydrologie}: se réfère aux données relatives au débit d'eau qui pénètre naturellement dans le réseau (ruissellement), telles que les précipitations, les aquifères, les infiltrations ou le dégel. Il y a deux couches avec géométrie:\\
+Raingage: représente les pluviomètres comme éléments ponctuels\\
+Sous-bassin: représente les sous-bassins sous forme de polygones\\
+\item \underline{Hydraulique}: dans ce groupe, il existe différents éléments du réseau qui sont nécessaires pour
+faire le modèle. Ils sont divisés en nœuds et arcs, chacun étant lié à d'autres tables sans géométrie contenant des informations supplémentaires.
+
+\begin{itemize}
+\item \underline{noeud}: des éléments tels que la jonction, l'exutoire, le diviseur et le stockage. Les tableaux supplémentaires se référer aux contributions externes de flux qui vont directement au réseau. Il y a trois types les composent:
+
+\begin{itemize}
+\item Entrées - série de valeurs de flux qui vont directement dans les nœuds définis par le utilisateur. Ils sont utilisés en cas d'absence de données de ruissellement.
+\item Dwf (entrées par temps sec) - entrées de débit continu qui reflètent la contributions que le flux des eaux usées apporte au réseau. Ils peuvent être considérés comme des flux de référence de conduits.
+\item RDII (Rainfall-Derived Infiltration / Inflow) - débits des eaux de pluie qui sont introduit dans le réseau grâce aux contributions directes dans les connexions aux puits, collecteurs de pompes ou en cas de ruptures de canalisations ou de mauvais connexions des éléments.
+\end{itemize}
+
+\item \underline{Arc}: éléments tels que Conduit et Arc virtuel. Il existe des tableaux faisant des coupes transversales, qui décrivent la variation et le débit du niveau inférieur d'un tuyau les régulateurs qui sont des dispositifs utilisés pour contrôler et dériver les débits dans le système. Les orifices, déversoirs, sorties et pompes peuvent exercer la fonction de régulation.
+\end{itemize}
+
+\item \underline{Qualité}: ce groupe de tableaux, sans géométrie, permet d'introduire des données liées à l'utilisation des sols et les polluants présents dans l'eau. Les utilisations des terres ne sont utilisées que pour considérer les phénomènes de l'accumulation et le transfert de polluants dans les bassins versants.
+\item \underline{Courbes et séries temporelles}: les courbes permettent d'établir la relation entre deux quantités (dans un manière similaire à un graphique) afin que ces données soient facilement introduites dans le réseau en attribuant courbes aux éléments du système. Les séries chronologiques sont utilisées pour décrire certaines propriétés de certains objets du projet qui varient dans le temps.
+\end{itemize}
+
+\item \textbf{Entrée caractéristique sélectionnée}: ce groupe est utilisé, en cas de plusieurs secteurs ou hydrologiques bassins versants, pour sélectionner avec lesquels l’utilisateur souhaite travailler. C’est l’un des outils Giswater ajoute aux propres utilisations du programme SWMM. Si zone spécifique pour réaliser le modèle hydraulique est sélectionné, dans ce groupe de couches seront affichés les éléments de noeud et d'arc qui entrent en jeu, qui seront tous ceux qui se trouvent dans la zone sélectionnée.
+\item \textbf{Résultat de sortie}: le groupe de résultats du modèle permet de visualiser à travers des éléments symbolisés sur la carte et tableaux de données, les résultats du modèle hydraulique SWMM. Comme dans EPANET, il est également possible de comparer les résultats avec un autre modèle précédemment créé.\\
+
+Les résultats possibles du modèle, ordonné de la même manière que le QGIS ToC comme décrit ci-dessous:
+\begin{itemize}
+
+\item \underline{Inondation des nœuds}: elle montre toute l'eau qui déborde d'un nœud, pendant la
+temps où il a été débordé, le débit maximum pendant l'inondation, ainsi que les différents volumes d'eau sur m2. Il est représenté dans QGIS de cette manière:
+
+\begin{figure}[h]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0437.jpg}
+\end{figure}
+
+\item \underline{Surcharge de nœud}: une surcharge se produit lorsque l'eau monte au-dessus de la couronne conduit le plus haut. Il montre les données relatives aux heures de surcharge et valeurs maximales et minimales.
+\item \underline{Afflux de nœuds}: représente le flux total d'entrée, à la fois latéralement et via des liaisons. Affiche le total, valeurs temporaires et maximales.
+\item \underline{Profondeur du nœud}: profondeur moyenne et maximale de l'eau. Hauteur hydraulique maximale (HGL) et temps de profondeur maximum.
+\item \underline{Flux d'arc}: cette couche représente les pourcentages de débit d'eau dans le
+conduits de réseau. Ils sont symbolisés dans QGIS comme suit:
+
+\begin{figure}[h]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0438.jpg}
+\end{figure}
+
+\item \underline{Surcharge de conduits}: dans cette couche, la surcharge des conduits est représentée. Seuls les arcs avec une ou plusieurs entrées non nulles peuvent être affichées. Un conduit sera considéré comme surchargé
+lorsque la pente du HGL dépasse la pente du conduit. Les données sur les temps de surcharge seront être affiché dans un ou les deux nœuds liés à l'arc.
+\item \underline{Résumé du pompage}: différentes données relatives au fonctionnement des pompes, telles que le maximum et débit moyen pompé, énergie consommée, pourcentages de temps de fonctionnement, etc.
+\item \underline{Classe de flux}: classification des différentes catégories de flux liés aux arcs, par exemple, si
+ils sont secs dans l'un de leurs nœuds ou si le niveau d'écoulement est critique
+\item \underline{Charge polluante de l'arc}: relation entre les arcs et les polluants
+\item \underline{Débit / charge d'émissaire}: flux d'émissaire. Pourcentage du temps de décharge, maximum et moyenne débit de décharge, volume total de décharge, etc.
+\item \underline{Ruissellement des sous-bassins versants}: valeurs totales des précipitations, de l'évaporation,
+infiltration, profondeur et volume de la fuite du sous-bassin versant. Ses représenté par un coefficient de rupture.
+
+\begin{figure}[h]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0439.jpg}
+\end{figure}
+
+\item \underline{Volume de stockage}: données référencées au dépôt. Maximum et moyenne volume dans l'installation, pourcentage utilisé, durées d'utilisation et débit maximum du dépôt
+\item \underline{Lavage du sous-bassin}: masse totale de chaque polluant sortant du sous-bassin
+\item \underline{Performances LID}: Ce sont les performances qui ont été obtenues grâce à la application des techniques LID (Low Impact Development).
+\end{itemize}
+
+\end{itemize}
+
+Les autres tableaux de ce groupe n'ont pas de géométrie, mais ils fournissent également des données liées à
+résultats du modèle hydraulique tels que qualité et quantité d'infiltration, indices d'instabilité, surface
+les valeurs de l'eau, entre autres.
+
+\subsubsection{Masterplan}
+Ce quatrième groupe de tables et de couches trouvé dans QGIS ToC est utilisé pour effectuer des calculs budgétaires du réseau. C’est l’un des principaux outils de Giswater qui a un grand potentiel, car son utilisation permet de réaliser une valorisation simple du réseau d’eau et permet de systématiser ce processus pour qu’une fois que toutes les données nécessaires sont disponibles le calcul soit pratiquement automatique. Cela signifie une économie considérable de temps et de travail pour les utilisateurs chargés d'effectuer ces calculs.
+Pour les projets WS et UD, la structure du groupe est la même, mais les données présentent quelques différences, car la nature des projets est différente. Comme dans tout le manuel, lorsque l'une des explications est exclusive pour un type de projet, sa composition sera précisée.
+
+Il y a deux parties clairement différents de  dans le groupe de \textit{Masterplan}: 
+
+\begin{itemize}
+\item \underline{Calcul de la \textbf{valeur patrimoniale} des éléments}: dans ces couches le prix est calculé pour chaque élément de chaque état (obsolète, en service ou prévu). Toutes les données sont insérées dans deux vues
+(v\_plan\_result\_node et v\_plan\_result\_arc) selon le type d'élément.
+
+\item \underline{Calcul des valeurs des \texbf{secteurs de planification} (psector)}: les prix sont calculés uniquement pour les éléments plannifés. Chaque groupe d'éléments prévu pour une modification du réseau doit être inséré dans un secteur ou psecteur prévu. L'objectif de ce groupe est de connaître le prix d'une opération prévue sur le réseau avant de le réaliser.
+\end{itemize}
+
+La première étape consiste à attribuer des prix aux éléments du réseau, aux matériaux, aux éventuels combinaisons de variables et, en bref, à tous les paramètres qui peuvent avoir coûté pour créer le budget. Dans les catalogues beaucoup de ces valeurs son référencées, qui sont transférées directement aux éléments. Le reste des prix doivent être inclus dans les trois tableaux du groupe de prix unitaire des actifs:
+
+\begin{itemize}
+\item \underline{Prix ??simple}: dans ce tableau sont affichés les prix simples pour chaque paramètre. La plupart d'entre eux sont importé de la base de données et des calculs de l'ITeC (Institute of Construction Technology). L'unité Le champ spécifie la façon de calculer le prix (par unité, par mètre cube, etc.)
+\item \underline{Prix du compost}: affiche des prix variables, car le prix de certains éléments ne peut pas être calculé avec un prix simple, car il est composé de plusieurs parties. Nous décrivons ici à quoi le prix fait référence et son identifiant est lié au tableau suivant.
+\item \underline{Valeur du prix du compost}: contient les identifiants des deux tableaux précédents. Le compost\_id peut être répété, puisqu'un élément composite sera composé de plusieurs éléments simples (simple\_id). La colonne de valeur représente le pourcentage de l'élément simple qui compose l'élément composé. En reliant ces domaines, il est possible de calculer les prix totaux.
+\end{itemize}
+
+\begin{figure}[H]
+	\centering
+		\includegraphics{C:/workspace/giswater_docs/utils/img/0440.jpg}}
+\end{figure}
+
+Pour calculer la valeur d'héritage, il n'y a qu'une seule table à l'intérieur du groupe de données d'entrée:
+\begin{itemize}
+\item \underline{Arc\_x\_pavement}: ce tableau a, comme seul objectif, d'établir les pourcentages des types de
+chaussée qui a un arc evry. De toute évidence, un arc peut avoir 100\% de sa longueur dans le même chaussée,
+mais dans le cas contraire lorsqu'ils varient le long de l'arc, ce tableau sera utilisé pour spécifier quel pourcentage couvre chaque type. Comme les chaussée - qui se trouvent dans le catalogue des trottoirs (cat\_pavement) - ont des prix au mètre carré différents, le fait de connaître les pourcentages utilisés dans chaque arc du réseau permettra enfin d'établir très précisément les valeurs patrimoniales.
+\newline
+ATTENTION: lorsque vous insérez un nouvel arc, les enregistrements sont automatiquement insérés dans la table plan\_arc\_x\_pavement, sans valeurs et pourcentages de chaussée, mais de cette façon tous les arcs seront prêts à ajouter les valeurs des chaussées.
+\end{itemize}
+
+Une fois que les tableaux de prix et de chaussée ont toutes les données nécessaires, il est temps de remplir les tableaux de résultats valeur patrimoniale. L'importance de disposer de données complètes doit être prise en compte. Certaines données sont prises à partir de différentes tables. Certains proviennent directement des tables des éléments (arc, noeud) et doivent être correctement rempli pour un bon calcul. Toutes les colonnes sont obligatoires et tous les paramètres sont nécessaires.
+
+Il y a deux tableaux qui présentent les résultats du calcul de la valeur patrimoniale. N'oubliez pas que c'est possible pour afficher les données relatives aux éléments dans n'importe quel type d'état, qu'elles soient obsolètes, en service ou planifiées:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -26,14 +26,14 @@ Ce qu'il faut souligner dans ce cas est l'importance du disque pour aller stocke
 
 En ce qui concerne le serveurs de fichiers et en respectant le stockage des fichiers spécifiques à Giswater, il est recommandé d'utiliser le même appareil que celui de PostgreSQL pour héberger dans un fichier, seulement en mode lecture, avec un accès partagé du réseau pour les utilisateurs normaux dans lequel ils peuvent trouver un référentiel du \textit{plugin}, les projets de QGIS originaux ainsi que les originaux des instalables. 
 
-Dans ce répertoire SIG nous stockerons les modèles des projets QGIS (sous-fichier modèle) et aussi nous configurerons pour que ce soit la route des \textit{plugins} des clients QGIS (sous-fichier plugin) que nous installerons dans tous les appareils du client. Dans le sous-fichier \textit{plugins} nous installerons tous ces compléments qui ont de l'intérêt pour l'organisation.
+Dans ce répertoire SIG nous stockerons les modèles des projets QGIS (sous-fichier modèle) et nous le configurerons aussi pour que ce soit la route des \textit{plugins} des clients QGIS (sous-fichier plugin) que nous installerons dans tous les appareils du client. Dans le sous-fichier \textit{plugins} nous installerons tous ces compléments qui ont de l'intérêt pour l'organisation.
 
-En respectant les autres type de données (projets QGIS, couche de base cartographique, document adjoints, ect.) nous recommandons de ne pas utiliser le même appareil. La meilleur option est d'utiliser l'unité du réseau partagé avec laquelle on travaille sur les données ( pour profiter du système de backups organisé). 
+En respectant les autres type de données (projets QGIS, couche de base cartographique, document adjoints, ect.) nous recommandons de ne pas utiliser le même appareil. La meilleur option est d'utiliser l'unité du réseau partagé avec laquelle on travaille sur les données (pour profiter du système de backups organisé). 
 En configurant tous les utilisateurs client de ce fichier avec les \textit{plugins} avec seulement la permission de lecture, cela garantit que tous les utilisateurs de QGIS disposent des mêmes \textit{plugins} installés et c'est beaucoup plus facile des les actualiser. 
 
 Du côté du client les appareils doivent avoir une certaine capacité de traitement (il est recommandé des processeurs i7) avec un minimum de 18 GB de mémoire. Le système opérationnel doit être obligatoirement Windows 7 ou supérieur. Si vous souhaitez effectuer une consommation intensive des ressources avec la génération de geoprocessus de grande intensité, il est recommandé d'utiliser un appareil client avec des prestations plus hautes comme pourrait l'être une multicuore de 16-32 GB de RAM et un disque dur solide. 
 
-\subsection{Téléchargement et configuration de PostgresSQL}
+\subsection{Téléchargement et configuration de PostgreSQL}
 PostgreSQL est une base de donnée open source avec un énorme potentiel, qui servira pour stocker toutes les données avec lesquelles travailler dans Giswater. Grâce à son extension géospatiale PostGIS, il permet une très bonne relation avec les GIS, particulièrement avec QGIS. Cette extension contient plus de 1000 fonctions geospatiales, ce qui en fait l'un des logiciels GIS les plus puissants existants, bien que PostgreSQL ne soit pas un programme spécifique de GIS. 
 
 Il y a différentes versions qui peuvent être téléchargées. Pour travailler avec Giswater il est recommandé de télécharger toute version postérieur à la 9.5, à partir de laquelle les programmes sont 100\% compatibles. 
@@ -81,12 +81,12 @@ En cliquant sur le bouton de commandes SQL nous pourrons écrire notre première \
 \end{figure}
 
 \subsection{Configuration de QGIS}
-Quqnd vous ouvrez QGIS pour la première fois, une série de paramètres doivent être configurés. Il sont nécessaires pour travailler avec Giswater: 
+Quand vous ouvrez QGIS pour la première fois, une série de paramètres doivent être configurés. Il sont nécessaires pour travailler avec Giswater: 
 \begin{itemize}
     \item Créer une connection PostGis à la base de données où les données sont stockées. 
-    \item Pour travailler confortablement et de manière confortable avec des donées raster, il est recommandé détendre la mémoire cash de QGIS à 1 GB et 1 an, au travers du menu 'Configuration/ Options/Réseau'.
+    \item Pour travailler confortablement avec des donées raster, il est recommandé détendre la mémoire cash de QGIS à 1 GB et 1 an, au travers du menu 'Configuration/ Options/Réseau'.
     \item Choisir d'ouvrir le formulaire si une entité seule est sélectionné. 
-    \item Configurez deux variables dans les propriétés du projet ( Projet/ Propriétés du projet/ Variables). Pour ajouter une nouvelle variable à celles qui apparaissent par défaut, il y a un bouton: 
+    \item Configurez deux variables dans les propriétés du projet (Projet/ Propriétés du projet/ Variables). Pour ajouter une nouvelle variable à celles qui apparaissent par défaut, il y a un bouton: 
 \begin{flushright}
 \includegraphics[]{C:/workspace/giswater_docs/utils/img/0205.png}
 
@@ -123,28 +123,27 @@ Mot de passe de l'utilisateur Postgres\\
 \captionof{figure}{Formulaire QGIS de connection avec PostGis}  
 \end{minipage}
 
-\item Une fois que les pqrqmètres sont complètés, cliauez sur\textbf{Tester la connection}: Si tout est correct, le message suivant va apparaître: 
+\item Une fois que les paramètres sont complètés, cliquez sur\textbf{Tester la connection}: Si tout est correct, le message suivant va apparaître: 
 
 \begin{center}
 \includegraphics[]{C:/workspace/giswater_docs/utils/img/0208_EN.png}
-	\label{fig:chap2_8_EN}
 \end{center}
 \item Cliquez \textbf{OK}: À ce moment là les informations de la connection seront sauvées avec le nom dans la liste de connection. 
-Pour utiliser le plugin \textbf{Giswater}, il est nécessaire dávoir créer une connection à une base de données aui sera utilisée pour travailler. Cela a besoin d´être créerune fois pour chaque QGIS installé. 
-De multiples connections à différentes bases de données est possible, bien aaue dans ce cas il est recommandé de travailler avec précaution pour éviter le mélange de données entre base de données.
-Une fois connectés, nous pouvons visualiser les tables (avec et sans géométrie) que contient la bases de données correspondantes et, si nécessaire, les ajouter qu projet. 
+Pour utiliser le plugin \textbf{Giswater}, il est nécessaire d'avoir créé une connection à une base de données qui sera utilisée pour travailler. Cela a besoin d'être créé une fois pour chaque QGIS installé. 
+De multiples connections à différentes bases de données sont possibles, bien que dans ce cas il est recommandé de travailler avec précaution pour éviter le mélange de données entre bases de données.
+Une fois connectés, nous pouvons visualiser les tables (avec et sans géométrie) que contient la bases de données correspondantes et, si nécessaire, les ajouter au projet. 
 \end{enumerate}
 
 \subsection{Téléchargement et premiers pas avec le plugin Giswater}
-Dans la version précédents, Giswater était composé d'une application, ce qui faisait office de conducteur pour la configuration, la création et la gestion des différents projets de la base de donnée, et le plugin basé sur QGIS pour l'exploitation des éléments du réseau. 
-En commençant de la version 3.2, il sera seulement nécessaire d'installer le plugin dans QGIS pour développer les fonctions mentionnée. 
+Dans les versions précédentes, Giswater était composé d'une application, ce qui faisait office de conducteur pour la configuration, la création et la gestion des différents projets de la base de donnée, et le plugin basé sur QGIS pour l'exploitation des éléments du réseau. 
+En commençant avec la version 3.2, il sera seulement nécessaire d'installer le plugin dans QGIS pour développer les fonctions mentionnées. 
 Pour télécharger le plugin, le lien URL du dépôt est nécessaire: https://download.giswater.org/plugin/3.2/giswater.xml 
 
 Il peut être trouvé sur le site web de Giswater (https://www.giswater.org/downloads/), de là il est aussi possible d'accéder aux versions antérieures du plugin. 
 Dans la section de téléchargement, il est aussi possible d'accéder à l'information sur le produit, les bénéfices d'utiliser des programmes libres, la communauté d'experts qui développe Giswater et pour obtenir le matériel et les tutoriels relatifs au plugin. 
 
 \subsubsection{Installer le plugin dans QGIS}
-Afin d'installer et de connecter le plugin Giswater dans QGIS, il est nécessaire de configurer un nouveau référentiel, ce aui permettra de voir le plugin Giswater dans la liste des plugins. Il faut suivre les étapes suivantes: 
+Afin d'installer et de connecter le plugin Giswater dans QGIS, il est nécessaire de configurer un nouveau référentiel, ce qui permettra de voir le plugin Giswater dans la liste des plugins. Il faut suivre les étapes suivantes: 
 \begin{enumerate}
     \item Ouvrir QGIS et accéder au référentiel de plugins.
     \item Accéder à l'onglet de configuration et ajouter un nouveau référentiel.
@@ -158,7 +157,6 @@ Afin d'installer et de connecter le plugin Giswater dans QGIS, il est nécessaire
     
 \begin{center}
 \includegraphics[scale=0.5]{C:/workspace/giswater_docs/utils/img/0210.jpg}
-\label{fig:chap2_10_EN}
 \end{center}    
 
     \item Trouver et installer le plugin Giswater depuis le formulaire de l'onglet "tous"·
@@ -171,23 +169,22 @@ Afin d'installer et de connecter le plugin Giswater dans QGIS, il est nécessaire
 \end{enumerate}
 
 \textit{Attention: Si nous souhaitons mettre à jour le plugin à la verison la plus récente, cela peut être fait, mais cela peut avoir des implications que nous verrons plus tard. 
-Si après avoir installer le plugin et configurer la connection de la base de donnée, si il n'apparaît pas directement dans la bare d'outil, aller dans le menu "Vue / barre d'outil" et ajouter la. 
-Si vous avez plus d'un projet QGIS ouvert, le comportement duplugin peut présenter des instabilités, il est donc recommandé de ne pas utiliser le plugin avec plus d'un projet QGIS ouvert.}
+Si après avoir installé le plugin et configuré la connection à la base de donnée, si il n'apparaît pas directement dans la bare d'outil, aller dans le menu "Vue /barre d'outil" et ajouter la. 
+Si vous avez plus d'un projet QGIS ouvert, le comportement du plugin peut présenter des instabilités, il est donc recommandé de ne pas utiliser le plugin avec plus d'un projet QGIS ouvert.}
 
 \subsubsection{Outil généraux de gestion de projet}
-C'est un outil important pour commencer à travailler avec Giswater. Contrairement aux autres boutons que le plugin contient, il se trouve dans la bare d'outil générale à côté des autres boutons de différents plugins installés spécifique à QGIS. 
+C'est un outil important pour commencer à travailler avec Giswater. Contrairement aux autres boutons que le plugin contient, il se trouve dans la bare d'outil générale à côté des autres boutons de différents plugins installés spécifiques à QGIS. 
 
-La plupart des fonctionnalités de cet outil vont seulement être exécutée si nous ouvrons QGIS sans aucun projet Giswater (nous considérons par un  projet Giswater un projet qui a au minimum la représentation des couches de noeuds, arcs, connecs et la version du schéma de la base de donnée). 
+La plupart des fonctionnalités de cet outil vont seulement être exécutées si nous ouvrons QGIS sans aucun projet Giswater (nous considérons par un  projet Giswater un projet qui a au minimum la représentation des couches de noeuds, arcs, connecs et la version du schéma de la base de donnée). 
 Une fois dans un projet Giswater, l'outil sert seulement à montrer la version du plugin, le cadre de travail, la version de postgres et de postgis. 
 
 Dans le cas de l'initialisation et des premières étapes avec le plugin, nous devons savoir comment utiliser cet outil pour réaliser toutes ces fonctions: 
  \begin{center}
 \includegraphics[scale=0.7]{C:/workspace/giswater_docs/utils/img/0212_EN.jpg}
-\label{fig:chap2_12_EN}
 \end{center}  
 
 \begin{itemize}
-    \item Générer un nouveau cadre de travail directement dans la base de donnée
+    \item Générer un nouveau cadre de travail directement dans la base de données
     \item Montrer les cadres existants
     \item Actualiser et éditer les nouveaux schémas
     \item Montrer les informations sur le schéma sélectionné
@@ -200,27 +197,24 @@ Dans le cas de l'initialisation et des premières étapes avec le plugin, nous dev
 
 \subsection{Création d'un schéma et de projets QGIS}
 \subsubsection{Création d'un schéma vide}
-En utilisant l'outil général de getsion de projet, qui a déjà été présenté dans la section 2.4.2, nous allons créer un modèle basique du schéma de travail dans la base de donnée, ce qui peut être ouvert et éditer comme un projet QGIS. Un shéma vide ne veut pas dire qu'il n'y a pas de donnée dans les tables. Les valeurs commune et du système nécessaires pour le fonctionnement correcte de l'outil sont présentes, cependant il n'y a pas de réseau d'information. 
+En utilisant l'outil général de gestion de projet, qui a déjà été présenté dans la section 2.4.2, nous allons créer un modèle basique du schéma de travail dans la base de donnée, ce qui peut être ouvert et édité comme un projet QGIS. Un shéma vide ne veut pas dire qu'il n'y a pas de donnée dans les tables. Les valeurs communes et le système nécessaires pour le fonctionnement correcte de l'outil sont présentes, cependant il n'y a pas de réseau d'information. 
 
-La première chose qu'il faut garder à l'esprit es que cette outil, dans la première liste déroulante appelée Nom de la connexion, s'affiche toutes les connexions PostGIS créées dans notre QGIS. Dans la section 2.3 de ce manuel, une connection avec le nom Giswater était créer, donc cette connection apparaît comme disponible dans l'outil (Figure...). Il est important de prendre en compte les paramètres donné à la connection comme maintenant ils vont être utilisé et créer le shcéma. 
+La première chose qu'il faut garder à l'esprit est que dans cette outil, dans la première liste déroulante appelée Nom de la connexion, s'affiche toutes les connections PostGIS créées dans notre QGIS. Dans la section 2.3 de ce manuel, une connection avec le nom Giswater était créer, donc cette connection apparaît comme disponible dans l'outil (voir figure suivainte). Il est important de prendre en compte les paramètres donnés à la connection comme ils vont être utilisé et créer le shcéma. 
 
-Connaissant quelle base de donnée appelle la connection, cliquer \textbf{Créer} afin d'ouvrir le formulaire de configuration du nouveau schéma.
+Connaissant quelle base de données appelle la connection, cliquer \textbf{Créer} afin d'ouvrir le formulaire de configuration du nouveau schéma.
 \begin{center}
 \includegraphics[scale=0.5]{C:/workspace/giswater_docs/utils/img/0214_EN.jpg}
-\label{fig:chap2_14_EN}
 \captionof{figure}{Formulaire de création de nouveau schéma. En sélectionnant \textbf{données vides} nous allons créer un schéma vide}
 \end{center}  
 
 Après avoir cliquer sur Acepter, le schéma va être créer et le programme va idiquer ce statut: 
 \begin{center}
 \includegraphics[scale=0.7]{C:/workspace/giswater_docs/utils/img/0215_EN.jpg}
-\label{fig:chap2_15_EN}
 \end{center}  
 
-Il est aussi possible de voir le résultat dans la base de donnée, en utilisant pgAdmin. Le schéma \textit{manual\_ws} devrait apparaître dans la base de donnée. Il devrait y avoir des tables, des séquences, des fonctions, des déclencheurs et des vues aui sont des modèles du projet d'approvisionnement en eau de Giswater. 
+Il est aussi possible de voir le résultat dans la base de donnée, en utilisant pgAdmin. Le schéma \textit{manual\_ws} devrait apparaître dans la base de données. Il devrait y avoir des tables, des séquences, des fonctions, des déclencheurs et des vues qui sont des modèles du projet d'approvisionnement en eau de Giswater. 
 \begin{center}
 \includegraphics[scale=0.7]{C:/workspace/giswater_docs/utils/img/0216_EN.jpg}
-\label{fig:chap2_16_ES}
 \end{center}  
 
 \paragraph{Configuration basique d'un projet modèle}
@@ -234,9 +228,7 @@ Les tableaux de base qui correspondent aux principaux éléments génériques de tou
     \item Connec
     \item Gully (seulement pour UD)
 \end{itemize}
-Ces quatre tableaux sont vides et ne seront remplis que lorsque le projet aura des éléments géospatiaux du
-type correspondant. L'important est qu'ils ont de nombreuses restrictions et relations avec d'autres
-tableaux qui doivent être remplis.
+Ces quatre tableaux sont vides et ne seront remplis que lorsque le projet aura des éléments géospatiaux du type correspondant. L'important est qu'ils ont de nombreuses restrictions et relations avec d'autres tableaux qui doivent être remplis.
 
 Voici les tableaux qui, depuis le début, doivent être remplis par l'utilisateur pour que Giswater fonctionne correctement.
 
@@ -249,31 +241,25 @@ arc\_type \\
 connec\_type \\
 gully\_type (only for UD)\\}
 
-Ces tableaux sont utilisés comme catalogue intermédiaire pour tous les éléments des différents types.
-Chaque élément créé doit nécessairement faire partie d'un type d'élément (feature\_type), qui peut
-être nœud, arc, connec ou gully, et en plus d'un autre type dans chacun des ci-dessus, spécifié dans
-la table sys\_feature\_type (non modifiable par les utilisateurs). Il y a 24 enregistrements pour les projets d'approvisionnement en eau
-(ws) et 17 pour l'assainissement (ud).
+Ces tableaux sont utilisés comme catalogues intermédiaires pour tous les éléments des différents types.
+Chaque élément créé doit nécessairement faire partie d'un type d'élément (feature\_type), qui peut être nœud, arc, connec ou gully, et en plus d'un autre type à l'intérieur de ceux cité ci-dessu, spécifié dans la table sys\_feature\_type (non modifiable par les utilisateurs). Il y a 24 enregistrements pour les projets d'approvisionnement en eau (ws) et 17 pour l'assainissement (ud).
 
-Chaque utilisateur peut personnaliser la table cat\_feature avec des éléments spécifiques nécessaires à son réseau, à condition qu'ils soient liés à l'un des champs sys\_feature\_type (par exemple, TANK ou
-FONTAINE) et l'un des feature\_type existants (par exemple, NODE ou CONNEC).
+Chaque utilisateur peut personnaliser la table cat\_feature avec des éléments spécifiques nécessaires à son réseau, à condition qu'ils soient liés à l'un des champs sys\_feature\_type (par exemple, TANK ou FONTAINE) et l'un des feature\_type existants (par exemple, NODE ou CONNEC).
 
 Les tableaux suivants qui doivent être remplis sont ceux des types d'éléments liés à un seul feature\_type (node\_type, arc\_type, connec\_type et gully\_type). L'ID de la table cat\_feature doit correspondre à l'ID des tables * \_type, qui, bien entendu, n'auront que des éléments de leur type spécifique. Les tables * \_type
 se connectent aux tables de gestion individuelles de chaque type d'élément, aussi bien que celles qui sont en action sur les modèles hydrauliques (inp).
 
-Pour terminer la hiérarchie des tables qui déterminent les éléments existants, les tables de catalogue doivent être rempli en reliant chaque nouvel élément, avec un nom au goût de l'utilisateur, avec un ny des types spécifiés
-dans les tableaux de hiérarchie supérieure (voir section 4.2.1.1
-\\
-    \item Domaines de valeur personnalisés
+Pour terminer la hiérarchie des tables qui déterminent les éléments existants, les tables de catalogue doivent être remplies en reliant chaque nouvel élément, avec un nom au goût de l'utilisateur, avec un des types spécifiés dans les tableaux de hiérarchie supérieure (voir section 4.2.1.1).\\
+    
+		\item Domaines de valeur personnalisés
     
 \textbf{man\_type\_category \\
 man\_type\_fluid\\
 man\_type\_function\\
 man\_type\_location\\} 
-Dans ces tableaux, les informations spécifiques sur le type de catégorie, de fluide, de fonction ou d'emplacement liés aux les différents types d'éléments de base (arc, connexion de nœud, gully) sont définis. Chacune des tables ont les champs suivants:
+Dans ces tableaux, les informations spécifiques sur le type de catégorie, de fluide, de fonction ou d'emplacement liés aux différents types d'éléments de base (arc, connexion de nœud, gully) sont définis. Chacune des tables ont les champs suivants:
 \begin{center}
 \includegraphics[scale=1]{C:/workspace/giswater_docs/utils/img/0217_EN.jpg}
-	\label{fig:chap2_17_EN}
 \end{center}  
 
 Pour donner un exemple d'utilisation de ces tableaux, nous pourrions définir un catalogue de domaine de valeurs personnalisées pour un réservoir en plus de ce qui lui correspondrait par nœud.
@@ -295,7 +281,7 @@ La relation doit être configurée et son apparence est détaillée dans le tableau 
 \includegraphics[scale=1]{C:/workspace/giswater_docs/utils/img/0218_EN.jpg}
 \end{center}  
 D'un autre côté, la table de configuration a les colonnes listées:
-id serial, location\_type, project\_type, table\_id, column\_id, column\_index, status, width, alias, dev1\_status, dev2\_status, dev3\_status, dev\_alias, où pour la configuration du client QGIS il suffit d'agir sur les champs:\\
+id\_serial, location\_type, project\_type, table\_id, column\_id, column\_index, status, width, alias, dev1\_status, dev2\_status, dev3\_status, dev\_alias, où pour la configuration du client QGIS il suffit d'agir sur les champs:\\
 \textbf{status}: vrai/faux si il doit être montré ou non dans le formulaire\\
 \textbf{alias}: le nom de la colonne montrée\\
 \textbf{width}: la largeur du champ montré\\
@@ -303,12 +289,11 @@ Les champs dev1\_status, dev2\_status, dev3\_status and dev\_alias sont créés po
 \\
     \item Création d'attributs personnalisés
 \textbf{man\_addfields\_parameter} \\
-Cette table, comme son nom l'indique, est destinée à ajouter des champs à tout élément de projet non créé
-par défaut dans Giswater. Cela permet aux utilisateurs de personnaliser les champs selon ses exigences. De cette façon, à tout moment, s'il est nécessaire de lier tout type d'informations à un élément, il est possible de le faire via ce tableau.
+Cette table, comme son nom l'indique, est destinée à ajouter des champs à tout élément de projet non créé par défaut dans Giswater. Cela permet aux utilisateurs de personnaliser les champs selon leurs exigences. De cette façon, à tout moment, s'il est nécessaire de lier tout type d'informations à un élément, il est possible de le faire via ce tableau.
 Il existe trois autres tableaux liés à man\_addfields\_parametre.
 \begin{itemize}
     \item man\_addfields\_cat\_datatype : catalogue des types de données(entier, texte, boolean)
-    \item man\_addfields\_cat\_widgettype : catalogue des types de widget types dprésentés dans le formulaire (QCheckBox,QComboBox, QTextEdit ...)
+    \item man\_addfields\_cat\_widgettype : catalogue des types de widget types présentés dans le formulaire (QCheckBox, QComboBox, QTextEdit ...)
     \item man\_addfields\_value : table où les valeurs sont stockées pour chaque type de paramètre ajoutés par l'utilisateur.
 \end{itemize}
 Les informations contenues dans les champs de ces tables ne peuvent pas être affichées dans la table attributaire de l'élément, mais il sera vu dans le fomulaire correspondant et dans les tables addfields.
@@ -323,29 +308,23 @@ Il est nécessaire d'insérer au moins un secteur de planification avant de commen
 \end{enumerate}
 
 \subsubsection{Création d'un nouveau projet d'exemple (échantillon)}
-Pour faciliter le premier pas avec Giswater et avoir un modèle de données complet qui sert de source de référence, Giswater a incorporé deux exemples de schémas, à la fois pour le drainage urbain 'ud\_sample' et pour l'approvisionnement en eau.net wo rks 'ws\_sample'.
+Pour faciliter le premier pas avec Giswater et avoir un modèle de données complet qui sert de source de référence, Giswater a incorporé deux exemples de schémas, à la fois pour le drainage urbain 'ud\_sample' et pour l'approvisionnement en eau 'ws\_sample'.
 
-Avoir un modèle de données complet, en plus de servir
-comme source de requête pour voir comment les données sont structurées dans chacune des tables, permettra de commencer par un environnement et de s'exercer avec toutes les fonctionnalités que contient le plugin de Giswater.
+Avoir un modèle de données complet, en plus de servir comme source de requête pour voir comment les données sont structurées dans chacune des tables, permettra de commencer par un environnement et de s'exercer avec toutes les fonctionnalités que contient le plugin de Giswater.
 
 Afin de créer l'échantillon, répétez les étapes précédentes de création d'un schéma vide, expliquées dans la section 2.5.1. Cette fois, au lieu de \textit{Données vides} sélectionnez.
 
-L'exemple de projet de Giswater sera créé automatiquement avec toutes les informations et données échantillon qui
-permettent de voir toutes les fonctionnalités du plugin. En utilisant la version 3.2 du plugin, il est possible de donner un nom à l'exemple de schéma, pas comme dans les anciennes versions, où le nom était déterminé par défaut.
+L'exemple de projet de Giswater sera créé automatiquement avec toutes les informations et données échantillon qui permettent de voir toutes les fonctionnalités du plugin. En utilisant la version 3.2 du plugin, il est possible de donner un nom à l'exemple de schéma, pas comme dans les anciennes versions, où le nom était déterminé par défaut.
 \begin{center}
 \includegraphics[scale=1]{C:/workspace/giswater_docs/utils/img/0219_EN.jpg}
-\label{fig:Chap2_19_EN}
 \captionof{figure}{Formulaire de création d'un nouveau schéma. En sélectionnant \textbf{Données exemples} nous allons créer un schéma échantillon.}
 \end{center}
 
 \subsubsection{Création de projets QGIS}
-L'outil général de gestion de projet, en plus de créer des schémas avec ou sans données, donne la possibilité
-pour générer automatiquement des projets QGIS. Ils sont conçus pour fonctionner avec les tables de la base de données et visualiser les données avec une symbologie qui permet d'utiliser les données du projet aussi facilement que possible.
-Pour créer un nouveau projet QGIS, cliquez sur
-le bouton \textbf{Créer un projet SIG} situé dans la partie inférieur du formulaire.
+L'outil général de gestion de projet, en plus de créer des schémas avec ou sans données, donne la possibilité de générer automatiquement des projets QGIS. Ils sont conçus pour fonctionner avec les tables de la base de données et visualiser les données avec une symbologie qui permet d'utiliser les données du projet aussi facilement que possible.
+Pour créer un nouveau projet QGIS, cliquez sur le bouton \textbf{Créer un projet SIG} situé dans la partie inférieur du formulaire.
 \begin{center}
 \includegraphics[scale=1]{C:/workspace/giswater_docs/utils/img/0220_EN.jpg}
-	\label{fig:chap2_20_EN}
 \captionof{figure}{Créer un nouveau formulaire de schéma. Avec le bouton \textbf{Créer un projet GIS} il est possible de créer un projet QGIS de Giswater}
 \end{center} 
 
@@ -364,15 +343,12 @@ Les couches essentielles requises par le plugin sont celles qui appellent les vu
 
 De plus, les tableaux listés doivent être chargés:
 \begin{itemize}
-\item \textbf{version} table qui stocke les informations sur les différentes versions des programmes (G iswater y
-PostgreSQL), la date de création du schéma, la langue par défaut ou EPSG.
+\item \textbf{version} table qui stocke les informations sur les différentes versions des programmes (Giswater y PostgreSQL), la date de création du schéma, la langue par défaut ou EPSG.
 \item \textbf{exploitation} valeur d'exploitation à laquelle appartient le réseau. Il devrait être défini au moins une exploitation pour que le plugin s'active. Il est également nécessaire de filtrer les données projet utilisant l'expl\_id. 
 \end{itemize}
-Une fois l'information se trouve dans les tables de la base de données créée manual\_ud), vous pouvez créer un
-projet QGIS et visualiser enfin l'information dans un logiciel spécifique de systèmes d'information géographique.
-Dans les préférences du projet de Giswater et avec la connexion ouverte à manual\_ud, cliquez directement sur le bouton 'Créer un projet SIG'. Cela ouvrira le menu indiqué ci-dessous où les paramètres suivants sont
-configuré: emplacement où le fichier QGIS sera enregistré, nom du fichier, type de projet (choisissez entre UD et WS) et le schéma de base de données avec lequel il sera lié.
+Une fois que l'information se trouve dans les tables de la base de données créée (manual\_ud), vous pouvez créer un projet QGIS et visualiser enfin l'information dans un logiciel spécifique de systèmes d'information géographique. Dans les préférences du projet de Giswater et avec la connexion ouverte à manual\_ud, cliquez directement sur le bouton 'Créer un projet SIG'. Cela ouvrira le menu indiqué ci-dessous où les paramètres suivants sont configuré: emplacement où le fichier QGIS sera enregistré, nom du fichier, type de projet (choisissez entre UD et WS) et le schéma de base de données avec lequel il sera lié.
 Une fois tous les paramètres définis, le projet sera créé. Le projet QGIS relie toutes les tables et vues du modèle de données créé dans la section 2.3.4 avec les informations renseignées au début de cette section.
+
 
 
 
